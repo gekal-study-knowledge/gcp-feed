@@ -10,16 +10,16 @@ import { getFirestore, type Firestore } from 'firebase/firestore';
 // "YYYY/MM/DD/YYYY-MM-DD-news" 形式で両サイト共通のため、同じプロジェクトを
 // 共有すると 各サイトの既読が混ざってしまう。
 //
-// 値は .env.local（ローカル）と GitHub Actions の Secrets（CI）から注入する。
-// 未設定のままでも既読は localStorage で動作し、ログイン機能だけが無効になる。
+// 値はクライアントに配信される公開情報なのでフォールバックとして直接持つ。
+// ローカルで別プロジェクトに向けたい場合は .env.local（git 管理外）で上書きする。
 const rawConfig = {
-  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY ?? '',
+  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY ?? 'AIzaSyCDL4FatQSnh9kCjeaFm7usiEt4vvSlMLs',
   authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN ?? 'gcp-feed.firebaseapp.com',
   projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID ?? 'gcp-feed',
   storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET ?? 'gcp-feed.firebasestorage.app',
-  messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID ?? '',
-  appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID ?? '',
-  measurementId: process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID ?? '',
+  messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID ?? '267239512751',
+  appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID ?? '1:267239512751:web:205e5eae515c60b286125a',
+  measurementId: process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID ?? 'G-YGSQGM38K4',
 };
 
 /**

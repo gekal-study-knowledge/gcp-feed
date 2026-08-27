@@ -183,13 +183,13 @@ Google のフィードは summary に見出し・表・`aside` を含む HTML �
 
 表示側（`src/components/organisms/PostContent.tsx`）での対応:
 
-| 対象           | 内容                                                                              |
-| :------------- | :-------------------------------------------------------------------------------- |
-| 見出し         | ページ自身の見出しは `& > h2` / `& > h3` と直接の子に限定。本文中の h1〜h6 は一段小さく正規化 |
-| 表             | 要素内で横スクロールさせ、ページ全体を押し広げない。セル内のリストも詰める        |
-| `aside`        | Google のリリースノートが使う注記ブロックとして左罫線付きで表示                    |
-| 長い URL       | `overflow-wrap: anywhere` で折り返す                                              |
-| NEW バッジ     | `.entry-summary` 内の h3 を除外し、エントリー見出しにのみ付与                      |
+| 対象       | 内容                                                                                          |
+| :--------- | :-------------------------------------------------------------------------------------------- |
+| 見出し     | ページ自身の見出しは `& > h2` / `& > h3` と直接の子に限定。本文中の h1〜h6 は一段小さく正規化 |
+| 表         | 要素内で横スクロールさせ、ページ全体を押し広げない。セル内のリストも詰める                    |
+| `aside`    | Google のリリースノートが使う注記ブロックとして左罫線付きで表示                               |
+| 長い URL   | `overflow-wrap: anywhere` で折り返す                                                          |
+| NEW バッジ | `.entry-summary` 内の h3 を除外し、エントリー見出しにのみ付与                                 |
 
 ### フィード選定メモ
 
@@ -327,12 +327,12 @@ last_updated: '2026-03-21 10:45:50 JST'
 
 ### Firebase 設定値
 
-Web SDK の設定値はクライアントに配信される公開情報であり秘匿は不要ですが、このリポジトリには
-値を埋め込んでいません。`.env.local.example` を `.env.local` にコピーし、Firebase コンソールで
-発行された `NEXT_PUBLIC_FIREBASE_*` を設定してください。GitHub Actions では同名の Secrets を
-ビルドジョブの `env` に渡します。
+Web SDK の設定値はクライアントに配信される公開情報なので、`src/lib/firebase/config.ts` に
+フォールバックとして直接埋め込んでいます（セキュリティは Firestore ルールと Firebase Auth の
+認可ドメインで担保）。GitHub Actions 側で追加の Secrets を設定する必要はありません。
 
-未設定のままでもサイトは動作します（既読は localStorage に保存され、ログインアイコンは非表示）。
+ローカルで別プロジェクトに向けたい場合のみ、`.env.local.example` を `.env.local`（git 管理外）に
+コピーして `NEXT_PUBLIC_FIREBASE_*` を上書きします。
 
 ### Firestore セキュリティルール
 
@@ -342,19 +342,28 @@ Web SDK の設定値はクライアントに配信される公開情報であり
 firebase deploy --only firestore:rules --project gcp-feed
 ```
 
-### Firebase コンソール側の初期設定（未実施 / 要対応）
+### Firebase の初期設定
 
-aws-feed / azure-feed とは**別の Firebase プロジェクト**が必要です。既読データのキー (`postId`) が
-`YYYY/MM/DD/YYYY-MM-DD-news` 形式で両サイト共通のため、同じプロジェクトを共有すると
-各サイトの既読が混ざります。
+aws-feed とは**別の Firebase プロジェクト**を使います。既読データのキー (`postId`) が
+`YYYY/MM/DD/YYYY-MM-DD-news` 形式で各サイト共通のため、同じプロジェクトを共有すると
+既読が混ざります。
 
-1. Firebase コンソールで `gcp-feed` プロジェクトを作成
-2. Web アプリを追加し、表示された設定値を `.env.local` に転記
-3. Authentication で **Google** ログインプロバイダを有効化
-4. 認可ドメインに公開先（独自ドメインを使う場合はそのホスト名）と
-   `gekal-study-knowledge.github.io` を追加（`localhost` は既定で許可）
-5. Cloud Firestore データベース（`asia-northeast1`）を作成
-6. `firebase deploy --only firestore:rules --project gcp-feed` でルールを反映
+対応済み:
+
+- [x] Firebase プロジェクト `gcp-feed` の作成
+- [x] Web アプリの登録と設定値の反映
+- [x] Cloud Firestore データベース（`asia-northeast1`）の作成
+- [x] `firestore.rules` のデプロイ
+
+コンソールでの操作が必要な残作業:
+
+- [ ] Authentication → Sign-in method で **Google** プロバイダを有効化
+      （Google 用の OAuth クライアントがこの操作で自動作成されるため、CLI/API では代替できない）
+- [ ] Authentication → Settings → 承認済みドメインに `gcp.news.gekal.cn` を追加
+      （`localhost` と `gcp-feed.firebaseapp.com` は既定で許可）
+
+上記 2 つが未実施の間はログインアイコンからのサインインが失敗します。既読は
+localStorage で動作するため、閲覧自体には影響しません。
 
 ## 技術スタック
 
