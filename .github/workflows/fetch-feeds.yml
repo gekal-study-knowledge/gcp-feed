@@ -1,0 +1,57 @@
+name: Fetch GCP Feeds
+
+on:
+  schedule:
+    # 1時間ごとに実行 (毎時0分)
+    - cron: '0 * * * *'
+  workflow_dispatch: # 手動実行も可能
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  fetch-rss:
+    runs-on: ubuntu-latest
+    outputs:
+      pushed: ${{ steps.commit_and_push.outputs.pushed }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r .github/scripts/requirements.txt
+
+      - name: Fetch GCP feeds
+        run: python .github/scripts/main.py
+
+      - name: Commit and push changes
+        id: commit_and_push
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/ _posts/
+          if [ -n "$(git status --porcelain data/)" ]; then
+            git commit -m "Update GCP feeds - $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+            git push
+            echo "pushed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "No changes in data/, skipping commit."
+            echo "pushed=false" >> "$GITHUB_OUTPUT"
+          fi
+
+  call_deploy:
+    needs: fetch-rss
+    if: needs.fetch-rss.outputs.pushed == 'true'
+    uses: ./.github/workflows/deploy.yml
+    with:
+      branch_name: ${{ github.ref_name }}

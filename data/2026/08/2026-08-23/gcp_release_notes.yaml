@@ -1,0 +1,9 @@
+"entries":
+  "9f2cd2d2da3b5e8f16ef95b9befa4bb1":
+    "id": "9f2cd2d2da3b5e8f16ef95b9befa4bb1"
+    "title": "August 23, 2026"
+    "link": "https://docs.cloud.google.com/release-notes#August_23_2026"
+    "published": "2026-08-23 16:00:00"
+    "fetched": "2026-08-27 21:31:25"
+    "summary": "<h2 class=\"release-note-product-title\">Agent Platform Workbench</h2>\n<h3>Change</h3>\n<p>Installed latest packages from upstream dependencies.</p>\n<h3>Change</h3>\n<h3 id=\"20260823-2330-rc0_release\">20260823-2330-rc0 Release</h3>\n<h3>Change</h3>\n<p>Installed latest packages from upstream dependencies.</p>\n<h3>Change</h3>\n<h3 id=\"20260823-2330-rc0_release\">20260823-2330-rc0 Release</h3>\n<h3>Change</h3>\n<h3 id=\"20260823-2230-rc0_release\">20260823-2230-rc0 Release</h3>\n<h3>Change</h3>\n<p>Installed latest packages from upstream dependencies.</p>\n<h3>Change</h3>\n<h3 id=\"20260823-2230-rc0_release\">20260823-2230-rc0 Release</h3>\n<h3>Change</h3>\n<p>Installed latest packages from upstream dependencies.</p>\n<h3>Fixed</h3>\n<p>Scheduled notebook executions now report their final status when the execution user's credentials stop working part way through a run, instead of continuing until the execution timeout.</p>\n<h3>Change</h3>\n<h3 id=\"20260823-2130-rc0_release\">20260823-2130-rc0 Release</h3>\n<h3>Change</h3>\n<p>Installed latest packages from upstream dependencies.</p>\n<h3>Fixed</h3>\n<p>Scheduled notebook executions now report their final status when the execution user's credentials stop working part way through a run, instead of continuing until the execution timeout.</p>\n<h3>Change</h3>\n<p>Installed latest packages from upstream dependencies.</p>\n<h3>Change</h3>\n<h3 id=\"m147_release\">M147 Release</h3>"
+"last_updated": "2026-08-27 21:31:25 JST"

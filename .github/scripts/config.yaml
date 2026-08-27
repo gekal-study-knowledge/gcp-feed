@@ -1,0 +1,31 @@
+feeds:
+  - name: 'Google Cloud Release Notes'
+    url: 'https://cloud.google.com/feeds/gcp-release-notes.xml'
+    source_id: 'gcp_release_notes'
+
+  - name: 'Google Cloud Blog'
+    url: 'https://cloudblog.withgoogle.com/rss/'
+    source_id: 'google_cloud_blog'
+
+  - name: 'Google Cloud Japan Blog'
+    url: 'https://cloudblog.withgoogle.com/ja/rss/'
+    source_id: 'google_cloud_japan_blog'
+
+  - name: 'Google Cloud Blog (AI & ML)'
+    url: 'https://cloudblog.withgoogle.com/products/ai-machine-learning/rss/'
+    source_id: 'google_cloud_ai_ml_blog'
+
+  - name: 'Google Online Security Blog'
+    url: 'https://security.googleblog.com/feeds/posts/default'
+    source_id: 'google_security_blog'
+
+  - name: 'GKE Security Bulletins'
+    url: 'https://cloud.google.com/feeds/kubernetes-engine-security-bulletins.xml'
+    source_id: 'gke_security_bulletins'
+
+  - name: 'Google Cloud Status'
+    url: 'https://status.cloud.google.com/en/feed.atom'
+    source_id: 'google_cloud_status'
+
+data_dir: 'data'
+output_dir: '_posts'
