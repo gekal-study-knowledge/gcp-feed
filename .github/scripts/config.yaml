@@ -27,5 +27,8 @@ feeds:
     url: 'https://status.cloud.google.com/en/feed.atom'
     source_id: 'google_cloud_status'
 
+# この文字数を超える summary は <details> で折りたたむ（0 で無効）
+summary_collapse_threshold: 2000
+
 data_dir: 'data'
 output_dir: '_posts'

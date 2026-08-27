@@ -162,9 +162,34 @@ feeds:
     url: 'https://status.cloud.google.com/en/feed.atom'
     source_id: 'google_cloud_status'
 
+# この文字数を超える summary は <details> で折りたたむ（0 で無効）
+summary_collapse_threshold: 2000
+
 data_dir: 'data'
 output_dir: '_posts'
 ```
+
+### summary の HTML 表示
+
+Google のフィードは summary に見出し・表・`aside` を含む HTML を全文で載せてきます
+（1 エントリー平均 20〜25KB、リリースノートは最大 100KB）。この HTML はそのまま描画しますが、
+素で書き出すと本文中の `<h2>` がページ自身の情報源見出しと同じ要素になり、階層が崩れます。
+そのため `main.py` は summary を必ず `.entry-summary` でラップし、CSS 側でフィード本文として
+分離できるようにしています。
+
+`config.yaml` の `summary_collapse_threshold`（既定 2000 文字）を超える summary は
+`<details>` で折りたたみます。1 日のページ高さが 49,000px から 2,800px になり、
+スマートフォンでも見出しを拾いながら読めます。`0` を設定すると折りたたみを無効化できます。
+
+表示側（`src/components/organisms/PostContent.tsx`）での対応:
+
+| 対象           | 内容                                                                              |
+| :------------- | :-------------------------------------------------------------------------------- |
+| 見出し         | ページ自身の見出しは `& > h2` / `& > h3` と直接の子に限定。本文中の h1〜h6 は一段小さく正規化 |
+| 表             | 要素内で横スクロールさせ、ページ全体を押し広げない。セル内のリストも詰める        |
+| `aside`        | Google のリリースノートが使う注記ブロックとして左罫線付きで表示                    |
+| 長い URL       | `overflow-wrap: anywhere` で折り返す                                              |
+| NEW バッジ     | `.entry-summary` 内の h3 を除外し、エントリー見出しにのみ付与                      |
 
 ### フィード選定メモ
 
