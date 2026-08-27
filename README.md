@@ -342,28 +342,60 @@ Web SDK の設定値はクライアントに配信される公開情報なので
 firebase deploy --only firestore:rules --project gcp-feed
 ```
 
-### Firebase の初期設定
+### Firebase の初期設定（完了済み）
 
 aws-feed とは**別の Firebase プロジェクト**を使います。既読データのキー (`postId`) が
 `YYYY/MM/DD/YYYY-MM-DD-news` 形式で各サイト共通のため、同じプロジェクトを共有すると
 既読が混ざります。
 
-対応済み:
-
 - [x] Firebase プロジェクト `gcp-feed` の作成
-- [x] Web アプリの登録と設定値の反映
-- [x] Cloud Firestore データベース（`asia-northeast1`）の作成
+- [x] Web アプリの登録と設定値の反映（`src/lib/firebase/config.ts`）
+- [x] Cloud Firestore データベース（`(default)` / `asia-northeast1`）の作成
 - [x] `firestore.rules` のデプロイ
+- [x] Authentication で **Google** プロバイダを有効化
+- [x] 承認済みドメインの設定
 
-コンソールでの操作が必要な残作業:
+承認済みドメイン:
 
-- [ ] Authentication → Sign-in method で **Google** プロバイダを有効化
-      （Google 用の OAuth クライアントがこの操作で自動作成されるため、CLI/API では代替できない）
-- [ ] Authentication → Settings → 承認済みドメインに `gcp.news.gekal.cn` を追加
-      （`localhost` と `gcp-feed.firebaseapp.com` は既定で許可）
+```
+localhost
+gcp-feed.firebaseapp.com
+gcp-feed.web.app
+gcp.news.gekal.cn
+gekal-study-knowledge.github.io
+```
 
-上記 2 つが未実施の間はログインアイコンからのサインインが失敗します。既読は
-localStorage で動作するため、閲覧自体には影響しません。
+公開先を増やす場合はここにドメインを追加します。構成ができていれば CLI から実行できます:
+
+```bash
+TOKEN=$(gcloud auth print-access-token)
+curl -X PATCH -H "Authorization: Bearer $TOKEN" -H "Content-Type: application/json" \
+  -d '{"authorizedDomains":["localhost","gcp-feed.firebaseapp.com","gcp-feed.web.app","gcp.news.gekal.cn","gekal-study-knowledge.github.io"]}' \
+  "https://identitytoolkit.googleapis.com/admin/v2/projects/gcp-feed/config?updateMask=authorizedDomains"
+```
+
+現在の設定は以下で確認できます:
+
+```bash
+curl -s "https://identitytoolkit.googleapis.com/v1/projects?key=$NEXT_PUBLIC_FIREBASE_API_KEY"
+```
+
+### 注意: Authentication の初期化は API では行えない
+
+新しいプロジェクトで Authentication をまだ一度も有効化していない状態では、サインイン時に
+`CONFIGURATION_NOT_FOUND` が返ります。この初期化はコンソールで Google プロバイダを
+有効化する操作でしか行えません。試した代替手段と結果:
+
+| 方法                                          | 結果                                                      |
+| :-------------------------------------------- | :-------------------------------------------------------- |
+| `identityPlatform:initializeAuth`             | `BILLING_NOT_ENABLED`（Identity Platform 扱いで課金必須） |
+| `defaultSupportedIdpConfigs` に POST          | `INVALID_CONFIG : client_id cannot be empty`              |
+| `config` に PATCH                             | `CONFIGURATION_NOT_FOUND`（構成が無いので更新できない）   |
+| IAP OAuth Admin API で OAuth クライアント作成 | 2026-03-19 に完全終了済みで利用不可                       |
+
+Google プロバイダの登録には OAuth 2.0 クライアント ID が必要で、それを作成できるのが
+コンソールの「Google を有効にする」操作だけ、というのが理由です。構成さえできれば
+承認済みドメインの追加などは上記のとおり API から実行できます。
 
 ## 技術スタック
 
