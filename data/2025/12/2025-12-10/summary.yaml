@@ -1,0 +1,10 @@
+"date": "2025-12-10"
+"generated_at": "2026-08-28 09:45:43 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "google_security_blog"
+"overview": |
+  この日は Android の GPU に対するさらなる堅牢化が扱われました。前年に Google の Android Red Team が Arm と協力して実施した詳細なセキュリティ分析を踏まえ、GPU まわりの保護をどう強化したかが Android Security and Privacy Team から報告されています。
+"topics":
+  - "ハードウェアセキュリティ: Arm との協働による分析を踏まえた Android GPU のさらなる堅牢化"

@@ -1,0 +1,10 @@
+"date": "2026-03-25"
+"generated_at": "2026-08-28 09:46:50 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "google_security_blog"
+"overview": |
+  この日は Android におけるポスト量子暗号の実装が扱われました。現代のデジタルセキュリティは転換点にあり、量子コンピューターの利用が現実味を帯びる敷居に立っているという認識のもと、Android と Google Play の担当者から量子時代に向けた具体的な実装アプローチが紹介されています。
+"topics":
+  - "耐量子暗号: Android におけるポスト量子暗号の実装、量子時代に向けたセキュリティ設計"

@@ -1,0 +1,10 @@
+"date": "2026-08-23"
+"generated_at": "2026-08-28 09:51:27 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "gcp_release_notes"
+"overview": |
+  この日は日曜日で、リリースノートに Agent Platform Workbench の小刻みなリリースチェンジが並ぶのみでした。上流依存パッケージの最新化が複数回にわたって適用され、スケジュールされた通知に関する修正も含まれています。他のプロダクトからの機能追加や告知はありません。
+"topics":
+  - "Workbench: 上流依存パッケージの最新化とスケジュール通知まわりの修正を適用"

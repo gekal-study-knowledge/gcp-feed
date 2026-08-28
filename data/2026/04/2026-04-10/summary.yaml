@@ -1,0 +1,10 @@
+"date": "2026-04-10"
+"generated_at": "2026-08-28 09:46:50 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "google_security_blog"
+"overview": |
+  この日は Device Bound Session Credentials (DBSC) による Cookie 保護の続報が公開されました。2024 年 4 月の発表を受けたその後の進展として、Chrome チームと Google アカウントセキュリティチームから、セッション認証情報をデバイスに紐づけることで盗まれた Cookie の悪用を防ぐ仕組みが解説されています。
+"topics":
+  - "セッション保護: Device Bound Session Credentials によるデバイス紐付けで盗まれた Cookie の悪用を防止"

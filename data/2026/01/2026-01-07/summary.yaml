@@ -1,0 +1,10 @@
+"date": "2026-01-07"
+"generated_at": "2026-08-28 09:45:43 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 2
+"sources":
+  - "gke_security_bulletins"
+"overview": |
+  この日は GKE のセキュリティ速報が 2 件公開されました。GCP-2026-001 は CVE-2025-40214 を、GCP-2026-002 は CVE-2025-40215 を参照する内容です。GCP-2026-002 については 3 月 25 日に GKE の Ubuntu ノード向けパッチバージョンが追加されています。年明け最初の GKE セキュリティ速報にあたります。
+"topics":
+  - "脆弱性: GKE セキュリティ速報 GCP-2026-001 (CVE-2025-40214) と GCP-2026-002 (CVE-2025-40215) を同日公開"

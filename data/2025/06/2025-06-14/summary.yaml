@@ -1,0 +1,10 @@
+"date": "2025-06-14"
+"generated_at": "2026-08-28 09:45:43 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "google_security_blog"
+"overview": |
+  この日は Google Online Security Blog の 1 件で、プロンプトインジェクション攻撃への多層防御戦略が扱われました。生成 AI の急速な普及に伴い、AI システムを操作することを狙った新種の脅威が業界全体で表面化しているという問題意識から、単一の対策に頼らず複数の防御層を重ねるアプローチが解説されています。
+"topics":
+  - "AI セキュリティ: プロンプトインジェクション攻撃に対する多層防御戦略"

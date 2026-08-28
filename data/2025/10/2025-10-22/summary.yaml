@@ -1,0 +1,10 @@
+"date": "2025-10-22"
+"generated_at": "2026-08-28 09:45:43 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "gke_security_bulletins"
+"overview": |
+  この日は GKE のセキュリティ速報 GCP-2025-062 が公開されました。CVE-2024-58240 を参照する内容で、10 月 30 日に GKE の Ubuntu ノード向けパッチバージョンと、GDC ソフトウェア (VMware) 向けのパッチバージョンおよび重大度評価が追加されています。
+"topics":
+  - "脆弱性: GKE セキュリティ速報 GCP-2025-062 (CVE-2024-58240)、Ubuntu ノードと GDC (VMware) 向けパッチを追加"

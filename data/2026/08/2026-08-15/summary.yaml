@@ -1,0 +1,12 @@
+"date": "2026-08-15"
+"generated_at": "2026-08-28 09:49:34 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "gcp_release_notes"
+"overview": |
+  この日は AlphaFold 3 の一般提供が最大のトピックです。Google DeepMind と Isomorphic Labs によるタンパク質・DNA・RNA・リガンド・イオンの 3D 構造と相互作用を予測する深層学習モデルが、承認済みユーザー向けに商用研究用途で利用できるようになりました。Gemini Enterprise Agent Platform ではセマンティックガバナンスポリシーエンジンの組み込みメトリクスがプレビュー提供され、リクエストのスループット、評価回数、レイテンシ、ALLOW と DENY の判定分布、LLM のトークン消費量を Metrics Explorer や PromQL から観測してアラートに使えます。Secure Source Manager の MCP サーバーもプレビュー提供され、AI ツールやコーディングアシスタントをリポジトリ・ブランチルール・プルリクエスト・Issue へ直接接続できます。
+"topics":
+  - "科学: AlphaFold 3 が一般提供、タンパク質・DNA・RNA・リガンド・イオンの構造と相互作用を予測 (商用研究用途)"
+  - "ガバナンス: セマンティックガバナンスポリシーエンジンの組み込みメトリクスがプレビュー (ALLOW/DENY 分布やトークン消費を観測)"
+  - "MCP: Secure Source Manager の MCP サーバーがプレビュー、AI ツールをリポジトリや PR へ直接接続"

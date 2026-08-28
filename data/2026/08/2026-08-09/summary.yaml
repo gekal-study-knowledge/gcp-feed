@@ -1,0 +1,12 @@
+"date": "2026-08-09"
+"generated_at": "2026-08-28 09:49:34 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "gcp_release_notes"
+"overview": |
+  この日はリリースノートのみでした。Agent Platform Workbench では、JupyterLab の Git プラグイン 0.54.0 で発生した問題により Git パネルのボタンがグレーアウトする不具合が修正されています。あわせて Workbench の Debian 12 イメージにおける NVIDIA GPU ドライバーが 580.65.06 から 580.126.20 へ更新され、Debian 12 の 6.1.0-52 カーネルとの互換性が確保されました。Google SecOps ではリッチテキストエディタが刷新され、Cases Wall、ユースケースアップロードダイアログ、レポートテンプレートダイアログ、ダッシュボードエディタウィジェットの各所で更新されています。
+"topics":
+  - "Workbench: JupyterLab Git プラグイン 0.54.0 起因の Git パネルボタン無効化を修正"
+  - "Workbench: Debian 12 イメージの NVIDIA GPU ドライバーを 580.126.20 へ更新 (6.1.0-52 カーネル互換)"
+  - "SecOps: Cases Wall やダッシュボードエディタを含む各所のリッチテキストエディタを刷新"

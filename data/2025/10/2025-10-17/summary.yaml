@@ -1,0 +1,10 @@
+"date": "2025-10-17"
+"generated_at": "2026-08-28 09:45:43 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "gke_security_bulletins"
+"overview": |
+  この日は GKE のセキュリティ速報 GCP-2025-057 が公開されました。CVE-2025-38618 を参照する内容で、10 月 27 日にパッチバージョンと重大度評価が、11 月 11 日には GKE の Ubuntu ノードプール向けパッチバージョンが追加されています。
+"topics":
+  - "脆弱性: GKE セキュリティ速報 GCP-2025-057 (CVE-2025-38618)、重大度評価と Ubuntu ノードプール向けパッチを追加"

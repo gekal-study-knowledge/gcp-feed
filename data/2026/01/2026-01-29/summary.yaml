@@ -1,0 +1,10 @@
+"date": "2026-01-29"
+"generated_at": "2026-08-28 09:46:50 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "gke_security_bulletins"
+"overview": |
+  この日は GKE のセキュリティ速報 GCP-2026-006 が公開されました。CVE-2025-15467 を参照する内容で、2 月 20 日に GKE 向けのパッチバージョンが追加されています。GKE 本体のほか GDC (VMware)、GKE on AWS、GKE on Azure、GDC (ベアメタル) が影響対象です。
+"topics":
+  - "脆弱性: GKE セキュリティ速報 GCP-2026-006 (CVE-2025-15467)、2026-02-20 に GKE 向けパッチを追加"

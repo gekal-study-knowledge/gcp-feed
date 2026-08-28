@@ -1,0 +1,10 @@
+"date": "2026-05-11"
+"generated_at": "2026-08-28 09:46:50 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "gke_security_bulletins"
+"overview": |
+  この日は GKE のセキュリティ速報 GCP-2026-030 が公開されました。当初 CVE-2026-43284 を参照する内容として公開され、5 月 20 日に CVE-2026-43500 が追加、6 月 24 日には GKE 向けのパッチバージョンが追加されています。公開後に対象 CVE が増えた速報にあたります。
+"topics":
+  - "脆弱性: GKE セキュリティ速報 GCP-2026-030 (CVE-2026-43284 / CVE-2026-43500)、公開後に対象 CVE とパッチを追加"

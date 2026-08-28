@@ -1,0 +1,13 @@
+"date": "2026-08-18"
+"generated_at": "2026-08-28 09:50:40 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 2
+"sources":
+  - "gcp_release_notes"
+  - "google_cloud_ai_ml_blog"
+"overview": |
+  この日はリリースノートとブログ 1 件でした。App Engine スタンダード環境の Java と Python で、App Engine Images サービスから Cloud Run への移行サポートが一般提供となっています。BigQuery ではユーザー固有の予約割り当てに関するプロジェクトあたりの既定上限が引き上げられました。ブログでは金融サービスにおけるエージェンティック AI を使った運用レジリエンスの構築が扱われ、EU のデジタルオペレーショナルレジリエンス法 (DORA) の施行によって、規制上の期待がより明示的かつ調和され、証跡に基づくものへと厳格化した状況が背景として説明されています。
+"topics":
+  - "移行: App Engine スタンダード環境 (Java / Python) から Cloud Run への Images サービス移行サポートが GA"
+  - "BigQuery: ユーザー固有の予約割り当てに関するプロジェクトあたりの既定上限を引き上げ"
+  - "金融規制: DORA 施行を踏まえた、エージェンティック AI による運用レジリエンスの構築"

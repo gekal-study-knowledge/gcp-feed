@@ -1,0 +1,13 @@
+"date": "2026-08-07"
+"generated_at": "2026-08-28 09:49:34 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 2
+"sources":
+  - "gcp_release_notes"
+  - "google_cloud_ai_ml_blog"
+"overview": |
+  この日は運用データと分析データの橋渡しが中心でした。AlloyDB for PostgreSQL が BigQuery との統合をプレビュー提供し、リアルタイムのデータアクセス (レイクハウスフェデレーション)、定期的なデータ同期、テーブルの単発同期という 3 通りの方法で運用データと分析データを結び付けられるようになりました。データレイクへの低レイテンシかつトランザクショナルなアクセスを前提とした運用分析が可能になります。Cloud Billing のレポートには「Originating products」というフィルタとグループ化が追加され、ある製品が別の製品に利用を発生させている関係を辿れるようになりました。Gemini Enterprise がその代表例で、AI 関連の支出の追跡と分析に役立ちます。
+"topics":
+  - "データ統合: AlloyDB と BigQuery の統合をプレビュー提供 (レイクハウスフェデレーション・定期同期・単発同期の 3 方式)"
+  - "コスト分析: Cloud Billing レポートに Originating products のフィルタとグループ化を追加、AI 支出の追跡に対応"
+  - "学習: Gemini Enterprise Agent Ready を軸にしたエージェント構築の無償ハンズオンとコース群を提供"

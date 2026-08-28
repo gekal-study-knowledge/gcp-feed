@@ -1,0 +1,12 @@
+"date": "2026-08-03"
+"generated_at": "2026-08-28 09:48:13 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "gcp_release_notes"
+"overview": |
+  この日はリリースノートのみで、AI トラフィックのルーティングが目を引きました。API Gateway にモデルルーティングが加わり、OpenAI 互換のプロンプトリクエストを受け付けて実行中にトランスコードし、Gemini Enterprise Agent Platform Model Garden 上の特定の基盤モデル (Gemini、Anthropic Claude、OpenAI GPT を含む) へ振り分けられます。クライアント側にプロキシを立てずにネットワークエッジで AI トラフィックを一元管理でき、ルーティングテーブルや既定モデルへのフォールバックは OpenAPI 3.x の拡張として定義します。Assured Open Source Software の Premium 階層は Node.js 環境向けの JavaScript (NPM) パッケージをサポートするようになりました。
+"topics":
+  - "AI ゲートウェイ: API Gateway のモデルルーティングで OpenAI 互換リクエストを Model Garden の各モデルへ振り分け"
+  - "相互運用: 実行中のトランスコードにより、クライアントは OpenAI 互換 REST に統一したまま多様なモデルへ配送"
+  - "サプライチェーン: Assured Open Source Software Premium が Node.js 向け NPM パッケージをサポート"

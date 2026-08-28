@@ -1,0 +1,11 @@
+"date": "2026-08-10"
+"generated_at": "2026-08-28 09:49:34 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "gcp_release_notes"
+"overview": |
+  この日はリリースノートのみでした。BigQuery が gemini-3.1-flash-lite と gemini-3.5-flash の GA モデルをサポートし、us・eu・global のマルチリージョンエンドポイントで、すべての生成 AI 関数から利用できるようになりました。Bigtable の Go クライアントライブラリ 1.52.0 では、AFE ピッカー (Simple / LeastInFlight / LeastLatency) の追加、セッションバックエンドをオプトアウトする ClientConfig.DisableSession、2 層セッションプール向けの AFE ごとの sessionList、セッションのライフサイクル管理と状態機械の実装など、セッション周りの機能が多数追加されています。
+"topics":
+  - "生成 AI: BigQuery が gemini-3.1-flash-lite と gemini-3.5-flash の GA モデルをサポート (us / eu / global エンドポイント)"
+  - "クライアント: Bigtable Go 1.52.0 が AFE ピッカーと 2 層セッションプール、セッションのライフサイクル管理を追加"

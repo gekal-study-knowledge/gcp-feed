@@ -1,0 +1,10 @@
+"date": "2025-11-21"
+"generated_at": "2026-08-28 09:45:43 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "google_security_blog"
+"overview": |
+  この日は Android の Quick Share が AirDrop に対応したことが発表されました。プラットフォームをまたいだファイル共有を安全に行うためのアプローチが解説されており、技術は人を隔てる壁を作るのではなく近づけるべきだという考え方が背景にあります。
+"topics":
+  - "相互運用: Android Quick Share が AirDrop に対応、プラットフォーム横断のファイル共有を安全に実現"

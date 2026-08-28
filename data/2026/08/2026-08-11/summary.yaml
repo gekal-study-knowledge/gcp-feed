@@ -1,0 +1,15 @@
+"date": "2026-08-11"
+"generated_at": "2026-08-28 09:49:34 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 4
+"sources":
+  - "gcp_release_notes"
+  - "google_cloud_ai_ml_blog"
+"overview": |
+  この日はリリースノートに加えて AI & ML ブログの 3 件がありました。BigQuery ではデータクリーンルーム向けのクエリテンプレートが一般提供となり、基となるテーブルやビューを公開せずに定義済みクエリを共有できます。あわせてテーブル値関数 (TVF) のテーブルパラメータも GA となり、ANY TABLE 型により任意の構造のテーブルを受け取る汎用関数を作れるようになりました。Access Approval と Access Transparency では Datastream が一般提供です。Apigee hybrid は v1.16.9 がリリースされ、各種セキュリティおよび CVE 修正が含まれています。ブログでは Google が The Forrester Wave: AI Platforms, Q3 2026 でリーダーに選出され、Strategy カテゴリで最高スコアを獲得したことが報告されました。
+"topics":
+  - "データ共有: BigQuery のデータクリーンルーム向けクエリテンプレートが GA、基テーブルを公開せずに定義済みクエリを共有"
+  - "SQL: テーブル値関数のテーブルパラメータが GA、ANY TABLE 型で任意構造のテーブルを受け取る汎用関数を作成可能に"
+  - "評価: Google が The Forrester Wave: AI Platforms, Q3 2026 でリーダーに選出、Strategy カテゴリで最高スコア"
+  - "事例: WPP が数百のエージェンシーに分散したマーケティングデータを統合しキャンペーン展開を数か月から数日へ短縮"
+  - "事例: Malachyte が Bigtable と Managed Service for Apache Kafka でリテールのコールドスタート問題を解決"

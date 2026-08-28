@@ -1,0 +1,10 @@
+"date": "2025-10-31"
+"generated_at": "2026-08-28 09:45:43 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "google_security_blog"
+"overview": |
+  この日は Android がモバイル詐欺からユーザーを守る仕組みが紹介されました。Phone by Google および Google メッセージと RCS におけるスパム・不正対策の担当者による解説で、通話とメッセージの両面からの保護がどのように機能しているかが扱われています。
+"topics":
+  - "モバイル保護: Android による通話・メッセージ両面からのモバイル詐欺対策"
