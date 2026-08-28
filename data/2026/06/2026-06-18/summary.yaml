@@ -1,0 +1,10 @@
+"date": "2026-06-18"
+"generated_at": "2026-08-28 09:46:50 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "gke_security_bulletins"
+"overview": |
+  この日は GKE のセキュリティ速報 GCP-2026-037 が公開されました。CVE-2026-50195、CVE-2026-53488、CVE-2026-53492、CVE-2026-53489、CVE-2026-47262 という 5 件の CVE をまとめて参照する内容で、6 月 20 日に該当する GKE のパッチバージョンが追加されています。
+"topics":
+  - "脆弱性: GKE セキュリティ速報 GCP-2026-037、5 件の CVE (CVE-2026-50195 / 53488 / 53492 / 53489 / 47262) をまとめて対象に"

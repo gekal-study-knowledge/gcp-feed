@@ -1,0 +1,10 @@
+"date": "2026-04-03"
+"generated_at": "2026-08-28 09:46:50 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "google_security_blog"
+"overview": |
+  この日は Google Workspace における間接プロンプトインジェクション対策が扱われました。間接プロンプトインジェクション (IPI) は、複数のデータソースを持つ複雑な AI アプリケーションの利用者を狙う進化中の脅威ベクトルであり、それに対する継続的なアプローチが GenAI Security Team から解説されています。
+"topics":
+  - "AI セキュリティ: Google Workspace における間接プロンプトインジェクション (IPI) への継続的な対策"

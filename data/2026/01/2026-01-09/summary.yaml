@@ -1,0 +1,10 @@
+"date": "2026-01-09"
+"generated_at": "2026-08-28 09:45:43 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "gke_security_bulletins"
+"overview": |
+  この日は GKE のセキュリティ速報 GCP-2026-003 が公開されました。CVE-2025-39964 を参照する内容で、3 月 25 日に GKE の Ubuntu ノード向けパッチバージョンが追加されています。GKE 本体のほか GDC (VMware)、GKE on AWS、GKE on Azure、GDC (ベアメタル) が対象です。
+"topics":
+  - "脆弱性: GKE セキュリティ速報 GCP-2026-003 (CVE-2025-39964)、Ubuntu ノード向けパッチを後日追加"

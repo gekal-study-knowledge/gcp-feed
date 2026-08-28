@@ -1,0 +1,18 @@
+"date": "2026-08-25"
+"generated_at": "2026-08-28 09:51:27 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 13
+"sources":
+  - "gcp_release_notes"
+  - "google_cloud_ai_ml_blog"
+  - "google_cloud_blog"
+  - "google_cloud_japan_blog"
+  - "google_cloud_status"
+"overview": |
+  この日は業種特化型の Gemini Enterprise 発表と Google Cloud Next Tokyo 26 の基調講演まとめが中心でした。Gemini Enterprise for Legal と Gemini Enterprise for Financial Services が登場し、法務では倫理的な情報隔壁や案件ごとの権限といった業務上の制約を、金融ではライセンス市場データ・内部モデル・機密の顧客ファイルを横断する精度と検証可能なデータ来歴を前提に設計されています。日本語ブログでは Next Tokyo 26 の Day 1・Day 2 基調講演のまとめが公開され、NTTデータ、ＳＯＭＰＯホールディングス、Ｓｋｙ、スクウェア・エニックス、GovTech東京、NTTドコモといった国内企業の実践が紹介されました。Cloud Run ではインスタンスがプレビュー提供され、長期稼働かつ個別にアドレス可能なワークロードを扱えます。あわせて 8 月 20 日に us-west1 で発生した複数プロダクト横断の障害についての予備インシデントレポートも公開されています。
+"topics":
+  - "業種特化: Gemini Enterprise for Legal と Gemini Enterprise for Financial Services を発表"
+  - "国内: Google Cloud Next Tokyo 26 の Day 1 / Day 2 基調講演まとめ (NTTデータ・ＳＯＭＰＯ・Ｓｋｙ・スクウェア・エニックス等の実践)"
+  - "コンテナ: Cloud Run インスタンスがプレビュー、長期稼働かつ個別にアドレス可能なワークロード向け"
+  - "移行: Migration Center の AI 活用クイックアセスメントで、数週間かかっていた発見作業を短縮"
+  - "障害: 8 月 20 日に us-west1 で発生した複数プロダクト横断の障害の予備インシデントレポートを公開"

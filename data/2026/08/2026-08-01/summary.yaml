@@ -1,0 +1,11 @@
+"date": "2026-08-01"
+"generated_at": "2026-08-28 09:48:13 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "gcp_release_notes"
+"overview": |
+  この日はリリースノートのみで、課金モデルとキャパシティ確保が話題でした。Gemini Enterprise に従量課金 (Pay-as-you-go) エディションが一般提供となり、プールされたユーザーライセンスの割り当てに縛られず、プロジェクトが消費した機能利用分だけを支払えます。利用には請求書払いの Cloud Billing アカウントと最低 1 シートが必要で、コンソールから利用状況の確認と月額の上限設定が可能です。Google Cloud VMware Engine ではキャパシティ割り当てがプレビュー提供され、Cloud Billing アカウント単位で物理ノードをグローバルに予約できます。予約したノードは配置グループ (PG) として整理され、プライベートクラウド作成時やクラスター追加時に指定したり、複数 PG にまたがるハイブリッドなプライベートクラウドを構成したりできます。
+"topics":
+  - "課金: Gemini Enterprise に従量課金 (Pay-as-you-go) エディションが一般提供、月額の上限設定も可能"
+  - "キャパシティ: Google Cloud VMware Engine のキャパシティ割り当てがプレビュー、配置グループ単位で物理ノードを予約"

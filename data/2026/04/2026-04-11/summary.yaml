@@ -1,0 +1,10 @@
+"date": "2026-04-11"
+"generated_at": "2026-08-28 09:46:50 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "google_security_blog"
+"overview": |
+  この日は Pixel のベースバンドへの Rust 導入が発表されました。Google は Pixel デバイスのセキュリティを継続的に高めており、なかでもセルラーベースバンドモデムの堅牢化に注力しています。メモリ安全な言語である Rust をベースバンドに持ち込むことで、この領域の脆弱性を構造的に減らす取り組みです。
+"topics":
+  - "メモリ安全性: Pixel のセルラーベースバンドモデムに Rust を導入し堅牢化"

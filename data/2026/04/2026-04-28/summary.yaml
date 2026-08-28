@@ -1,0 +1,10 @@
+"date": "2026-04-28"
+"generated_at": "2026-08-28 09:46:50 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 2
+"sources":
+  - "gke_security_bulletins"
+"overview": |
+  この日は GKE のセキュリティ速報が 2 件公開されました。GCP-2026-023 は CVE-2026-23074 を参照し、5 月 7 日に GKE の Ubuntu ノードプール向けパッチバージョンが追加されています。GCP-2026-024 は CVE-2025-38248 を参照する内容です。
+"topics":
+  - "脆弱性: GKE セキュリティ速報 GCP-2026-023 (CVE-2026-23074) と GCP-2026-024 (CVE-2025-38248) を同日公開"

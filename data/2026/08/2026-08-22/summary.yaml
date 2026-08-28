@@ -1,0 +1,14 @@
+"date": "2026-08-22"
+"generated_at": "2026-08-28 09:50:40 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 6
+"sources":
+  - "gcp_release_notes"
+  - "google_cloud_ai_ml_blog"
+  - "google_cloud_blog"
+"overview": |
+  この日は Agent Identity の一般提供が最大のトピックです。Agent Identity 認証マネージャーと関連 API (agentidentity.googleapis.com / agentidentitycredentials.googleapis.com) が一般提供となり、集中管理された認証情報のボールトと認証ブローカーによって、3-legged OAuth・2-legged OAuth・API キーといった外向きのツール認証を簡素化できます。ブログでは Cloud CISO Perspectives の 8 月第 1 号として、AI 時代だからこそセキュリティの基本に立ち返ることが重要だという議論が展開されました。あわせて「エージェントがどうすればうまく委譲できるか」という記事では、プロジェクトを扱いやすいタスクへ分割してチームのスキルに割り当てるという組織論の知見を、エージェントの構築と運用に当てはめる視点が示されています。
+"topics":
+  - "エージェント ID: Agent Identity 認証マネージャーと API が一般提供、外向きのツール認証 (3-legged / 2-legged OAuth・API キー) を集中管理"
+  - "セキュリティ論: AI 時代こそセキュリティの基本に立ち返るべきという Cloud CISO Perspectives の議論"
+  - "エージェント設計: タスク分割とスキルへの割り当てという組織論の知見を、エージェントの委譲設計に応用"

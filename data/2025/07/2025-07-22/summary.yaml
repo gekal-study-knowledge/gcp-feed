@@ -1,0 +1,10 @@
+"date": "2025-07-22"
+"generated_at": "2026-08-28 09:45:43 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "google_security_blog"
+"overview": |
+  この日は OSS Rebuild の発表がありました。Google Open Source Security Team による新しいプロジェクトで、オープンソースパッケージのエコシステムに対する信頼を強めることを目的としています。パッケージを再現可能な形で再ビルドすることで、配布されているアーティファクトがソースコードから正しく作られたものかを検証できるようにする取り組みです。
+"topics":
+  - "サプライチェーン: OSS Rebuild によりオープンソースパッケージを再現ビルドして信頼性を検証"

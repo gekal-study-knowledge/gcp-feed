@@ -1,0 +1,14 @@
+"date": "2026-08-06"
+"generated_at": "2026-08-28 09:48:13 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 2
+"sources":
+  - "gcp_release_notes"
+  - "google_cloud_ai_ml_blog"
+"overview": |
+  この日は耐量子暗号への対応が目を引きました。Cloud KMS が量子安全な鍵インポートをプレビューでサポートし、X-Wing や ML-KEM-768 / 1024 をベースにした HPKE の各方式を利用できます。Cluster Toolkit は v1.99.0 がリリースされ、Slurm 25.11 以降向けの Prometheus OpenMetrics テレメトリの組み込み、テレメトリ機能の本番昇格、キャパシティ制約とクォータエラーに対する Slurm の耐性強化が含まれます。あわせてジョブ投入段階でのマルチティアチェックポイント (MTC) 有効化と、GKE の TPU v4 / v5p のサンプル追加も行われました。Gemini Enterprise ではカスタム MCP サーバーのデータストアから説明フィールドが削除され、サーバーの tools/list エンドポイントから直接ツールとパラメータスキーマを検出するようになっています。
+"topics":
+  - "耐量子暗号: Cloud KMS が量子安全な鍵インポート (X-Wing / ML-KEM-768 / ML-KEM-1024 ベース) をプレビュー提供"
+  - "HPC: Cluster Toolkit v1.99.0 が Slurm 25.11 以降向け Prometheus テレメトリとキャパシティ制約への耐性を強化"
+  - "MCP: Gemini Enterprise がカスタム MCP サーバーの説明フィールドを廃止し tools/list から直接ツールを検出"
+  - "AI インフラ: フロンティア AI ラボの Mirendil が TPU と NVIDIA を組み合わせた AI Hypercomputer を採用"

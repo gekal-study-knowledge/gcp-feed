@@ -1,0 +1,12 @@
+"date": "2026-07-31"
+"generated_at": "2026-08-28 09:48:13 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "gcp_release_notes"
+"overview": |
+  この日はリリースノートのみでした。Access Approval と Access Transparency の双方で App Topology (One Graph を含む) が一般提供となっています。Apigee hybrid は v1.15.7 がリリースされ、ランタイム (メッセージプロセッサ) の ReplicaSet 更新時のロールアウト戦略を `runtime.release.strategy` プロパティで `rolling` / `scale-down-first` / `none` から選べるようになりました。環境ごとの指定も可能で、既定は `rolling` です。あわせて各種セキュリティ修正と CVE 対応も含まれています。Cloud Load Balancing ではグローバル外部パススルー型の新しい Network Load Balancer が導入されました。
+"topics":
+  - "可視化: Access Approval と Access Transparency で App Topology (One Graph を含む) が GA"
+  - "Apigee hybrid: v1.15.7 でランタイムのロールアウト戦略を rolling / scale-down-first / none から選択可能に"
+  - "ロードバランシング: グローバル外部パススルー型の新しい Network Load Balancer を導入"

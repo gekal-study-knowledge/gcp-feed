@@ -1,0 +1,10 @@
+"date": "2025-10-28"
+"generated_at": "2026-08-28 09:45:43 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "gke_security_bulletins"
+"overview": |
+  この日は GKE のセキュリティ速報 GCP-2025-063 が公開されました。CVE-2025-39682 を参照する内容で、10 月 30 日に GDC ソフトウェア (VMware) 向けのパッチバージョンと重大度評価が追加され、11 月 17 日には GKE 側も更新されています。
+"topics":
+  - "脆弱性: GKE セキュリティ速報 GCP-2025-063 (CVE-2025-39682)、GDC (VMware) 向けパッチと重大度評価を追加"

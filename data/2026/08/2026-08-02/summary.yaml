@@ -1,0 +1,11 @@
+"date": "2026-08-02"
+"generated_at": "2026-08-28 09:48:13 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "gcp_release_notes"
+"overview": |
+  この日はリリースノートのみで、Agent Platform Workbench の修正が繰り返し反映されました。7 月 30 日と同様に、Gemini CLI の自動リロード拡張機能に起因する JupyterLab UI のファイル変更巻き戻しとカーネル中断の修正、last-active / auto-reload 拡張を Gemini CLI 構成時のみ有効にする変更、パッケージキャッシュの権限による micromamba 環境作成エラーの修正が含まれています。上流依存パッケージの最新化も繰り返し適用されており、日曜日のリリースとして小刻みなリリースチェンジが積み重なった内容です。
+"topics":
+  - "Workbench: Gemini CLI の自動リロード拡張に起因する JupyterLab の不具合修正を継続適用"
+  - "Workbench: micromamba 環境作成時のパッケージキャッシュ権限エラーを修正、上流依存パッケージを最新化"

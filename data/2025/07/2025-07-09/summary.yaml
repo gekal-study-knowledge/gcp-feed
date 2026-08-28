@@ -1,0 +1,10 @@
+"date": "2025-07-09"
+"generated_at": "2026-08-28 09:45:43 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "google_security_blog"
+"overview": |
+  この日は Android における Chrome の保護強化が扱われました。Android が発表した Advanced Protection は、Google の高度な保護機能プログラムをデバイスレベルまで拡張するもので、Chrome Security チームによる解説として、その中で Chrome がどのように保護を強めるかが紹介されています。
+"topics":
+  - "ブラウザセキュリティ: Android の Advanced Protection に合わせた Chrome の保護強化"

@@ -1,0 +1,10 @@
+"date": "2025-11-14"
+"generated_at": "2026-08-28 09:45:43 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "google_security_blog"
+"overview": |
+  この日は Android における Rust 採用の続報が公開されました。前年に、新規コードの脆弱性予防に焦点を当てたメモリ安全性戦略が持続的かつ複利的な効果を素早くもたらすと書いたことを受け、その後の進捗が「move fast and fix things」というタイトルで報告されています。
+"topics":
+  - "メモリ安全性: Android における Rust 採用の進捗、新規コードでの脆弱性予防が複利的な効果を生む"

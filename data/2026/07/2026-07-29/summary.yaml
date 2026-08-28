@@ -1,0 +1,13 @@
+"date": "2026-07-29"
+"generated_at": "2026-08-28 09:48:13 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "gcp_release_notes"
+"overview": |
+  この日はリリースノートのみでした。App Engine スタンダード環境の Go・Java・PHP・Python すべてで、`app_engine_bundled_services` フィールドによる必要なレガシーバンドルサービスのみの有効化が一般提供となりました。Cloud KMS では同一プロジェクトへの鍵保存を伴う Autokey (旧称: 委任鍵管理向け Autokey) が一般提供となり、専用プロジェクトへの鍵保存を伴う Autokey と併用も単独利用も可能です。BigQuery Data Transfer Service は Klaviyo からの増分データ転送にプレビュー対応し、Bigtable では Google Cloud コンソールから行キースキーマを管理できるようになりました (プレビュー)。
+"topics":
+  - "App Engine: Go / Java / PHP / Python で必要なレガシーバンドルサービスのみを有効化する設定が GA"
+  - "鍵管理: Cloud KMS Autokey の同一プロジェクト鍵保存が一般提供"
+  - "データ転送: BigQuery Data Transfer Service が Klaviyo からの増分転送にプレビュー対応"
+  - "Bigtable: コンソールから行キースキーマを管理可能に (プレビュー)"

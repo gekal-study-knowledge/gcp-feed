@@ -1,0 +1,16 @@
+"date": "2026-08-26"
+"generated_at": "2026-08-28 09:51:27 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 8
+"sources":
+  - "gcp_release_notes"
+  - "google_cloud_ai_ml_blog"
+  - "google_cloud_blog"
+  - "google_cloud_japan_blog"
+"overview": |
+  この日は AI 時代の FinOps が主題でした。Gemini Enterprise 全体のエージェントワークロードと、Google Antigravity や Android Studio といった開発者ツール向けに、柔軟な支払いオプションと新しいコスト統制が導入されます。プロジェクト単位の AI 支出管理により「トークンショック」を避けることが狙いです。あわせて AI インフラの動的キャパシティ管理も発表され、エージェント時代の規模に対応します。技術面では強化学習の統一ランタイムとして採用が進む Ray の分散クラスターに gVisor サンドボックスを持ち込み、動的なロールアウトやコード実行を安全に隔離して大規模にオーケストレーションする取り組みが紹介されました。学習コンテンツとしては、機械学習の素養がなくても始められる 5 週間の無償ライブ学習シリーズ Agent Valley が案内されています。
+"topics":
+  - "FinOps: Gemini Enterprise と開発者ツール向けに柔軟な支払いオプションと新しいコスト統制を導入、トークンショックを回避"
+  - "キャパシティ: AI インフラの動的キャパシティ管理でエージェント時代の規模に対応"
+  - "分離実行: 分散 Ray クラスターに gVisor サンドボックスを持ち込み、動的なコード実行を安全に大規模オーケストレーション"
+  - "学習: 素養なしで始められる 5 週間の無償ライブ学習シリーズ Agent Valley を開始"

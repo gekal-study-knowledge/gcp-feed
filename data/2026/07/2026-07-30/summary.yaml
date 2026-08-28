@@ -1,0 +1,12 @@
+"date": "2026-07-30"
+"generated_at": "2026-08-28 09:48:13 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "gcp_release_notes"
+"overview": |
+  この日はリリースノートのみで、Agent Platform Workbench の修正がまとまって入りました。Gemini CLI の自動リロード拡張機能が原因で JupyterLab の UI がファイル変更を無言で巻き戻したりカーネルを中断したりする問題が修正され、last-active および auto-reload 拡張機能は Gemini CLI が構成されている場合のみ有効になるよう変更されています。あわせて jupyterlab-git を 0.53.0 に固定して Git 拡張機能の Pull / Push ボタンが無効化される問題を解消し、パッケージキャッシュの権限が原因で実行時に micromamba 環境を作成できない問題も修正されました。Workbench の内部エージェントがホスト OS にインストールされたカスタム / エンタープライズ CA 証明書を信頼するようになり、インスタンスプロキシ経由の接続で TLS 検証が失敗する問題も解消されています。
+"topics":
+  - "Workbench: Gemini CLI の自動リロード拡張が JupyterLab のファイル変更を巻き戻す問題を修正"
+  - "Workbench: jupyterlab-git を 0.53.0 に固定し Git 拡張の Pull / Push ボタン無効化を解消"
+  - "Workbench: 内部エージェントがホスト OS のカスタム / エンタープライズ CA 証明書を信頼するよう修正、プロキシ経由の TLS 検証失敗を解消"

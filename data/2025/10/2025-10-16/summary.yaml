@@ -1,0 +1,10 @@
+"date": "2025-10-16"
+"generated_at": "2026-08-28 09:45:43 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "gke_security_bulletins"
+"overview": |
+  この日は GKE のセキュリティ速報 GCP-2025-056 が公開されました。CVE-2025-39946 を参照する内容で、11 月 13 日に GDC ソフトウェア向け、2026 年 3 月 24 日には GKE の Ubuntu ノード向けのパッチバージョンが追加されています。公開から半年近くにわたって更新が続いた速報です。
+"topics":
+  - "脆弱性: GKE セキュリティ速報 GCP-2025-056 (CVE-2025-39946)、GDC と Ubuntu ノード向けパッチを長期にわたり追加"

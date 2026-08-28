@@ -1,0 +1,14 @@
+"date": "2026-08-27"
+"generated_at": "2026-08-28 09:51:28 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 6
+"sources":
+  - "google_cloud_blog"
+  - "google_cloud_japan_blog"
+"overview": |
+  この日はネットワーク信頼性とレジリエンス検証が中心でした。Uber がクラウド移行を止めずにネットワークの信頼性を高めた取り組みが紹介され、拡大し続けるネットワークのトラフィックをどう捌くかという、同社が都市と共有する課題が語られています。Fault Injection Testing がプレビューで発表され、データベースの障害やネットワーク経路の不調が起きても基幹サービスを維持できるかを検証できるようになりました。Open Knowledge Format (OKF) については、エージェントに渡すコンテキストのポータブルな形式を、Knowledge Catalog と組み合わせて組織横断で共有・統制する方法が示されています。日本語ブログでは Malachyte のコールドスタート問題の解決、Dataflow での生成 AI ワークフロー、AI 時代の FinOps の翻訳記事が公開されました。
+"topics":
+  - "ネットワーク: Uber がクラウド移行を止めずにネットワークの信頼性を向上させた取り組み"
+  - "レジリエンス検証: Fault Injection Testing がプレビュー、データベース障害やネットワーク不調時の可用性を検証"
+  - "コンテキスト共有: Open Knowledge Format を Knowledge Catalog と組み合わせて組織横断でエージェント向けコンテキストを統制"
+  - "国内: Malachyte のコールドスタート問題解決、Dataflow の生成 AI ワークフロー、AI 時代の FinOps を日本語で公開"

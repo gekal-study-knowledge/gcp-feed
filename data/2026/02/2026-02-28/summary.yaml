@@ -1,0 +1,10 @@
+"date": "2026-02-28"
+"generated_at": "2026-08-28 09:46:50 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "google_security_blog"
+"overview": |
+  この日は Chrome における量子耐性 HTTPS の新プログラムが発表されました。量子コンピューターに対して HTTPS 証明書を安全にするための取り組みで、IETF での標準化の動きと合わせて、堅牢かつ効率的な量子安全 HTTPS をどう育てるかが Chrome Secure Web and Networking チームから示されています。
+"topics":
+  - "耐量子暗号: Chrome が HTTPS 証明書を量子コンピューターに対して安全にする新プログラムを開始"

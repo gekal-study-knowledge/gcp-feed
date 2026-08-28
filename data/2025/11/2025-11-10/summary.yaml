@@ -1,0 +1,10 @@
+"date": "2025-11-10"
+"generated_at": "2026-08-28 09:45:43 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "gke_security_bulletins"
+"overview": |
+  この日は GKE のセキュリティ速報 GCP-2025-066 が公開されました。CVE-2025-31133、CVE-2025-52565、CVE-2025-52881 という 3 件の CVE を参照する内容で、11 月 27 日に GKE および GDC (ベアメタル) 向けのパッチバージョンが追加されています。
+"topics":
+  - "脆弱性: GKE セキュリティ速報 GCP-2025-066 (CVE-2025-31133 / 52565 / 52881 の 3 件)、GKE と GDC ベアメタル向けパッチを追加"

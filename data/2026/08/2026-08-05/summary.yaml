@@ -1,0 +1,15 @@
+"date": "2026-08-05"
+"generated_at": "2026-08-28 09:48:13 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 3
+"sources":
+  - "gcp_release_notes"
+  - "google_cloud_ai_ml_blog"
+"overview": |
+  この日はリリースノートに加えて AI & ML ブログの事例 2 件がありました。Cloud Monitoring のメトリクス取り込み向け Telemetry API が一般提供となり、OpenTelemetry Collector と OTLP エクスポーターを使って OTLP メトリクスを取り込めます。Cloud Run はジョブやワーカープールを含むすべてのリソースでサンドボックスをプレビュー対応し、Cloud SQL for MySQL のパフォーマンスキャプチャは一般提供となって、データベースと OS のメトリクスのスナップショットを Cloud Logging へ送って原因分析に使えます。事例では Target が Spanner Graph により小売の商品発見体験を強化しデータベース保守を 50% 削減したこと、Deutsche Bank が Apigee を API 管理基盤として選び API 中心のエコシステムで俊敏性を獲得したことが紹介されました。
+"topics":
+  - "監視: Cloud Monitoring のメトリクス取り込み向け Telemetry API が GA、OTLP メトリクスの取り込みに対応"
+  - "コンテナ: Cloud Run がジョブとワーカープールを含む全リソースでサンドボックスをプレビュー対応"
+  - "データベース運用: Cloud SQL for MySQL のパフォーマンスキャプチャが GA、長時間トランザクションの自動終了しきい値も設定可能"
+  - "事例: Target が Spanner Graph で商品発見体験を強化しデータベース保守を 50% 削減"
+  - "事例: Deutsche Bank が Apigee を API 管理基盤に採用し API 中心のエコシステムを構築"

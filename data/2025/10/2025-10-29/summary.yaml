@@ -1,0 +1,10 @@
+"date": "2025-10-29"
+"generated_at": "2026-08-28 09:45:43 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "google_security_blog"
+"overview": |
+  この日は Chrome の「HTTPS by default」が予告されました。1 年後の 2026 年 10 月にリリースされる Chrome 154 で、既定設定を変更して「常に安全な接続を使用する」を有効にします。これにより Chrome は HTTPS での接続を求めるようになり、Web 全体の既定を暗号化された通信へ寄せる大きな方針変更です。
+"topics":
+  - "ブラウザ既定: Chrome 154 (2026 年 10 月) から「常に安全な接続を使用する」を既定で有効化"

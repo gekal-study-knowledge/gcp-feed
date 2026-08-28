@@ -30,8 +30,8 @@ export default function DailySummary({
         border: (theme) => `1px solid ${theme.palette.divider}`,
         background: (theme) =>
           theme.palette.mode === 'light'
-            ? 'linear-gradient(135deg, rgba(255, 153, 0, 0.06) 0%, rgba(35, 47, 62, 0.04) 100%)'
-            : 'linear-gradient(135deg, rgba(255, 153, 0, 0.08) 0%, rgba(255, 255, 255, 0.02) 100%)',
+            ? 'linear-gradient(135deg, rgba(26, 115, 232, 0.06) 0%, rgba(0, 0, 0, 0.04) 100%)'
+            : 'linear-gradient(135deg, rgba(26, 115, 232, 0.10) 0%, rgba(255, 255, 255, 0.02) 100%)',
       }}
     >
       <Box

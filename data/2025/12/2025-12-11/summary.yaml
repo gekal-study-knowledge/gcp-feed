@@ -1,0 +1,10 @@
+"date": "2025-12-11"
+"generated_at": "2026-08-28 09:45:43 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "google_security_blog"
+"overview": |
+  この日は HTTPS 証明書業界における、安全性の低いドメイン検証方法の段階的廃止が扱われました。安全な接続は現代の Web の基盤ですが、証明書はその検証プロセスと発行実務の信頼性以上のものにはならない、という観点から Chrome Root Program チームによる説明が公開されています。
+"topics":
+  - "証明書: HTTPS 証明書業界が安全性の低いドメイン検証方法を段階的に廃止"

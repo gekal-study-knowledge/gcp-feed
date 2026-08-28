@@ -1,0 +1,10 @@
+"date": "2025-08-13"
+"generated_at": "2026-08-28 09:45:43 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "google_security_blog"
+"overview": |
+  この日は Android の pKVM が SESIP レベル 5 のセキュリティ認証を取得したことが発表されました。ソフトウェアとして世界初の取得であり、オープンソースセキュリティと民生用電子機器の将来にとっての節目と位置づけられています。
+"topics":
+  - "認証: Android の pKVM がソフトウェアとして世界初の SESIP レベル 5 セキュリティ認証を取得"

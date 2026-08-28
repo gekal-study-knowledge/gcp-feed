@@ -1,0 +1,14 @@
+"date": "2026-08-12"
+"generated_at": "2026-08-28 09:49:34 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 2
+"sources":
+  - "gcp_release_notes"
+  - "google_cloud_ai_ml_blog"
+"overview": |
+  この日はエージェント関連の統制機能が目立ちました。Access Approval と Access Transparency で Agent Identity が一般提供となっています。Apigee API hub では gcloud CLI から MCP サーバーを構成・デプロイできるようになり、MCP ツールをインラインまたは YAML / JSON 仕様ファイルの参照で定義して、API hub の操作をエージェント連携向けに公開できます。Bigtable ではパラメータ化ビューが GA となり、アプリケーションのコンテキストに応じて論理ビューのデータ範囲を動的に絞り込みつつ SQL インジェクションのリスクを抑えられます。ブログでは Looker のガバナンス付きセマンティックレイヤーが Gemini Enterprise の構造化データの信頼できる基盤となり、NL2SQL がスキーマの関係を推測することで生じる不安定なクエリやハルシネーションを防ぐ構成が紹介されました。
+"topics":
+  - "エージェント ID: Access Approval と Access Transparency で Agent Identity が GA"
+  - "MCP: Apigee API hub の MCP サーバーを gcloud CLI から構成・デプロイ可能に"
+  - "Bigtable: パラメータ化ビューが GA、コンテキストに応じた動的な絞り込みと SQL インジェクション対策"
+  - "セマンティックレイヤー: Looker のガバナンス付きセマンティックレイヤーが Gemini Enterprise の構造化データ基盤に"

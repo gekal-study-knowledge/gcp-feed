@@ -1,0 +1,12 @@
+"date": "2026-07-28"
+"generated_at": "2026-08-28 09:48:13 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "gcp_release_notes"
+"overview": |
+  この日はリリースノートのみで、データベースとストレージ性能が中心でした。AlloyDB for PostgreSQL では新規クラスター向けに IAM グループ認証がプレビュー提供され、グループ単位でのアクセス管理によりデータベースユーザー管理を簡素化できます (PostgreSQL 15 以降が対象)。Compute Engine では C4D インスタンスに接続した Hyperdisk Balanced ボリュームの最大スループット上限が引き上げられ、c4d-*-384 で 10,000 MiB/s から 12,500 MiB/s になりました。既知の問題として、2026 年 8 月以降 AMD SEV-SNP を使う Confidential VM でゲストカーネルの移行とセキュリティ更新に伴う起動時間の延長と性能変化が発生する可能性が案内されています (11 月までに解消見込み、AMD SEV と Intel TDX は影響なし)。
+"topics":
+  - "データベース: AlloyDB for PostgreSQL の IAM グループ認証がプレビュー、グループ単位でロールと権限を継承"
+  - "ストレージ性能: C4D インスタンスの Hyperdisk Balanced 最大スループットを引き上げ (c4d-*-384 で 12,500 MiB/s)"
+  - "既知の問題: AMD SEV-SNP を使う Confidential VM で起動時間の延長と性能変化 (2026 年 11 月までに解消見込み)"

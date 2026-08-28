@@ -1,0 +1,12 @@
+"date": "2026-08-17"
+"generated_at": "2026-08-28 09:49:34 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "gcp_release_notes"
+"overview": |
+  この日はリリースノートのみでした。AlloyDB for PostgreSQL では MCP Toolbox for Databases を使って、可観測性の機能と高度なクエリインサイトを IDE から直接扱えるようになりました。Backup and DR では 2026 年 11 月 1 日から、強制保持で保護されたバックアップを含むバックアップボールトがあるプロジェクトに対して、プロジェクトレベルの lien が自動適用されることが告知されています。lien の不正な削除を防ぐため、Privileged Access Manager による多者承認を構成できます。Cloud CDN は RFC 9213 の CDN-Cache-Control レスポンスヘッダーをサポートし、ブラウザ側のキャッシュに影響を与えずにエッジキャッシュ向けのディレクティブを指定できるようになりました。
+"topics":
+  - "開発体験: AlloyDB の可観測性とクエリインサイトを MCP Toolbox for Databases 経由で IDE から利用"
+  - "データ保護: 2026-11-01 から強制保持バックアップを含むプロジェクトに lien を自動適用、PAM による多者承認も構成可能"
+  - "キャッシュ: Cloud CDN が RFC 9213 の CDN-Cache-Control ヘッダーをサポート、ブラウザ側と分離してエッジのキャッシュを制御"

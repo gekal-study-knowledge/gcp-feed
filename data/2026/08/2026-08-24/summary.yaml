@@ -1,0 +1,14 @@
+"date": "2026-08-24"
+"generated_at": "2026-08-28 09:51:27 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 6
+"sources":
+  - "gcp_release_notes"
+  - "google_cloud_japan_blog"
+"overview": |
+  この日は日本語ブログの翻訳記事がまとまって公開されました。UiPath が AI Hypercomputer 上に高性能 GPU プラットフォームを構築し、単純なタスク自動化から認知的意思決定エージェントへ移行した事例、WPP が世界中の数百の代理店に分散したマーケティングデータを統合してキャンペーン展開を高速化した事例が紹介されています。GKE の ClusterNetworkPolicy については、名前空間単位に限定される標準の Kubernetes NetworkPolicy では届かない、クラスター全体のガードレールをどう敷くかが解説されました。国内発の記事として、Amazon S3 に残ったままのデータを Google Cloud 上で AI エージェントの基盤に変える SOAP Architecture も公開されています。リリースノートでは Anthos Config Management が複数の CVE に対応し、RootSync / RepoSync 単位で監視を無効化できるようになりました。
+"topics":
+  - "事例: UiPath が AI Hypercomputer 上に高性能 GPU プラットフォームを構築し数百 GPU をオーケストレーション"
+  - "Kubernetes: GKE の ClusterNetworkPolicy で、名前空間を越えたクラスター全体のガードレールと開発者の自律性を両立"
+  - "マルチクラウド: Amazon S3 に眠るデータを移行せずに AI エージェントの基盤へつなぐ SOAP Architecture"
+  - "構成管理: Anthos Config Management が複数の CVE に対応、RootSync / RepoSync 単位で監視を無効化可能に"

@@ -1,0 +1,18 @@
+"date": "2026-08-21"
+"generated_at": "2026-08-28 09:50:40 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 13
+"sources":
+  - "gcp_release_notes"
+  - "google_cloud_ai_ml_blog"
+  - "google_cloud_blog"
+  - "google_cloud_japan_blog"
+"overview": |
+  この日はベクトル検索のスケーラビリティと開発者向けエージェントが中心でした。AlloyDB の ScaNN が 100 億ベクトル規模まで拡張できることが解説され、エンタープライズのエージェンティック AI が求める規模にマネージドな PostgreSQL 互換サービスで応える構成が示されています。Cloud KMS の量子安全な鍵インポートも改めて発表され、マルチクラウドにおける BYOK とデータ主権の観点から、暗号鍵をネットワーク越しに安全に転送する方法が扱われました。開発者向けには Google Antigravity のエンタープライズ展開が拡大し、複数のサーフェスからコーディングエージェントへアクセスできるようにしつつ、セキュリティ統制・ライセンス管理・プールされた利用量による前払いトークンの無駄防止に対応しています。Google は 2026 年 Gartner Magic Quadrant のクラウドネイティブアプリケーションプラットフォーム部門で 3 年連続のリーダーに選出されました。
+"topics":
+  - "ベクトル検索: AlloyDB ScaNN が 100 億ベクトル規模までスケール"
+  - "耐量子暗号: Cloud KMS の量子安全な鍵インポートにより、マルチクラウドの BYOK を量子時代に対応"
+  - "開発者向け: Google Antigravity のエンタープライズ展開を拡大、セキュリティ統制とプール利用に対応"
+  - "評価: Google が 2026 Gartner MQ のクラウドネイティブアプリケーションプラットフォーム部門で 3 年連続リーダーに"
+  - "GPU: AI Hypercomputer のドキュメントが A3 Edge / A2 / G4 / G2 / N1+T4 / N1+V100 まで全 GPU マシンシリーズを網羅"
+  - "国内: デジタル主権・医療 AI とプライバシー・DMS の Gemini による移行・シャーディングによるノイジーネイバー対策の日本語解説"

@@ -1,0 +1,12 @@
+"date": "2026-08-16"
+"generated_at": "2026-08-28 09:49:34 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "gcp_release_notes"
+"overview": |
+  この日はリリースノートのみで、Agent Platform Workbench のセキュリティ更新が中心でした。バンドルされている Ruby の rexml と net-imap がパッチ適用済みバージョンへ更新され、aiohttp・joblib・cryptography も CVE-2022-21797 や CVE-2025-69223 を含む既知の脆弱性に対応したバージョンへ更新されています。CUDA のベースイメージは 12.8.1 から 12.9.2 (CUDA 12.9、cuDNN 9.10) へ更新され、バンドルされた NVIDIA プロファイラコンポーネントの既知の脆弱性にも対処しました。あわせて Python 3.12 カスタムコンテナから JupyterLab 3 環境が削除され、JupyterLab 4 のみとなっています (Python 3.10 イメージは影響なし)。
+"topics":
+  - "脆弱性対応: Workbench の Ruby (rexml / net-imap)、aiohttp・joblib・cryptography をパッチ適用済みバージョンへ更新"
+  - "GPU: CUDA ベースイメージを 12.8.1 から 12.9.2 (cuDNN 9.10) へ更新、NVIDIA プロファイラの脆弱性にも対応"
+  - "廃止: Python 3.12 カスタムコンテナから JupyterLab 3 環境を削除、JupyterLab 4 のみに"

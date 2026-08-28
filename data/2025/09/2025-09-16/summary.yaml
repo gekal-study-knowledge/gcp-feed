@@ -1,0 +1,10 @@
+"date": "2025-09-16"
+"generated_at": "2026-08-28 09:45:43 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "google_security_blog"
+"overview": |
+  この日は DRAM エコシステムを守るための Rowhammer 研究支援が扱われました。Rowhammer は業界横断の複雑な脆弱性クラスで、DRAM のある行に繰り返しアクセスすることでビット反転を引き起こすハードウェアの脆弱性です。Google がこの領域の研究をどう支援しているかが紹介されています。
+"topics":
+  - "ハードウェアセキュリティ: DRAM エコシステムを守るための Rowhammer 研究支援"

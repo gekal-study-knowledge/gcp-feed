@@ -1,0 +1,12 @@
+"date": "2026-08-04"
+"generated_at": "2026-08-28 09:48:13 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "gcp_release_notes"
+"overview": |
+  この日はリリースノートのみで、検索とエッジ最適化が中心でした。AlloyDB は pg_textsearch 拡張機能による BM25 インデックスをプレビュー提供し、全文検索の確率的ランキングを最適化できます (PostgreSQL 17 / 18 が対象)。Cloud CDN は Google のネットワークエッジでのネイティブな画像最適化にプレビュー対応し、リサイズ・クロップ・形式変換といった計算負荷の高い変換をオフロードしてオリジンの負荷と下り料金を削減します (プレビュー期間中は無償)。Cloud Load Balancing では Application Load Balancer の URL マップにおけるルートルールで、正規表現による URL 書き換え (regexRewrite) がプレビュー提供されました。Cloud SQL for MySQL の DNS 自動化は一般提供です。
+"topics":
+  - "全文検索: AlloyDB が pg_textsearch 拡張による BM25 インデックスをプレビュー提供"
+  - "エッジ最適化: Cloud CDN がネットワークエッジでのネイティブな画像最適化にプレビュー対応 (期間中は無償)"
+  - "ロードバランシング: Application Load Balancer のルートルールで正規表現による URL 書き換えがプレビュー"

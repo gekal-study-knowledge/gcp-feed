@@ -1,0 +1,14 @@
+"date": "2026-08-20"
+"generated_at": "2026-08-28 09:50:40 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 3
+"sources":
+  - "gcp_release_notes"
+  - "google_cloud_blog"
+  - "google_cloud_japan_blog"
+"overview": |
+  この日は脅威インテリジェンスとポスト量子暗号のロードマップが目を引きました。Google Threat Intelligence Group はロシアによるとみられる 3 つのサイバースパイ活動クラスターを追跡しており、正規の認証フローを悪用して、欧州の学術・航空宇宙・防衛・政府・シンクタンク、および米国の学術機関とシンクタンクに所属する個人を標的にしていることを報告しました。日本語ブログでは Google Cloud のポスト量子暗号ロードマップが解説され、暗号解読に有効な量子コンピューターの登場に備えて 2029 年までの移行計画が示されています。リリースノートでは App Engine フレキシブル環境が Cloud SQL への接続に Cloud SQL Auth Proxy v2 を組み込みサイドカーとして使うようになり、MySQL 8.4 以降のサポートと最新のセキュリティパッチが提供されます。
+"topics":
+  - "脅威分析: ロシアによるとみられる 3 つのスパイ活動クラスターが正規の認証フローを悪用し、欧米の学術・防衛・政府関係者を標的に"
+  - "耐量子暗号: Google Cloud のポスト量子暗号ロードマップ (2029 年までの移行計画) を日本語で解説"
+  - "App Engine: Cloud SQL 接続の組み込みサイドカーが Cloud SQL Auth Proxy v2 になり MySQL 8.4 以降をサポート"
