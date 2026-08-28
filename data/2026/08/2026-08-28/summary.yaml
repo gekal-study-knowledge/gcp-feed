@@ -1,0 +1,12 @@
+"date": "2026-08-28"
+"generated_at": "2026-08-28 09:54:44 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 3
+"sources":
+  - "google_cloud_ai_ml_blog"
+  - "google_cloud_blog"
+"overview": |
+  この日は Cloud Run インスタンスの活用が中心でした。前日にプレビュー提供が案内された Cloud Run インスタンスを使い、OpenClaw や Hermes のような個人開発者向けの AI エージェントを、長期稼働かつステートフルなワークロードとして低コストかつ高性能に動かす方法が紹介されています。もう 1 件は Pythian の事例で、27 か国 500 人規模の自社に Gemini Enterprise を展開し、自社を実証の場としてエンタープライズ AI が実際にどう ROI をもたらすかを検証した結果、当初の戦略そのものを見直すことになったという報告です。
+"topics":
+  - "エージェント実行: Cloud Run インスタンスで OpenClaw や Hermes のような個人向け AI エージェントを低コストかつ長期稼働で運用"
+  - "事例: Pythian が 27 か国 500 人規模の自社に Gemini Enterprise を展開し、AI の ROI 検証から戦略を転換"
