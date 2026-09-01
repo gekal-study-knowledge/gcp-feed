@@ -1,16 +1,20 @@
 "date": "2026-08-28"
-"generated_at": "2026-08-28 19:24:09 JST"
+"generated_at": "2026-09-01 21:58:33 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 6
+"article_count": 7
 "sources":
+  - "gcp_release_notes"
   - "google_cloud_ai_ml_blog"
   - "google_cloud_blog"
   - "google_cloud_japan_blog"
 "overview": |
-  この日は Cloud Run インスタンスの活用と BigQuery の刷新が中心でした。前日にプレビュー提供が案内された Cloud Run インスタンスを使い、OpenClaw や Hermes のような個人開発者向けの AI エージェントを、長期稼働かつステートフルなワークロードとして低コストかつ高性能に動かす方法が紹介されています。日本語ブログでは BigQuery まわりの記事が 2 本公開され、1 つは非構造化データ (PDF・音声・画像) のインサイトを構造化データと統合する BigQuery 検索の刷新、もう 1 つはノーコードのフルマネージドなデータ移動である BigQuery Data Transfer Service の新機能です。後者は、脆弱な社内 ETL パイプラインの構築や修正に週 100 時間以上をかけている状況を解消することを狙いとしています。あわせて、EU のデジタルオペレーショナルレジリエンス法 (DORA) を踏まえた金融サービスのエージェント型 AI によるレジリエンス構築 (Deutsche Bank の事例を含む) も日本語で公開されました。事例では Pythian が 27 か国 500 人規模の自社に Gemini Enterprise を展開し、AI の ROI を検証した結果、当初の戦略を見直すことになったと報告しています。
+  この日は Cloud Run インスタンスの活用と BigQuery の刷新が中心でした。前日にプレビュー提供が案内された Cloud Run インスタンスを使い、OpenClaw や Hermes のような個人開発者向けの AI エージェントを、長期稼働かつステートフルなワークロードとして低コストかつ高性能に動かす方法が紹介されています。日本語ブログでは BigQuery まわりの記事が 2 本公開され、1 つは非構造化データ (PDF・音声・画像) のインサイトを構造化データと統合する BigQuery 検索の刷新、もう 1 つはノーコードのフルマネージドなデータ移動である BigQuery Data Transfer Service の新機能です。後者は、脆弱な社内 ETL パイプラインの構築や修正に週 100 時間以上をかけている状況を解消することを狙いとしています。あわせて、EU のデジタルオペレーショナルレジリエンス法 (DORA) を踏まえた金融サービスのエージェント型 AI によるレジリエンス構築 (Deutsche Bank の事例を含む) も日本語で公開されました。事例では Pythian が 27 か国 500 人規模の自社に Gemini Enterprise を展開し、AI の ROI を検証した結果、当初の戦略を見直すことになったと報告しています。リリースノートでは Application Integration の実行 ID の扱いが変わる予定が告知されました。今後すべての実行は起動した本人か、設定した run-as サービスアカウントとして動作し、実行にはそのサービスアカウントとして動作する権限が必要になります。スケジュールやイベントで起動する無人の連携には run-as サービスアカウントの明示的な設定が必要で、変更前の対応が要ります。このほか Cloud Build で第 2 世代の Bitbucket / GitLab ホスト接続のアクセストークンを接続詳細ページから更新できるようになり、Gemini Enterprise には Campfire、Clay、CourtListener、Daloopa、MSCI のデータストアがパブリックプレビューで追加されています。
 "topics":
   - "エージェント実行: Cloud Run インスタンスで OpenClaw や Hermes のような個人向け AI エージェントを低コストかつ長期稼働で運用"
   - "検索: 非構造化データ (PDF・音声・画像) と構造化データのインサイトを統合する BigQuery 検索の刷新"
   - "データ移動: BigQuery Data Transfer Service の新機能によるノーコード・低コストな取り込み"
+  - "認可変更: Application Integration の実行が起動者か run-as サービスアカウントとして動作するようになり、無人実行には明示設定が必要"
+  - "CI/CD: Cloud Build で第 2 世代 Bitbucket / GitLab 接続のアクセストークンを接続詳細ページから更新可能に"
+  - "エンタープライズ検索: Gemini Enterprise に Campfire / Clay / CourtListener / Daloopa / MSCI のデータストアをプレビュー追加"
   - "金融規制: DORA を踏まえた金融サービスのエージェント型 AI レジリエンス構築 (Deutsche Bank の事例)"
   - "事例: Pythian が 27 か国 500 人規模の自社に Gemini Enterprise を展開し、AI の ROI 検証から戦略を転換"
