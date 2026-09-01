@@ -1,0 +1,9 @@
+"entries":
+  "2d2304b046820755a6f60ed848b82953":
+    "id": "2d2304b046820755a6f60ed848b82953"
+    "title": "September 01, 2026"
+    "link": "https://docs.cloud.google.com/release-notes#September_01_2026"
+    "published": "2026-09-01 16:00:00"
+    "fetched": "2026-09-02 02:09:29"
+    "summary": "<h2 class=\"release-note-product-title\">Cortex Framework</h2>\n<h3>Announcement</h3>\n<h3 id=\"release_7_0_5\">Release 7.0.5</h3>\n<h3>Fixed</h3>\n<ul>\n<li>Removed obsolete review items checklist from tests.</li>\n</ul>\n<h2 class=\"release-note-product-title\">Gemini Enterprise Agent Platform</h2>\n<h3>Change</h3>\n<p><strong>Pricing updates for agent metering</strong></p>\n<p>Session and memory bank compute metering is in effect for the Agent Platform\ncompute SKU.\nFor more information, see <a href=\"https://services.google.com/fh/files/emails/b_502770571_gemini_enterprise_agent_platform_pricing.pdf\">Gemini Agent Platform\nPricing</a>.</p>"
+"last_updated": "2026-09-02 02:09:29 JST"
