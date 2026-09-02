@@ -1,0 +1,9 @@
+"entries":
+  "532693e345a0922ee58521c7fe844d83":
+    "id": "532693e345a0922ee58521c7fe844d83"
+    "title": "September 02, 2026"
+    "link": "https://docs.cloud.google.com/release-notes#September_02_2026"
+    "published": "2026-09-02 16:00:00"
+    "fetched": "2026-09-03 04:42:27"
+    "summary": "<h2 class=\"release-note-product-title\">Spanner</h2>\n<h3>Feature</h3>\n<p>Spanner supports using the <code>TABLESAMPLE</code> operator in PostgreSQL-dialect\ndatabases to select a random sample of a dataset.</p>\n<p>For more information, see\n<a href=\"https://docs.cloud.google.com/spanner/docs/reference/postgresql/query-syntax#tablesample_operator\"><code>TABLESAMPLE</code> operator</a>.</p>"
+"last_updated": "2026-09-03 04:42:27 JST"
