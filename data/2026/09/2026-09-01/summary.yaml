@@ -1,19 +1,21 @@
 "date": "2026-09-01"
-"generated_at": "2026-09-01 21:58:33 JST"
+"generated_at": "2026-09-02 20:02:57 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 10
+"article_count": 13
 "sources":
+  - "gcp_release_notes"
   - "google_cloud_ai_ml_blog"
   - "google_cloud_blog"
   - "google_cloud_japan_blog"
 "overview": |
-  この日は BigQuery の機能拡張とエージェント時代を見据えたデータ基盤の話題が中心でした。BigQuery Graph が一般提供となり、ISO 標準のグラフクエリ言語 GQL を SQL と並べて使い、ETL なしにトラバーサルをネイティブ実行できるようになりました。専用のグラフデータベースへ抽出する必要がなくなり、スケールアップ型データベースのメモリ上のボトルネックを避けてペタバイト規模へ届き、既存の行・列レベルのセキュリティが効いたまま、同一クエリ内で BigQuery ML や AI 関数を呼べます。データパイプラインでは、Google Cloud NEXT '26 で発表された Orchestration Pipelines フレームワークを実務者へ届ける Data Agent Kit がオープンソースで提供され、VS Code、Claude Code、Codex といった IDE や CLI に統合されます。宣言的な YAML DSL とエージェントスキルの組み合わせで、複雑な Python の Airflow ボイラープレートを書かずに本番品質の DAG を自然言語から作成・デプロイ・トラブルシュートできます。日本語ブログでは、BigQuery の履歴ベース最適化 (HBO) を軸とした自律型クエリプロセッサへの進化が紹介され、2025 年だけでクエリ性能が最大 35% 向上し、スロット使用量が最大 40% 削減されたことが報告されました。あわせて Google Antigravity が対象の Gemini Enterprise app サブスクリプションの一部として企業向けに提供され、新しい IDE 拡張機能で VS Code などからも使えるようになり、プロジェクト単位の月間予算上限、トークンの共有プール、超過分の有効化といった費用管理が加わりました。Google は 2026 年 Gartner Magic Quadrant のクラウドネイティブ アプリケーション プラットフォーム部門で 3 年連続のリーダーに選出され、Hive メタストアをサーバーレスの Lakehouse ランタイムカタログへデータコピーなしで移行する解説も公開されています。セキュリティでは、水道分野の OT を狙う攻撃が地政学的な緊張のなかで大胆になっているという Cloud CISO Perspectives と、2024 年からブラジルの金融・小売・EC を狙い、決済システムや銀行ソフトウェアを操作して不正送金を行う BREEZE COMET (旧 UNC5669) の分析が公開されました。同グループはマルウェア開発に生成 AI を使っている証拠があり、ラテンアメリカやアフリカへの拡大の意図もうかがえるとしています。
+  この日は BigQuery の機能拡張とエージェント時代を見据えたデータ基盤の話題が中心でした。BigQuery Graph が一般提供となり、ISO 標準のグラフクエリ言語 GQL を SQL と並べて使い、ETL なしにトラバーサルをネイティブ実行できるようになりました。専用のグラフデータベースへ抽出する必要がなくなり、スケールアップ型データベースのメモリ上のボトルネックを避けてペタバイト規模へ届き、既存の行・列レベルのセキュリティが効いたまま、同一クエリ内で BigQuery ML や AI 関数を呼べます。データパイプラインでは、Google Cloud NEXT '26 で発表された Orchestration Pipelines フレームワークを実務者へ届ける Data Agent Kit がオープンソースで提供され、VS Code、Claude Code、Codex といった IDE や CLI に統合されます。宣言的な YAML DSL とエージェントスキルの組み合わせで、複雑な Python の Airflow ボイラープレートを書かずに本番品質の DAG を自然言語から作成・デプロイ・トラブルシュートできます。日本語ブログでは、BigQuery の履歴ベース最適化 (HBO) を軸とした自律型クエリプロセッサへの進化が紹介され、2025 年だけでクエリ性能が最大 35% 向上し、スロット使用量が最大 40% 削減されたことが報告されました。あわせて Google Antigravity が対象の Gemini Enterprise app サブスクリプションの一部として企業向けに提供され、新しい IDE 拡張機能で VS Code などからも使えるようになり、プロジェクト単位の月間予算上限、トークンの共有プール、超過分の有効化といった費用管理が加わりました。課金面ではリリースノートでも Gemini Enterprise Agent Platform のエージェント計測の料金改定が案内され、セッションとメモリバンクのコンピューティング計測が Agent Platform のコンピューティング SKU に適用されます。Maps Platform 関連も 2 本あり、1 つは Places Insights の拡張で、米国・英国・カナダ・オーストラリアでブランドの展開状況を扱えるようになり対象は 50 か国へ広がったほか、Earth AI の地理空間基盤モデルで作った Detected Arrays により屋上太陽光パネルの設置状況を衛星画像の精査なしに把握できるようになりました。もう 1 つは Sony Pictures の映画『スパイダーマン: ブランド・ニュー・デイ』に合わせた SpideyTracker.com で、Maps JavaScript API とクラウドベースのマップスタイル設定、高度なマーカーを使い 35 か国向けの没入型マップを構築した事例です。Google は 2026 年 Gartner Magic Quadrant のクラウドネイティブ アプリケーション プラットフォーム部門で 3 年連続のリーダーに選出され、Hive メタストアをサーバーレスの Lakehouse ランタイムカタログへデータコピーなしで移行する解説も公開されています。セキュリティでは、水道分野の OT を狙う攻撃が地政学的な緊張のなかで大胆になっているという Cloud CISO Perspectives と、2024 年からブラジルの金融・小売・EC を狙い、決済システムや銀行ソフトウェアを操作して不正送金を行う BREEZE COMET (旧 UNC5669) の分析が公開されました。同グループはマルウェア開発に生成 AI を使っている証拠があり、ラテンアメリカやアフリカへの拡大の意図もうかがえるとしています。
 "topics":
   - "分析: BigQuery Graph が GA、GQL を SQL と並べて ETL なしにグラフ分析を実行"
   - "データパイプライン: オープンソースの Data Agent Kit が VS Code / Claude Code / Codex に統合され、自然言語から Airflow DAG を生成"
   - "性能: BigQuery の履歴ベース最適化などにより 2025 年でクエリ性能が最大 35% 向上、スロット使用量が最大 40% 削減"
   - "開発ツール: Google Antigravity が Gemini Enterprise サブスクリプションに包含され、予算上限・トークン共有プール・超過分制御を提供"
-  - "ストレージ: Filestore の Colossus バックエンドや GKE 上の Ray クラスタでの gVisor サンドボックスなど、8 月の AI インフラ更新まとめ"
+  - "課金: Gemini Enterprise Agent Platform でセッションとメモリバンクのコンピューティング計測が適用開始"
+  - "位置情報: Places Insights がブランド展開状況を追加して 50 か国へ拡大、Solar API の Detected Arrays で屋上太陽光パネルを検出"
   - "モダナイズ: Apache Hive メタストアを Lakehouse ランタイムカタログへデータコピーなしで移行"
   - "評価: 2026 年 Gartner Magic Quadrant のクラウドネイティブ アプリケーション プラットフォーム部門で 3 年連続リーダーに選出"
   - "重要インフラ: 水道分野の OT セキュリティに関する Cloud CISO Perspectives"
