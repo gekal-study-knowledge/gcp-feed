@@ -1,0 +1,9 @@
+"entries":
+  "37126f1da25f0b60a2deb3962f3b83ad":
+    "id": "37126f1da25f0b60a2deb3962f3b83ad"
+    "title": "September 03, 2026"
+    "link": "https://docs.cloud.google.com/release-notes#September_03_2026"
+    "published": "2026-09-03 16:00:00"
+    "fetched": "2026-09-03 23:52:33"
+    "summary": "<h2 class=\"release-note-product-title\">VPC Service Controls</h2>\n<h3>Feature</h3>\n<p><strong>VPC Service Controls feature (Status:\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>)</strong>:\nVPC Service Controls supports retrieving and updating service perimeters that\ncontain deleted IAM principals. When you enable this feature, you can manage\nperimeters that contain deleted user, group, or service account identities\nwithout triggering the <code>The email address is invalid or non-existent</code> error.</p>\n<p>For more information, see <a href=\"https://docs.cloud.google.com/vpc-service-controls/docs/supported-identities#deleted-principals\">Supported identities for ingress and egress\nrules</a>.</p>"
+"last_updated": "2026-09-03 23:52:33 JST"
