@@ -1,0 +1,20 @@
+"date": "2026-09-03"
+"generated_at": "2026-09-04 08:02:48 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 9
+"sources":
+  - "gcp_release_notes"
+  - "google_cloud_ai_ml_blog"
+  - "google_cloud_blog"
+  - "google_cloud_japan_blog"
+"overview": |
+  この日はセキュリティの自動化と開発者向けの足回りが中心でした。目を引くのは、脆弱性の発見・トリアージ・再現・修正を自動化するオープンソースのハーネス Mantis です。AI モデルが人手をほとんど介さずに脆弱性を見つけて悪用できることが明らかになるなか、守る側に優位を取り戻すために作られたもので、Google が社内で機械の速度で脆弱性を見つけて直すための取り組みの一部が公開された形になります。AI によるコードスキャンは雑に作ると存在しないバグを報告しがちで真陽性率が 7% を下回ることも多いため、Mantis はクリティックエージェントやレビューエージェントといった標準的なエージェント技法と、サンドボックス内での脆弱性の再現によるグラウンディングを組み合わせています。リポジトリの履歴から過去のセキュリティ修正を学び、提供されていなくてもアーキテクチャと脅威モデルの文書を自動的に構築し、個々のファイルをディレクトリ単位・ルート単位へ畳み込む階層的なセキュリティ要約ツリーによって、巨大なリポジトリでも構造的な文脈を保ったままトークン消費を 85% 以上削減しているとしています。データ基盤では BigQuery に識別子列 (identity columns) が追加され、連番の 64 ビット整数を自動採番できるようになりました。アプリケーションのロジックや ETL ツール側で一意キーを事前計算する必要がなくなり、INSERT でも MERGE でも標準の DML と自然に組み合わせられます。開発者向けには Google Gen AI SDK for Kotlin 1.0 が公開されました。Kotlin Multiplatform ライブラリとして一から作られており、コルーチン、Flow による非同期ストリーミング、名前付き引数とデフォルト値を持つイミュータブルなデータクラスといった Kotlin らしい書き方で、JVM と Android の双方から Gemini Developer API と Gemini Enterprise Agent Platform を同じ表面で扱えます。リリースノートでは VPC Service Controls が、削除済みの IAM プリンシパルを含むサービス境界の取得と更新にプレビュー対応し、削除済みのユーザー・グループ・サービスアカウントを含む境界でもメールアドレスが無効というエラーを起こさずに管理できるようになりました。評価面では、Gartner の Strategic Cloud Platform Services の Magic Quadrant で Google が 9 年連続のリーダーに選ばれ、ビジョンの完全性で最も先に位置づけられています。日本語ブログでは、エージェント時代のバースト性の高い AI ワークロードに対する動的容量管理のベストプラクティスが公開され、Dynamic Workload Scheduler のカレンダーモードによる計画的な確保、Flex Start モードでのバッチ費用の最適化、マネージドインスタンスグループによる優先順位付きのハードウェアフォールバック、GKE のカスタム ComputeClass による自動化が紹介されました。あわせて Pythian の社内 AI ハンドブック (アクティブユーザーエンゲージメント 3 倍、データベースインシデントの解決時間 80% 短縮) と、Cloud Run インスタンスによるパーソナル AI エージェントのデプロイ (1 vCPU / 1GiB を 30 日連続稼働して 5.70 ドル、最大 7 日間の連続稼働と固定 HTTPS URL) の日本語版が出ています。
+"topics":
+  - "セキュリティ自動化: 脆弱性の発見から修正までを自動化するオープンソースのハーネス Mantis を公開、トークン消費を 85% 以上削減"
+  - "データ基盤: BigQuery に識別子列が追加され、連番の 64 ビット整数を自動採番"
+  - "SDK: Google Gen AI SDK for Kotlin 1.0 が公開、Kotlin Multiplatform で JVM と Android から Gemini を利用"
+  - "アクセス制御: VPC Service Controls が削除済み IAM プリンシパルを含む境界の取得・更新にプレビュー対応"
+  - "評価: Gartner の Strategic Cloud Platform Services 部門で 9 年連続リーダー、ビジョンの完全性で最上位"
+  - "容量管理: Dynamic Workload Scheduler のカレンダー / Flex Start モード、MIG のフォールバック、GKE の ComputeClass による動的容量管理"
+  - "コスト: Cloud Run インスタンスは 1 vCPU / 1GiB を 30 日連続稼働して 5.70 ドル、最大 7 日連続稼働と固定 HTTPS URL"
+  - "事例: Pythian の社内 AI ハンドブックでアクティブユーザー 3 倍、データベースインシデントの解決時間 80% 短縮"

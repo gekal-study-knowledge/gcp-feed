@@ -1,21 +1,24 @@
 "date": "2026-09-02"
-"generated_at": "2026-09-02 20:02:57 JST"
+"generated_at": "2026-09-04 08:02:48 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 11
+"article_count": 14
 "sources":
+  - "gcp_release_notes"
+  - "gke_security_bulletins"
   - "google_cloud_ai_ml_blog"
   - "google_cloud_blog"
   - "google_cloud_japan_blog"
   - "google_cloud_status"
 "overview": |
-  この日は BigQuery の予測分析と、us-central1 で起きた障害が目を引きました。BigQuery に Google Research が開発した表形式データ向けの事前学習済み基盤モデル TabFM がプレビューで追加されました。解約予測や購買意向、不正スコアリングといった予測分析は、これまで XGBoost やランダムフォレスト、DNN でカスタムモデルを組み、学習・チューニング・デプロイ・再学習のサイクルを回す必要がありましたが、TabFM はコンテキスト内学習 (ICL) により、ラベル付きの履歴データと予測対象テーブルを 1 つの SQL 関数へ渡すだけでゼロショットの予測を返します。学習とデプロイの工程が消えるため、エージェント型アプリケーションへ予測能力を組み込む用途にも向きます。障害としては、太平洋時間 2026 年 9 月 1 日 07:44 から 11:52 にかけて us-central1-b の一部でネットワークの品質低下が発生し、BigQuery、Dataflow、Cloud SQL、Cloud Run、AlloyDB、Spanner、GKE など広範なプロダクトでパケットロスとエラーの増加が観測されました。予備的な分析では、定期的なネットワークファブリックの経路メンテナンスが us-central1-b の 1 クラスタで想定外の問題を引き起こしたことが原因とされ、影響を受けた容量の復旧後、同リージョンのメンテナンスは事前監査のため停止されています。セキュリティでは VPC Service Controls に違反アナライザーと違反ダッシュボードというポリシーインテリジェンス機能が追加され、データ持ち出しや侵害されたアカウント、内部脅威に備える境界の管理とトラブルシュートが簡素化されました。Fortune 500 の半数超に採用される財務オペレーション管理の BlackLine が、上位環境と下位環境を明確に分離する境界の維持に活用しています。月次まとめでは、エージェントワークロード向けの柔軟な課金とコスト管理、金融サービス向けと法務向けの Gemini Enterprise、企業向けに広がった Antigravity が取り上げられました。日本語ブログは Maps Platform と学習コンテンツが中心で、Navigation SDK にレイアウトカスタマイズフレームワークが Android で試験運用版として導入され、Gemini Enterprise Agent Platform の Google マップによるグラウンディングには最大 13 か所の経由地を扱えるルート検索が一般提供されました。後者は Realtor.com の RealAssist AI でセッション時間 4 倍、一意の見込み顧客 15 倍という成果につながっています。このほかインド最大の EV 充電ネットワークである Statiq の Places UI キット活用事例、5 週間の無料ライブ学習シリーズ Agent Valley の案内、Google Cloud Partner Top Engineer 2027 の申し込み開始が公開されました。
+  この日は BigQuery の予測分析と、us-central1 で起きた障害が目を引きました。BigQuery に Google Research が開発した表形式データ向けの事前学習済み基盤モデル TabFM がプレビューで追加されました。解約予測や購買意向、不正スコアリングといった予測分析は、これまで XGBoost やランダムフォレスト、DNN でカスタムモデルを組み、学習・チューニング・デプロイ・再学習のサイクルを回す必要がありましたが、TabFM はコンテキスト内学習 (ICL) により、ラベル付きの履歴データと予測対象テーブルを 1 つの SQL 関数へ渡すだけでゼロショットの予測を返します。学習とデプロイの工程が消えるため、エージェント型アプリケーションへ予測能力を組み込む用途にも向きます。障害としては、太平洋時間 2026 年 9 月 1 日 07:44 から 11:52 にかけて us-central1-b の一部でネットワークの品質低下が発生し、BigQuery、Dataflow、Cloud SQL、Cloud Run、AlloyDB、Spanner、GKE など広範なプロダクトでパケットロスとエラーの増加が観測されました。予備的な分析では、定期的なネットワークファブリックの経路メンテナンスが us-central1-b の 1 クラスタで想定外の問題を引き起こしたことが原因とされ、影響を受けた容量の復旧後、同リージョンのメンテナンスは事前監査のため停止されています。セキュリティ速報も 1 件出ており、GKE Multi-Cloud の CreateAttachedCluster / CreateAwsCluster / CreateAzureCluster API にプロジェクトの権限チェック漏れがあり、任意の対象プロジェクトの Workload Identity Federation for GKE へアタッチ済みクラスタを登録できてしまう問題 (GCP-2026-058) が Critical として公開されました。悪用には対象のプロジェクト番号 (プロジェクト ID ではない) と、roles/iam.workloadIdentityUser がバインドされた名前空間とサービスアカウントの組み合わせを知っている必要があり、実際に悪用された形跡はないと確認されています。サーバー側に不足していた認可チェックを追加する形で全 GKE クラスタにパッチ適用済みで、利用者側の対応は不要です。このほか VPC Service Controls に違反アナライザーと違反ダッシュボードというポリシーインテリジェンス機能が追加され、データ持ち出しや侵害されたアカウント、内部脅威に備える境界の管理とトラブルシュートが簡素化されました。Fortune 500 の半数超に採用される財務オペレーション管理の BlackLine が、上位環境と下位環境を明確に分離する境界の維持に活用しています。リリースノートでは Spanner が PostgreSQL 方言のデータベースで TABLESAMPLE 演算子を使い、データセットのランダムなサンプルを取得できるようになりました。月次まとめでは、エージェントワークロード向けの柔軟な課金とコスト管理、金融サービス向けと法務向けの Gemini Enterprise、企業向けに広がった Antigravity が取り上げられました。日本語ブログは Maps Platform と学習コンテンツが中心で、Navigation SDK にレイアウトカスタマイズフレームワークが Android で試験運用版として導入され、Gemini Enterprise Agent Platform の Google マップによるグラウンディングには最大 13 か所の経由地を扱えるルート検索が一般提供されました。後者は Realtor.com の RealAssist AI でセッション時間 4 倍、一意の見込み顧客 15 倍という成果につながっています。このほかインド最大の EV 充電ネットワークである Statiq の Places UI キット活用事例、5 週間の無料ライブ学習シリーズ Agent Valley の案内、Google Cloud Partner Top Engineer 2027 の申し込み開始が公開されました。
 "topics":
+  - "脆弱性: GKE Multi-Cloud のクラスタ作成 API に権限チェック漏れ (GCP-2026-058、Critical)。パッチ適用済みで利用者の対応は不要、悪用の形跡なし"
   - "障害: us-central1-b で 2026-09-01 07:44〜11:52 (PT) にネットワーク品質低下、BigQuery や GKE など広範に影響し復旧済み"
   - "予測分析: BigQuery に表形式データ向け基盤モデル TabFM がプレビュー、1 つの SQL でゼロショット予測"
   - "セキュリティ: VPC Service Controls に違反アナライザーと違反ダッシュボードを追加 (BlackLine の事例)"
+  - "データベース: Spanner の PostgreSQL 方言で TABLESAMPLE 演算子によるランダムサンプリングに対応"
   - "位置情報: Google マップによるグラウンディングのルート検索が GA、最大 13 経由地に対応し Realtor.com でセッション 4 倍・見込み顧客 15 倍"
   - "モバイル: Navigation SDK のレイアウトカスタマイズフレームワークが Android で試験運用版として提供開始"
   - "AI 月次まとめ: エージェント向けの柔軟な課金とコスト管理、金融サービス版・法務版の Gemini Enterprise、企業向け Antigravity"
-  - "事例: インド最大の EV 充電ネットワーク Statiq が Places UI キットで UX と収益を改善"
   - "学習: 5 週間の無料ライブシリーズ Agent Valley が 9 月 1 日から毎週火曜に開講"
   - "国内: Google Cloud Partner Top Engineer 2027 の申し込みを開始 (2026-10-09 まで、結果発表は 2026-11-25)"
