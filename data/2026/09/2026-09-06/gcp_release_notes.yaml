@@ -1,0 +1,9 @@
+"entries":
+  "6107728a09300ae84e1b041e798cff92":
+    "id": "6107728a09300ae84e1b041e798cff92"
+    "title": "September 06, 2026"
+    "link": "https://docs.cloud.google.com/release-notes#September_06_2026"
+    "published": "2026-09-06 16:00:00"
+    "fetched": "2026-09-06 22:55:56"
+    "summary": "<h2 class=\"release-note-product-title\">Google SecOps SOAR</h2>\n<h3>Feature</h3>\n<p><strong>Case playbooks</strong></p>\n<p>This feature is in preview. Google SecOps now supports case playbooks. You can\nrun playbooks or execute manual actions across an entire case container rather\nthan individual alerts, consolidating response tasks and reducing redundant\noperations during investigations.</p>\n<p>For more information, see <a href=\"https://docs.cloud.google.com/chronicle/docs/soar/respond/working-with-playbooks/case-playbooks\">Case playbooks overview</a>.</p>"
+"last_updated": "2026-09-06 22:55:56 JST"
