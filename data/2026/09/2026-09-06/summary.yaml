@@ -1,0 +1,10 @@
+"date": "2026-09-06"
+"generated_at": "2026-09-07 08:39:10 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "gcp_release_notes"
+"overview": |
+  この日はリリースノートの 1 件のみでした。Google SecOps SOAR に、ケースプレイブック (case playbooks) がプレビューで追加されました。個々のアラート単位ではなく、ケースコンテナ全体に対してプレイブックの実行や手動アクションの実行ができるようになり、調査中の対応タスクを集約して重複した操作を減らせます。
+"topics":
+  - "セキュリティ運用: Google SecOps SOAR のケースプレイブックがプレビュー。ケースコンテナ全体へプレイブックや手動アクションを実行"
