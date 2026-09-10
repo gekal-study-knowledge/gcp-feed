@@ -1,0 +1,13 @@
+"date": "2026-09-07"
+"generated_at": "2026-09-11 07:54:56 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 2
+"sources":
+  - "gcp_release_notes"
+  - "google_cloud_japan_blog"
+"overview": |
+  この日はリリースノートと日本語ブログの 2 件のみでした。リリースノートでは、Privileged Access Manager が Access Approval と Access Transparency の両機能で一般提供 (GA) になりました。特権アクセスの付与を必要なときだけに限定し、その承認とログを一元的に扱えます。日本語ブログでは、パートナー企業の社員による技術コンテンツ投稿を表彰する Google Cloud Partner Tech Influencer Challenge 2026 (期間は 2025 年 11 月 1 日〜2026 年 10 月 31 日) の案内と、7 月 30・31 日に開催された Google Cloud Next Tokyo 26 に関連するパートナー投稿コンテンツの紹介が出ています。
+"topics":
+  - "セキュリティ: Privileged Access Manager が Access Approval と Access Transparency の両方で GA"
+  - "コミュニティ: Google Cloud Partner Tech Influencer Challenge 2026 の案内 (2025-11-01〜2026-10-31)"
+  - "イベント: Google Cloud Next Tokyo 26 関連のパートナー投稿コンテンツを紹介"

@@ -1,0 +1,21 @@
+"date": "2026-09-10"
+"generated_at": "2026-09-11 07:54:56 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 10
+"sources":
+  - "gcp_release_notes"
+  - "gke_security_bulletins"
+  - "google_cloud_ai_ml_blog"
+  - "google_cloud_blog"
+  - "google_cloud_japan_blog"
+"overview": |
+  この日は 10 件で、Cloud Storage と Gemini Enterprise の機能追加、データベースの上限緩和、そして大規模ライブ配信の事例が並びました。リリースノートでは、組織・フォルダ・プロジェクトを横断して Cloud Storage 環境を大規模に監視・管理できる Storage Intelligence advisor が一般提供になりました。Gemini Enterprise app for Slack には、チャンネルでの @メンションとダイレクトメッセージでのマルチターン会話が加わり、有効化には Slack 管理者による再インストールと利用者の再認可が必要です。GKE のセキュリティ情報 GCP-2026-061 も公開されました。Google Cloud ブログでは、Spanner の DML トランザクションについて、従来は 1 トランザクションあたり約 80,000 件に制限されていた累積の変更 (行数 × 列数に依存インデックスを加えた概算) の上限を撤廃し、一貫性・スケーラビリティ・可用性を損なわずにより大きなトランザクションを扱えるようになったことが発表されました。DMS がインスタンスレベルのオブジェクトを意図的に移行しない設計であることを踏まえ、SQL Server のログインとユーザーを Cloud SQL へ移す手順の解説、AlloyDB Omni の Red Hat RPM オーケストレーターの一般提供 (AlloyDB Omni 18.3.0 と同時、4 つのデプロイモード)、Google が 2026 年 Gartner Magic Quadrant のエンタープライズ AI アシスタント部門で (初回評価で) リーダーに選出されたことも取り上げられました。AI/ML ブログでは、Airtel が IPL 2026 のクリケット中継で 74 試合・数百ペタバイトの下り転送を配信し、決勝だけで数百億リクエスト・ピーク数 Tbps を Media CDN のエッジ設計と試合当日のリアルタイム監視でさばいた事例が紹介されています。国内では、近畿大学と Google Cloud が包括連携協定を結び、全 16 学部の 1・2 年生 19,033 人と教職員 2,105 人の計 21,138 人へ Google AI Pro for Education を導入して「AI ネイティブ大学」を目指す取り組みが発表されました。
+"topics":
+  - "ストレージ: Storage Intelligence advisor が GA、組織・フォルダ・プロジェクト横断で Cloud Storage を監視・管理"
+  - "コラボ: Gemini Enterprise app for Slack がチャンネルでの @メンションとマルチターン会話に対応 (管理者の再インストールが必要)"
+  - "データベース: Spanner の DML トランザクションで約 80,000 件の累積変更上限を撤廃"
+  - "移行: DMS が移行しない SQL Server のログイン / ユーザーを Cloud SQL へ移す手順、AlloyDB Omni の RPM オーケストレーターが GA"
+  - "評価: Google が 2026 年 Gartner Magic Quadrant のエンタープライズ AI アシスタント部門でリーダーに選出"
+  - "事例: Airtel が IPL 2026 中継を 74 試合・数百 PB・ピーク数 Tbps で Media CDN により配信"
+  - "国内: 近畿大学と Google Cloud が包括連携協定、約 2 万人へ Google AI Pro for Education を導入"
+  - "セキュリティ: GKE セキュリティ情報 GCP-2026-061 を公開"

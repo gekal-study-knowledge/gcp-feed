@@ -1,0 +1,20 @@
+"date": "2026-09-09"
+"generated_at": "2026-09-11 07:54:56 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 9
+"sources":
+  - "gcp_release_notes"
+  - "google_cloud_ai_ml_blog"
+  - "google_cloud_blog"
+  - "google_cloud_japan_blog"
+"overview": |
+  この日は 9 件で、エージェント基盤のガバナンス強化とセキュリティ関連の解説が中心でした。リリースノートでは、Gemini Enterprise Agent Platform の Agent Gateway が VPC Service Controls に対応し、VPC 接続を構成するとエージェントのトラフィックがプライベート VPC 経由でルーティングされ、組織の VPC-SC 境界ルールがエージェント通信にも適用されます。対応は 2026 年 9 月 8 日以降に作成し、接続テンプレートを ALL_TRAFFIC の egress モードで構成したデプロイに限られます。NetApp Volumes は Flex Unified サービスレベルを asia-east1 (台湾)、australia-southeast2 (メルボルン)、europe-southwest1 (マドリード) で提供開始しました。Google Cloud ブログでは、Antigravity 2.0 や Antigravity CLI と同じランタイムエンジンを自前のアプリケーションへ組み込める Antigravity SDK が取り上げられ、宣言的な安全ポリシー、リアルタイムのテレメトリ、ステートフルなマルチターンの永続化を備え、コアランタイムの更新が SDK エージェントへ自動的に反映されます。Data Agent Kit を使ったエージェント分析の解説も出て、データウェアハウス・本番 PostgreSQL・オブジェクトストアの JSON といった異なる場所に散らばる答えを、IDE から MCP サーバーとエージェントスキルで横断的に扱えるようにします。AI/ML ブログでは、日本の通信事業者 KDDI が消費者向け RAG アプリ Buffmee を、100 を超える情報源 (書籍・雑誌・Web メディア) に基づいて回答するよう構築し、レイテンシ目標の達成とハルシネーション対策のために自動評価フレームワークと性能最適化を適用した事例が紹介されました。日本語ブログ (抄訳) では、Cloud SQL のフェイルオーバーや L7 ロードバランサ経由のトラフィック劣化を注入できる Fault Injection Testing のプレビュー、ソフトウェア鍵を対象とした Cloud KMS の耐量子鍵インポートのプレビュー、脆弱性の発見・トリアージ・再現・パッチ適用を自動化するオープンソースの AI ハーネス Mantis、Cloud Interconnect 上の Application Awareness で重要トラフィックを優先し移行を妨げずにネットワーク信頼性を高めた Uber の事例が公開されています。
+"topics":
+  - "エージェント基盤: Agent Gateway が VPC Service Controls に対応、エージェント通信に VPC-SC 境界ルールを適用 (2026-09-08 以降のデプロイが対象)"
+  - "ストレージ: NetApp Volumes の Flex Unified が台湾・メルボルン・マドリードで提供開始"
+  - "開発ツール: Antigravity SDK が Antigravity 2.0 / CLI と同じランタイムを提供、安全ポリシー・テレメトリ・マルチターン永続化を内蔵"
+  - "分析: Data Agent Kit で、データウェアハウス・PostgreSQL・オブジェクトストアを IDE から横断するエージェント分析"
+  - "事例: KDDI が 100 以上の情報源に基づく消費者向け RAG アプリ Buffmee を、自動評価と性能最適化で構築"
+  - "レジリエンス: Fault Injection Testing のプレビュー、Cloud SQL フェイルオーバーや L7 トラフィック劣化を注入"
+  - "セキュリティ: ソフトウェア鍵向けの Cloud KMS 耐量子鍵インポートのプレビュー、SNDL 攻撃を緩和"
+  - "セキュリティ: 脆弱性の発見・再現・パッチを自動化するオープンソースの AI ハーネス Mantis のスタートガイド"
