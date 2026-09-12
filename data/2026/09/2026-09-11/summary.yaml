@@ -1,11 +1,18 @@
 "date": "2026-09-11"
-"generated_at": "2026-09-11 07:54:56 JST"
+"generated_at": "2026-09-12 23:00:58 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 1
+"article_count": 7
 "sources":
+  - "gcp_release_notes"
   - "google_cloud_blog"
+  - "google_cloud_japan_blog"
 "overview": |
-  この日はリリースノートの掲載がなく、Google Cloud ブログの 1 件のみでした。AI コーディングエージェント向けの Google Cloud Developer Plugin が発表されました。エージェントスキルはドキュメントやリモート MCP サーバーと並んで AI ワークフローを支える手段ですが、個々のスキルを管理するのは煩雑で、複数のスキルや MCP サーバーが同じ目的で連携して初めて役立つこともあります。プラグインは、関連する機能をまとまった形でインストールできるバンドルとしてパッケージし、この結合の課題を解決します。今回のリリースでは、任意の AI コーディングエージェントを Google Cloud 上でより効果的に動かすための基盤的なプラグインが提供されます。
+  この日は 7 件で、API とデータ基盤の機能拡張、経営陣による事業戦略の説明、そして Gartner による評価が並びました。リリースノートでは、API Gateway がリモートの Model Context Protocol (MCP) サーバーとして振る舞えるようになり (パブリックプレビュー)、OpenAPI 3.x 仕様を Google 独自の拡張でアノテーションするだけで、バックエンドを変更せずに既存の REST API を AI エージェント向けのツールとして公開できます。AlloyDB for PostgreSQL では、インスタンスとノードの監査ログパイプラインの状態・スループット・バックログを Cloud Monitoring で監視できるようになりました。Cluster Toolkit に影響する Slurm の複数の脆弱性も修正されています。Google Cloud ブログでは、Thomas Kurian が Goldman Sachs のテクノロジーカンファレンスで Google Cloud の事業戦略を語り、AI スタック全体を提供する唯一のプロバイダーとしての立ち位置、10 億ドル超の売上を持つ製品ラインが 17、AI サーバーの投資回収期間が 2 年で TPU は GPU より速く回収できること、1 億〜10 億ドル規模の契約が四半期・前年比ともに 2 倍以上に伸びていることなどが紹介されました。日本語ブログ (抄訳) では、Google が 2026 年 Gartner Magic Quadrant の戦略的クラウドプラットフォームサービス部門で 9 年連続のリーダーに選出され、「ビジョンの完全性」で最高評価を獲得したことが報告されています。開発者向けには、JVM と Android の両方をターゲットにした Kotlin マルチプラットフォームの Google Gen AI SDK for Kotlin が 1.0 に到達し、Gemini Developer API と Gemini Enterprise Agent Platform を統一したインターフェースで扱えるようになりました。BigQuery では、連続する 64 ビット整数を自動生成する ID 列が発表され、取り込み前にアプリケーション側で一意キーを計算する必要がなくなり、データパイプラインの複雑さを軽減します。前週に紹介された Data Agent Kit によるデータパイプラインのエージェント化についても、日本語訳記事として改めて掲載されました。
 "topics":
-  - "開発ツール: AI コーディングエージェント向けの Google Cloud Developer Plugin を発表、関連スキルとツールをバンドルで提供"
-  - "背景: 個々のエージェントスキルの管理の煩雑さと、スキル / MCP サーバーの連携を前提とした結合の課題に対応"
+  - "API: API Gateway がリモート MCP サーバーとして振る舞える機能をパブリックプレビュー提供、OpenAPI 拡張で REST API をエージェント向けツール化"
+  - "データベース運用: AlloyDB for PostgreSQL の監査ログパイプラインを Cloud Monitoring で監視可能に"
+  - "セキュリティ: Cluster Toolkit に影響する Slurm の複数の脆弱性を修正"
+  - "事業戦略: Thomas Kurian が Goldman Sachs カンファレンスで Google Cloud の全社戦略を説明 (17 製品ラインが売上 10 億ドル超)"
+  - "評価: Google が 2026 年 Gartner Magic Quadrant の戦略的クラウドプラットフォームサービス部門で 9 年連続リーダーに選出"
+  - "開発ツール: Google Gen AI SDK for Kotlin が 1.0 に到達、JVM / Android 向けに Gemini API を統一インターフェースで提供"
+  - "データ基盤: BigQuery に ID 列を追加、連続する一意識別子の自動生成でパイプラインの複雑さを軽減"
