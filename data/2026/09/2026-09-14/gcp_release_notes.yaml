@@ -1,0 +1,9 @@
+"entries":
+  "a338e381325c98bdf92c494443bd7623":
+    "id": "a338e381325c98bdf92c494443bd7623"
+    "title": "September 14, 2026"
+    "link": "https://docs.cloud.google.com/release-notes#September_14_2026"
+    "published": "2026-09-14 16:00:00"
+    "fetched": "2026-09-15 02:44:20"
+    "summary": "<h2 class=\"release-note-product-title\">Backup and DR</h2>\n<h3>Feature</h3>\n<p>You can now monitor restore jobs for Filestore instances directly\nfrom the Backup and DR <strong>Jobs</strong> page in the Google Cloud console. When you\ntrigger a restore on a Filestore instance, Backup and DR\nautomatically tracks the job progress and status.</p>\n<p>For more information, see\n<a href=\"https://docs.cloud.google.com/backup-disaster-recovery/docs/cloud-console/filestore/filestore-instance-restore\">Restore a Filestore instance from a backup vault</a>\nand\n<a href=\"https://docs.cloud.google.com/backup-disaster-recovery/docs/monitor-reports/monitor-jobs-console\">Monitor backup and restore jobs in Google Cloud console</a>.</p>"
+"last_updated": "2026-09-15 02:44:20 JST"
