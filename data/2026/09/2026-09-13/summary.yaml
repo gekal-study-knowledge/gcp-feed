@@ -1,0 +1,10 @@
+"date": "2026-09-13"
+"generated_at": "2026-09-17 22:11:53 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "gcp_release_notes"
+"overview": |
+  この日はリリースノート 1 件のみで、内容も Agent Platform Workbench (旧 Vertex AI Workbench 系のノートブック環境) の細かなパッケージ更新と不具合修正でした。JupyterLab 4 で %%bigquery ノートブックセルマジックがクエリ結果ではなくエラーを返していた不具合や、カスタムコンテナで notebook-disable-nbconvert メタデータフラグが無視されていた不具合が修正され、廃止された google-cloud-sdk の過渡的パッケージがインストール対象から外れました (Google Cloud CLI 自体は google-cloud-cli パッケージのままで変更なし)。
+"topics":
+  - "運用: Agent Platform Workbench のノートブック環境で %%bigquery マジックや nbconvert 無効化フラグの不具合を修正"

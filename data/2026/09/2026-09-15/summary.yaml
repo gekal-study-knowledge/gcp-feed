@@ -1,15 +1,18 @@
 "date": "2026-09-15"
-"generated_at": "2026-09-15 22:04:00 JST"
+"generated_at": "2026-09-17 22:11:53 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 5
+"article_count": 6
 "sources":
+  - "gcp_release_notes"
   - "google_cloud_blog"
   - "google_cloud_japan_blog"
 "overview": |
-  この日は 5 件で、BigQuery の拡張分析機能、Dataflow の性能改善、Forrester による評価が中心でした。BigQuery には、複雑なデータ分析を自動化する拡張分析用のテーブル値関数 (TVF) が 6 種類新たに加わりました。AI・ML・統計的手法を組み合わせて指標の変化理由の診断、データ全体の傾向や関係性の発見、ビジネス上の意思決定が及ぼした真の影響の切り分けまでを行え、データのある場所で直接実行されるため外部ツールへのエクスポートが要りません。ML.DETECT_CHANGE_POINTS・AI.KEY_DRIVERS・AI.CAUSAL_EFFECT のようにチェーンでき、出力が構造化された SQL であることから AI エージェントのスキルとして組み込みやすく、会話形式のデータ調査ワークフローを自動化できます。Dataflow では、バッチジョブの Pause/Resume が一般提供となり、失敗前にすでに処理済みのデータへアクセスできず全体をやり直していた無駄な計算を回避できるようになったほか、NVIDIA RTX PRO 6000 Blackwell Server Edition GPU を搭載した G4 VM がサポートされ、AI ワークロード向けの推論性能が強化されました。評価では、Google Cloud が Forrester Wave: Public Cloud Platforms, Q3 2026 でリーダーに選出され、現行製品部門で最高スコア、30 の評価基準のうち 23 で最高評価を獲得しました。日本語ブログ (抄訳) では、表形式データの回帰・分類に対応した事前学習済み基盤モデル BigQuery TabFM がプレビューで紹介され、コンテキスト内学習により学習・チューニング・デプロイの手順なしに単一の SQL ステートメントから高精度な予測を即座に得られます。Yahoo が Managed Service for Apache Spark のフレキシブル VM でリージョンの容量制約を自動的に吸収している事例の抄訳も改めて掲載されました (前週にすでに紹介済みの記事です)。
+  この日は 6 件で、BigQuery の拡張分析機能、Dataflow の性能改善、Forrester による評価に加え、エージェント向けのガバナンス機能拡充が目立ちました。BigQuery には、複雑なデータ分析を自動化する拡張分析用のテーブル値関数 (TVF) が 6 種類新たに加わりました。AI・ML・統計的手法を組み合わせて指標の変化理由の診断、データ全体の傾向や関係性の発見、ビジネス上の意思決定が及ぼした真の影響の切り分けまでを行え、データのある場所で直接実行されるため外部ツールへのエクスポートが要りません。ML.DETECT_CHANGE_POINTS・AI.KEY_DRIVERS・AI.CAUSAL_EFFECT のようにチェーンでき、出力が構造化された SQL であることから AI エージェントのスキルとして組み込みやすく、会話形式のデータ調査ワークフローを自動化できます。Dataflow では、バッチジョブの Pause/Resume が一般提供となり、失敗前にすでに処理済みのデータへアクセスできず全体をやり直していた無駄な計算を回避できるようになったほか、NVIDIA RTX PRO 6000 Blackwell Server Edition GPU を搭載した G4 VM がサポートされ、AI ワークロード向けの推論性能が強化されました。評価では、Google Cloud が Forrester Wave: Public Cloud Platforms, Q3 2026 でリーダーに選出され、現行製品部門で最高スコア、30 の評価基準のうち 23 で最高評価を獲得しました。エージェントのガバナンス面では、Gemini モデルの強化学習ファインチューニングを Google Cloud コンソール上で作成・監視・テストできる機能がプレビューで提供され、Python コードやモデルベースの報酬関数を設定し、ジョブ起動前にサンプルプロンプトで報酬ロジックを検証できます。Policy Troubleshooter は、エージェントの ID がそれ自身の権限で行動する際の IAM 許可・拒否ポリシーや主体アクセス境界ポリシーのトラブルシューティングに対応し、エージェントのプリンシパル識別子やアクセス拒否イベントのエラー ID から調査できるようになりました。日本語ブログ (抄訳) では、表形式データの回帰・分類に対応した事前学習済み基盤モデル BigQuery TabFM がプレビューで紹介され、コンテキスト内学習により学習・チューニング・デプロイの手順なしに単一の SQL ステートメントから高精度な予測を即座に得られます。Yahoo が Managed Service for Apache Spark のフレキシブル VM でリージョンの容量制約を自動的に吸収している事例の抄訳も改めて掲載されました (前週にすでに紹介済みの記事です)。
 "topics":
   - "分析: BigQuery に拡張分析用の TVF を 6 種類追加、ML.DETECT_CHANGE_POINTS などをチェーンして変化要因を診断"
   - "データパイプライン: Dataflow のバッチジョブ Pause/Resume が GA、NVIDIA RTX PRO 6000 Blackwell 搭載 G4 VM に対応"
   - "評価: Google Cloud が Forrester Wave Public Cloud Platforms Q3 2026 でリーダーに選出、30 基準中 23 で最高評価"
+  - "エージェントガバナンス: Gemini モデルの強化学習ファインチューニングを Cloud コンソールで作成・監視・テスト可能にプレビュー提供"
+  - "エージェントガバナンス: Policy Troubleshooter がエージェント ID の IAM ポリシートラブルシューティングに対応"
   - "抄訳: 表形式データ向けの事前学習済み基盤モデル BigQuery TabFM がプレビュー、SQL 1 文でゼロショット予測"
   - "抄訳: Yahoo の Managed Service for Apache Spark フレキシブル VM 活用事例を再掲載 (前週紹介済み)"
