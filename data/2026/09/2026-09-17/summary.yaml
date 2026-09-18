@@ -1,17 +1,19 @@
 "date": "2026-09-17"
-"generated_at": "2026-09-17 22:11:53 JST"
+"generated_at": "2026-09-19 06:14:44 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 10
+"article_count": 11
 "sources":
+  - "gcp_release_notes"
   - "google_cloud_ai_ml_blog"
   - "google_cloud_blog"
   - "google_cloud_japan_blog"
 "overview": |
-  この日は 10 件で、FinOps の組織文化づくり、GKE のコスト削減事例、脅威インテリジェンス、そして高性能 VM の一般提供が中心でした。フランスの通信大手 Orange の事例では、エンジニアがクラウド費用の整理に一日を充てる「FinOps Clean Day」やゲーミフィケーションされたハッカソンを通じて、100 人超の FinOps コミュニティで NPS 70 超を達成した組織文化づくりが紹介され、次はエージェントを使って行動をさらに加速させる方向性が語られています。ゲーミングスタートアップ SeaVerse は、動的でマルチテナントなサンドボックスワークロードを強い分離と低レイテンシで実行するため GKE と GKE Agent Sandbox を採用し、インフラコストを最大 60% 削減しました。Compute Engine では、I/O 集約型・メモリ集約型ワークロード向けの M4N VM ファミリーが一般提供となり、コアあたりの IOPS とスループットが業界最高水準で、Hyperdisk Extreme と組み合わせると最大 100 万 IOPS、Oracle データベースで 20% 超の TCO 削減を実現します。Cloud CISO Perspectives では、Google が攻撃者による AI の悪用をどう可視化し、AI を使ってそれを止めているかが解説されました。日本語ブログ (抄訳) では、Spanner の DML トランザクションについて 1 トランザクションあたり約 8 万件だった累積ミューテーション数の上限を個々の DML ステートメント単位へ移行し、人為的な分割なしに大規模なトランザクションを扱えるようになったこと、AI コーディングエージェント向けの Google Cloud Developer プラグインがオープンな Agent Plugins 仕様に準拠して提供されたことが紹介されています (いずれも前週にすでに紹介済みの内容の抄訳です)。
+  この日は 11 件で、FinOps の組織文化づくり、GKE のコスト削減事例、脅威インテリジェンス、そして高性能 VM の一般提供が中心でした。フランスの通信大手 Orange の事例では、エンジニアがクラウド費用の整理に一日を充てる「FinOps Clean Day」やゲーミフィケーションされたハッカソンを通じて、100 人超の FinOps コミュニティで NPS 70 超を達成した組織文化づくりが紹介され、次はエージェントを使って行動をさらに加速させる方向性が語られています。ゲーミングスタートアップ SeaVerse は、動的でマルチテナントなサンドボックスワークロードを強い分離と低レイテンシで実行するため GKE と GKE Agent Sandbox を採用し、インフラコストを最大 60% 削減しました。Compute Engine では、I/O 集約型・メモリ集約型ワークロード向けの M4N VM ファミリーが一般提供となり、コアあたりの IOPS とスループットが業界最高水準で、Hyperdisk Extreme と組み合わせると最大 100 万 IOPS、Oracle データベースで 20% 超の TCO 削減を実現します。Cloud CISO Perspectives では、Google が攻撃者による AI の悪用をどう可視化し、AI を使ってそれを止めているかが解説されました。リリースノートでは、Oracle Database@Google Cloud の Exadata Database Service が europe-west12 (イタリア・トリノ) リージョンで利用可能になっています。日本語ブログ (抄訳) では、Spanner の DML トランザクションについて 1 トランザクションあたり約 8 万件だった累積ミューテーション数の上限を個々の DML ステートメント単位へ移行し、人為的な分割なしに大規模なトランザクションを扱えるようになったこと、AI コーディングエージェント向けの Google Cloud Developer プラグインがオープンな Agent Plugins 仕様に準拠して提供されたことが紹介されています (いずれも前週にすでに紹介済みの内容の抄訳です)。
 "topics":
   - "組織文化: Orange の FinOps Clean Day とゲーミフィケーションで 100 人超のコミュニティが NPS 70 超を達成"
   - "事例: ゲーミング企業 SeaVerse が GKE Agent Sandbox でインフラコストを最大 60% 削減"
   - "コンピューティング: I/O・メモリ集約型ワークロード向け M4N VM が GA、Hyperdisk Extreme 併用で最大 100 万 IOPS"
+  - "リージョン拡大: Oracle Database@Google Cloud の Exadata Database Service が europe-west12 (トリノ) で利用可能に"
   - "脅威情報: Cloud CISO Perspectives、Google が AI 悪用の脅威をどう可視化し AI で防御しているかを解説"
   - "抄訳: Spanner の DML トランザクション累積ミューテーション上限を個々のステートメント単位へ移行 (前週紹介済み)"
   - "抄訳: AI コーディングエージェント向け Google Cloud Developer プラグイン、Agent Plugins 仕様準拠 (前週紹介済み)"
