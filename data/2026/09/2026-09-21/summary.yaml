@@ -1,0 +1,12 @@
+"date": "2026-09-21"
+"generated_at": "2026-09-22 08:19:17 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "gcp_release_notes"
+"overview": |
+  この日はリリースノート 1 件のみでした。Access Context Manager が Workforce Identity Federation の拡張セッション長に対応し、Looker (Google Cloud core) の顧客向けにプレビューとして提供されます。Agent Platform Workbench はリリース 20260920.00_p0 で上流依存パッケージを最新版に更新し、JupyterLab がクライアント側のログ (コンソールエラー、未捕捉の例外、処理されなかった Promise の reject、失敗したネットワークリクエスト) をインスタンスのバックエンドへ転送して Cloud Logging に出すようになり、デバッグしやすくなりました。Apigee X では、メンテナンスウィンドウを設定しているインスタンスの更新が 2026 年 9 月 21 日から始まっています。ウィンドウを指定していてインスタンスのバージョンが 1-18-0-apigee-4 未満の場合、今後 7 日から 21 日のうちに 1-18-0-apigee-4 へ更新されます。
+"topics":
+  - "アクセス制御: Access Context Manager が Workforce Identity Federation の拡張セッション長に対応 (Looker 向けプレビュー)"
+  - "開発環境: Workbench の JupyterLab がクライアント側のログを Cloud Logging へ転送"
+  - "メンテナンス: Apigee X が 9/21 から、1-18-0-apigee-4 未満のインスタンスを 7〜21 日以内に更新"
