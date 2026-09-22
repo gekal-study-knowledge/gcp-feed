@@ -1,13 +1,13 @@
 "date": "2026-09-18"
-"generated_at": "2026-09-19 06:14:44 JST"
+"generated_at": "2026-09-23 08:18:32 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 10
+"article_count": 12
 "sources":
   - "gcp_release_notes"
   - "google_cloud_blog"
   - "google_cloud_japan_blog"
 "overview": |
-  この日は 10 件で、ロードバランサーとモデル保護の更新、脅威インテリジェンスの評価、データ基盤の事例が中心でした。リリースノートでは、Cloud Load Balancing のバックエンド mTLS 向けマネージドワークロード ID が、グローバル外部・リージョン外部・クロスリージョン内部・リージョン内部の各アプリケーションロードバランサーで一般提供となり、Certificate Authority Service と Certificate Manager との統合で証明書と信頼の管理を自動化し、ワークロード ID プールの設定に基づいて証明書が自動ローテーションされます。Model Armor はフィルターバージョン v4 が公開されて Latest エイリアスの既定となり、v3 が Stable エイリアスへ昇格しました (asia-northeast3 では v1 が Stable のまま、australia-southeast2 では 2026 年 9 月 25 日に v3 が Stable になります)。Stable エイリアスを使うテンプレートは自動的に v3 へ更新されます。Google Cloud ブログでは、Google が Forrester Wave: External Threat Intelligence Service Providers, Q3 2026 のリーダーに選出され、9 つの評価基準すべてで満点の 5.0 を獲得したことが発表されました。事例では、Lucius AI が 5 大陸の入札情報 (21 万件超) を扱う調達インテリジェンスの基盤全体を、単独運営者で AlloyDB for PostgreSQL 上に構築し、セマンティック検索を ScaNN インデックスへ移行してクエリレイテンシを 1.14 秒から 24 ミリ秒 (47 倍) に短縮、MCP を通じたデータベース運用の自動化も実現しました。Pine59 は最大 1,400 万か所の位置情報を扱う日次の人流指標パイプラインを、Apache Airflow 3 を搭載した Managed Service for Apache Airflow (旧 Cloud Composer) へ移行した経緯が紹介されています。日本語ブログ (抄訳) では、Data Agent Kit によるエージェント駆動の問題分析、Antigravity SDK によるエージェントハブ構築、Airtel の IPL 2026 配信 (トラフィックの 99.9% をインド国内から配信、キャッシュヒット率 98% 超)、AlloyDB Omni RPM オーケストレーターの GA、DMS で移行されない SQL Server のログインとユーザーの移行、Forrester Wave Public Cloud Platforms Q3 2026 でのリーダー選出が紹介されました (いずれも前週までに紹介済みの内容の抄訳です)。
+  この日は 10 件で、ロードバランサーとモデル保護の更新、脅威インテリジェンスの評価、データ基盤の事例が中心でした。リリースノートでは、Cloud Load Balancing のバックエンド mTLS 向けマネージドワークロード ID が、グローバル外部・リージョン外部・クロスリージョン内部・リージョン内部の各アプリケーションロードバランサーで一般提供となり、Certificate Authority Service と Certificate Manager との統合で証明書と信頼の管理を自動化し、ワークロード ID プールの設定に基づいて証明書が自動ローテーションされます。Model Armor はフィルターバージョン v4 が公開されて Latest エイリアスの既定となり、v3 が Stable エイリアスへ昇格しました (asia-northeast3 では v1 が Stable のまま、australia-southeast2 では 2026 年 9 月 25 日に v3 が Stable になります)。Stable エイリアスを使うテンプレートは自動的に v3 へ更新されます。Google Cloud ブログでは、Google が Forrester Wave: External Threat Intelligence Service Providers, Q3 2026 のリーダーに選出され、9 つの評価基準すべてで満点の 5.0 を獲得したことが発表されました。事例では、Lucius AI が 5 大陸の入札情報 (21 万件超) を扱う調達インテリジェンスの基盤全体を、単独運営者で AlloyDB for PostgreSQL 上に構築し、セマンティック検索を ScaNN インデックスへ移行してクエリレイテンシを 1.14 秒から 24 ミリ秒 (47 倍) に短縮、MCP を通じたデータベース運用の自動化も実現しました。Pine59 は最大 1,400 万か所の位置情報を扱う日次の人流指標パイプラインを、Apache Airflow 3 を搭載した Managed Service for Apache Airflow (旧 Cloud Composer) へ移行した経緯が紹介されています。日本語ブログ (抄訳) では、Data Agent Kit によるエージェント駆動の問題分析、Antigravity SDK によるエージェントハブ構築、Airtel の IPL 2026 配信 (トラフィックの 99.9% をインド国内から配信、キャッシュヒット率 98% 超)、AlloyDB Omni RPM オーケストレーターの GA、DMS で移行されない SQL Server のログインとユーザーの移行、Forrester Wave Public Cloud Platforms Q3 2026 でのリーダー選出が紹介されました (いずれも前週までに紹介済みの内容の抄訳です)。日本語ブログでは Google Maps Platform の発表が 2 件加わりました。1 つは業務効率化に向けた 3 プロダクトで、ドライバーを Google マップや Waze など好みのアプリへ渡しつつリアルタイムの位置情報・到着予定時刻・ルート外れのアラートを自社プラットフォームへ返し続ける Navigation Connect API (プレビュー)、実際の移動時間に基づいて到達可能範囲をマッピングする Isochrones API (プレビュー)、ユーザージャーニーをアプリ内で完結させる Places UI キット Pro (Android と iOS のモバイル SDK は一般提供、ウェブ版は今秋予定) です。もう 1 つは米国で一般提供が始まった大型車両向けルート検索 (LVR) で、Routes API・Route Optimization API・Navigation SDK において、高さ・重量・長さ・幅・車軸数・危険物の分類といった車両プロファイルを指定し、高さ制限のある橋や狭いトンネルなどの道路上の制約をルート検索のロジックに直接取り込んで、大型車の走行速度とリアルタイム/予測の交通データを組み合わせた到着予定時刻を算出できます。
 "topics":
   - "ネットワーク: Cloud Load Balancing のバックエンド mTLS 向けマネージドワークロード ID が GA、証明書を自動ローテーション"
   - "AI 保護: Model Armor のフィルター v4 が Latest の既定に、v3 が Stable へ昇格 (australia-southeast2 は 2026-09-25)"
@@ -15,3 +15,5 @@
   - "事例: Lucius AI が AlloyDB の ScaNN インデックスで検索レイテンシを 1.14 秒から 24 ミリ秒 (47 倍) に短縮し MCP で運用を自動化"
   - "事例: Pine59 が Airflow 3 の Managed Service for Apache Airflow へ移行、最大 1,400 万か所の人流指標を処理"
   - "抄訳: Data Agent Kit、Antigravity SDK、Airtel の IPL 2026 配信、AlloyDB Omni RPM、SQL Server ログイン移行、Forrester Wave Public Cloud (前週まで紹介済み)"
+  - "位置情報: Navigation Connect API と Isochrones API をプレビュー公開、Places UI キット Pro はモバイル SDK が一般提供"
+  - "物流: 大型車両向けルート検索 (LVR) が米国で GA、車両プロファイルと道路制約を考慮したルートと到着予定時刻"
