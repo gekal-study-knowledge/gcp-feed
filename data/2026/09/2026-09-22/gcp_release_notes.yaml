@@ -1,0 +1,9 @@
+"entries":
+  "ea3979e6d22e4ce03d63d2dcc26ba797":
+    "id": "ea3979e6d22e4ce03d63d2dcc26ba797"
+    "title": "September 22, 2026"
+    "link": "https://docs.cloud.google.com/release-notes#September_22_2026"
+    "published": "2026-09-22 16:00:00"
+    "fetched": "2026-09-22 23:20:44"
+    "summary": "<h2 class=\"release-note-product-title\">Compute Engine</h2>\n<h3>Deprecated</h3>\n<p>As of September 15, 2026, NVIDIA P100 (<code>nvidia-tesla-p100</code> and\n<code>nvidia-tesla-p100-vws</code>) GPUs have reached end of support (EOS) and are shut\ndown. You can no longer create, launch, or access Compute Engine\ninstances or other Google Cloud resources that use NVIDIA P100 GPUs.</p>\n<p>For information about migrating your workloads to supported GPU alternatives\nsuch as the G2 (NVIDIA L4) or G4 (NVIDIA RTX PRO 6000) machine series, see\n<a href=\"https://docs.cloud.google.com/compute/docs/eol/p100-eos\">NVIDIA P100 end of support</a>.</p>\n<h3>Deprecated</h3>\n<p>NVIDIA T4 (<code>nvidia-tesla-t4</code> and <code>nvidia-tesla-t4-vws</code>) and NVIDIA P4\n(<code>nvidia-tesla-p4</code> and <code>nvidia-tesla-p4-vws</code>) GPUs are deprecated and will reach\nend of support (EOS) on August 1, 2027. After August 1, 2027, you won't be able\nto create, launch, or access Compute Engine instances or other\nGoogle Cloud resources that run NVIDIA T4 or P4 GPUs. In addition, you can no\nlonger purchase or renew 3-year committed use discounts (CUDs) for NVIDIA T4 or\nP4 GPUs.</p>\n<p>To transition your workloads to supported GPU models such as the G2 (NVIDIA L4)\nor G4 (NVIDIA RTX PRO 6000) machine series before the EOS date, see\n<a href=\"https://docs.cloud.google.com/compute/docs/eol/t4-eos\">NVIDIA T4 end of support</a> and\n<a href=\"https://docs.cloud.google.com/compute/docs/eol/p4-eos\">NVIDIA P4 end of support</a>.</p>"
+"last_updated": "2026-09-22 23:20:44 JST"
