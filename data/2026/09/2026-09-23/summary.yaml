@@ -1,0 +1,13 @@
+"date": "2026-09-23"
+"generated_at": "2026-09-24 08:18:21 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 2
+"sources":
+  - "gcp_release_notes"
+  - "google_cloud_blog"
+"overview": |
+  この日は 2 件で、マルチクラウドの API ガバナンスとエンドポイント戦略が話題でした。リリースノートでは、Apigee API hub にサードパーティゲートウェイから API メタデータを取り込む組み込みプラグインが 2 つ加わりました。AWS API Gateway 用と Azure API Management 用で、いずれもパブリックプレビューです。AWS アカウントや Azure API Management のサービスを接続すると既存のデプロイ済み API とメタデータが自動的に検出され、既定では 6 時間ごとにメタデータのフル同期が走って、追加・更新と孤立エントリーの削除によりカタログをソース側と揃えます。顧客管理の AWS Lambda 関数または Azure Functions を配置すれば、コントロールプレーンの変更イベントをほぼリアルタイムに API hub へ中継することもできます。あわせて、API 仕様とデプロイの双方向リンクとゲートウェイのリビジョン追跡が一般提供となりました。ブログでは Google Intelligent Endpoints が取り上げられ、従業員がタブ間でコピー&ペーストしてアプリをつなぐ働き方から、自律的な AI エージェントが複数ステップの業務プロセスをエンドツーエンドで実行する働き方への移行に合わせて、エンタープライズブラウザ・OS・ハードウェアにわたるセキュアなエンドユーザーコンピューティングを、組み込みの文脈理解と管理オプションで束ねる方針が示されています。
+"topics":
+  - "API 管理: Apigee API hub に AWS API Gateway と Azure API Management のプラグインをプレビュー追加、6 時間ごとの同期と任意のほぼリアルタイム同期"
+  - "API 管理: API 仕様とデプロイの双方向リンク、ゲートウェイのリビジョン追跡が GA"
+  - "エンドポイント: Google Intelligent Endpoints で、ブラウザ・OS・ハードウェアを文脈理解と管理機能で統合"
