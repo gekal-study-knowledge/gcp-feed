@@ -1,0 +1,9 @@
+"entries":
+  "603eadf9bf7b7a6eb835b2e50f69e1ca":
+    "id": "603eadf9bf7b7a6eb835b2e50f69e1ca"
+    "title": "September 24, 2026"
+    "link": "https://docs.cloud.google.com/release-notes#September_24_2026"
+    "published": "2026-09-24 16:00:00"
+    "fetched": "2026-09-24 22:13:58"
+    "summary": "<h2 class=\"release-note-product-title\">Model Armor</h2>\n<h3>Feature</h3>\n<p>You can use the following filters in Melbourne (<code>australia-southeast2</code>)\nwith <a href=\"https://docs.cloud.google.com/model-armor/manage-templates#set-data-residency-compliance\">data residency enforcement enabled</a>:</p>\n<ul>\n<li>Prompt injection and jailbreak detection</li>\n<li>Responsible AI</li>\n</ul>\n<p>For information about available Model Armor features for each\nregion, see <a href=\"https://docs.cloud.google.com/model-armor/feature-availability-by-region#supported-by-region\">Supported features by\nregion</a>.</p>"
+"last_updated": "2026-09-24 22:13:58 JST"
