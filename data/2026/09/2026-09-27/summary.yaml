@@ -1,0 +1,10 @@
+"date": "2026-09-27"
+"generated_at": "2026-09-28 08:18:35 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "gcp_release_notes"
+"overview": |
+  この日は 1 件で、リリースノートのみでした。Google SecOps SOAR のリリース 6.3.101 が、最初の段階として対象のリージョンから順に展開されています。内容は社内およびお客様から報告された不具合の修正です。
+"topics":
+  - "リリースノート: Google SecOps SOAR 6.3.101 が第 1 段階のリージョンから展開開始、不具合修正が中心"
