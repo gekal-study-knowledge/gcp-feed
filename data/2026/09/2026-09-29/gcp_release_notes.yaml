@@ -1,0 +1,9 @@
+"entries":
+  "3b75fe8d1b4b59f3275569e2d0a51a0c":
+    "id": "3b75fe8d1b4b59f3275569e2d0a51a0c"
+    "title": "September 29, 2026"
+    "link": "https://docs.cloud.google.com/release-notes#September_29_2026"
+    "published": "2026-09-29 16:00:00"
+    "fetched": "2026-09-30 02:40:41"
+    "summary": "<h2 class=\"release-note-product-title\">Gemini Enterprise</h2>\n<h3>Feature</h3>\n<p><strong>Gemini Enterprise: Gemini 3.8 Flash is the default model for AlphaEvolve</strong></p>\n<p>AlphaEvolve experiments can now generate candidate programs with Gemini 3.7\nFlash and Gemini 3.8 Flash. Gemini 3.8 Flash is the default model AlphaEvolve\nuses when you do not explicitly specify a model, replacing Gemini 3.5 Flash.\nTo use a different model, specify the one you want in the <code>models</code> field of\n<code>generationSettings</code>.</p>\n<p>Experiments created before this change keep the model recorded in their\nconfiguration.</p>\n<p>For more information, see <a href=\"https://docs.cloud.google.com/gemini/enterprise/docs/alphaevolve/reference-guide/api-reference#supported-models\">Supported\nmodels</a>.</p>\n<h2 class=\"release-note-product-title\">SAP on Google Cloud</h2>\n<h3>Announcement</h3>\n<p><strong>Hyperdisk sizing widget for SAP HANA</strong></p>\n<p>To view Hyperdisk-based disk configurations that help you meet SAP HANA size and\nperformance requirements, use the sizing widget that's available in the\n<a href=\"https://docs.cloud.google.com/sap/docs/sap-hana-planning-guide#hana-minimum-pd-sizes-ssd-balanced\">Minimum sizes for SSD-based Persistent Disk or Hyperdisk volumes</a>\nsection of the SAP HANA planning guide. This widget lets you select an\nSAP-certified machine type and view up to three tailored disk configurations\nthat Google Cloud recommends for it.</p>"
+"last_updated": "2026-09-30 02:40:41 JST"
