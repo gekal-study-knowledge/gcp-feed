@@ -1,0 +1,13 @@
+"date": "2026-10-06"
+"generated_at": "2026-10-06 08:22:17 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "google_cloud_blog"
+"overview": |
+  この日は 1 件で、Google Cloud Modernize の発表でした。複数年のロードマップを AI の力で圧縮することを狙う、エンドツーエンドの移行・近代化ポートフォリオです。Migration Center、Google Cloud VMware Engine、Google Cloud Mainframe Modernization、そして新しい EKS-to-GKE Migration Agent といった既存の実績あるツールを 1 つのポートフォリオにまとめ、インフラの評価、プラットフォームの近代化、アプリケーションの近代化のそれぞれに専用のエージェント型の機能を提供します。中心となるのは新たに公開された Modernization Hub で、コンソール上で開発者やアーキテクトがソースコードを分析し、依存関係をマッピングして、Java・.NET・メインフレームのアプリケーションの近代化を進められます。評価では、Migration Center の新しい Gemini の機能として Agentic Quick Estimator が GA となり、RVTools のような VMware のインベントリエクスポートやインフラの入力を Compute Engine 環境の TCO 試算に変換します。対話的なチャットで、マルチリージョン構成の評価や BYOL とペイアズユーゴーの比較といったモデリングの前提をその場で試せるため、数週間のスプレッドシート作業が数分で説明可能なビジネスケースになります。より踏み込んだ支援としては Rapid Migration & Modernization Program (RaMP) による無償の包括的な近代化評価も用意されています。プラットフォーム面では、ミッションクリティカルなワークロード向けの新しいコンピュートが揃いました。SAP S/4HANA 向けの X5 シリーズが GA となり、従来の 29 TiB という上限を取り払って単一ノードで 43 TiB のメモリ構成を提供するため、分散パーティショニングのオーバーヘッドなしに ERP 基盤を動かせます。M4N シリーズは GA で、vCPU あたり 26.57 GiB の RAM を Hyperdisk Extreme と組み合わせ、メモリ要件を満たすためにコアを過剰に確保する必要をなくして、Oracle などコアライセンスのデータベースのソフトウェアライセンス費用を 20% 以上削減します。Z4D (GA) と Z4M (プレビュー) は、それぞれ最大 84,000 GiB と 168,000 GiB の高速ローカル NVMe SSD、双方で 400 Gbps のネットワーク、Z4M では RDMA に対応し、リアルタイムの AI エージェントがベクトルストアや運用データベース、大規模なデータパイプラインに問い合わせるときの I/O 待ちとクエリのタイムアウトを抑えます。VMware 資産については、作り直す準備が整っていなくてもクラウドの弾力性が必要な場合に向けて、Bare Metal Z3 の形状上で VMware Cloud Foundation (VCF) 9.1 を管理者権限を保ったまま動かす自己管理型のソリューションが提供されます。ネイティブのグローバル VPC リンクで VMware 資産を Compute Engine、GKE、BigQuery、Gemini Enterprise へ直接つなぎ、コードを変えずに自律エージェントを運用データに基づかせることができます。コンテナでは、EKS-to-GKE Agentic Migration がパブリックプレビューとなり、ディスカバリ、Kubernetes マニフェストの変換、クラウドをまたぐストレージとネットワークのマッピングを自動化するパイプラインと、Human-in-the-Loop (HITL) の承認ゲートやメモリ内での認証情報の取り扱いといったエンタープライズ級のセキュリティを備えます。
+"topics":
+  - "移行: Google Cloud Modernize を発表、Migration Center や VMware Engine、Mainframe Modernization を 1 つのポートフォリオに統合"
+  - "移行: Modernization Hub がコンソールに登場し、Agentic Quick Estimator も GA (RVTools から Compute Engine の TCO を対話的に試算)"
+  - "コンピュート: SAP S/4HANA 向け X5 が GA で単一ノード 43 TiB (従来の上限は 29 TiB)、M4N は vCPU あたり 26.57 GiB でコアライセンス費を 20% 以上削減、Z4D は GA・Z4M はプレビュー"
+  - "コンテナ: EKS-to-GKE Agentic Migration がパブリックプレビュー、HITL の承認ゲート付きでマニフェスト変換まで自動化"
