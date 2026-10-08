@@ -1,0 +1,10 @@
+"date": "2026-10-09"
+"generated_at": "2026-10-09 08:21:52 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "google_cloud_status"
+"overview": |
+  この日は 1 件で、Google Cloud Storage の障害情報でした。2026 年 10 月 8 日の 05:19 (米国太平洋時間) に始まった事象で、Google Cloud Storage へのアップロードや書き込みの操作で遅延とエラー率の上昇が発生しています。読み取りの操作も、一部でレイテンシーとエラーの増加が起こる可能性があります。影響を受けるプロダクトは Google Cloud Storage、影響を受けるロケーションはアイオワ (us-central1) です。エンジニアリングチームが調査を続けており、現時点で回避策はありません。次の更新は米国太平洋時間の 2026 年 10 月 8 日 11:50 に予定されています。
+"topics":
+  - "障害: Google Cloud Storage のアップロード・書き込みで遅延とエラー率の上昇 (us-central1、2026 年 10 月 8 日 05:19 PDT 開始、回避策なし)"
