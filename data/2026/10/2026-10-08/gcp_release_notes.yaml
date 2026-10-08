@@ -1,0 +1,9 @@
+"entries":
+  "a06543f3ba8199daa007b661a9da06dd":
+    "id": "a06543f3ba8199daa007b661a9da06dd"
+    "title": "October 08, 2026"
+    "link": "https://docs.cloud.google.com/release-notes#October_08_2026"
+    "published": "2026-10-08 16:00:00"
+    "fetched": "2026-10-09 02:43:15"
+    "summary": "<h2 class=\"release-note-product-title\">Cloud SQL for MySQL</h2>\n<h3>Feature</h3>\n<p>Cloud SQL for MySQL supports blue-green deployments\n(<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>).</p>\n<p>Blue-green deployments let you update databases—such as performing major\nversion upgrades from MySQL 8.0 to 8.4 and staging hardware or configuration\nmodifications—while minimizing downtime. During a blue-green deployment,\nCloud SQL creates a separate staging environment (green) that mirrors your\nexisting production environment (blue) and maintains continuous logical\nreplication from blue to green. You can test application compatibility and\nperformance on the green environment without affecting production traffic, and\nthen trigger a switchover to the green environment with minimal application\ndowntime.</p>\n<p>For more information, see <a href=\"https://docs.cloud.google.com/sql/docs/mysql/about-blue-green-deployments\">About blue-green deployments in\nCloud SQL</a>.</p>"
+"last_updated": "2026-10-09 02:43:15 JST"
