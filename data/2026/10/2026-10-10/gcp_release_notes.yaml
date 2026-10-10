@@ -1,0 +1,9 @@
+"entries":
+  "c30c453f92451ea09460d79a186ab456":
+    "id": "c30c453f92451ea09460d79a186ab456"
+    "title": "October 10, 2026"
+    "link": "https://docs.cloud.google.com/release-notes#October_10_2026"
+    "published": "2026-10-10 16:00:00"
+    "fetched": "2026-10-11 04:46:39"
+    "summary": "<h2 class=\"release-note-product-title\">Cloud SQL for MySQL</h2>\n<h3>Change</h3>\n<p>MySQL 8.0.46 is now the\n<a href=\"https://docs.cloud.google.com/sql/docs/mysql/db-versions#database-version-support\">default minor version</a>\nfor Cloud SQL for MySQL 8.0.</p>\n<p>For more information about minor version support in Cloud SQL for MySQL,\nsee <a href=\"https://docs.cloud.google.com/sql/docs/mysql/db-versions#mysql-8.0\">MySQL 8.0</a>.</p>"
+"last_updated": "2026-10-11 04:46:39 JST"
