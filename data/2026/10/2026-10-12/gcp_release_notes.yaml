@@ -1,0 +1,9 @@
+"entries":
+  "f4ac6859aea0fb9b6dc7a4b981a2ffcd":
+    "id": "f4ac6859aea0fb9b6dc7a4b981a2ffcd"
+    "title": "October 12, 2026"
+    "link": "https://docs.cloud.google.com/release-notes#October_12_2026"
+    "published": "2026-10-12 16:00:00"
+    "fetched": "2026-10-13 02:23:34"
+    "summary": "<h2 class=\"release-note-product-title\">Google SecOps</h2>\n<h3>Announcement</h3>\n<p>The deadline for the migration of SOAR APIs to the Chronicle API has been extended from November 30, 2026\nuntil March 31, 2027.\nFor more information, refer to <a href=\"https://docs.cloud.google.com/chronicle/docs/soar/admin-tasks/advanced/migrate-to-gcp\">SOAR Migration overview</a></p>\n<h2 class=\"release-note-product-title\">Google SecOps SOAR</h2>\n<h3>Announcement</h3>\n<p>The deadline for the migration of SOAR APIs to the Chronicle API has been extended from November 30, 2026\nuntil March 31, 2027.\nFor more information, refer to <a href=\"https://docs.cloud.google.com/chronicle/docs/soar/admin-tasks/advanced/migrate-to-gcp\">SOAR Migration overview</a></p>"
+"last_updated": "2026-10-13 02:23:34 JST"
