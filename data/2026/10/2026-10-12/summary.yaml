@@ -1,0 +1,10 @@
+"date": "2026-10-12"
+"generated_at": "2026-10-13 08:23:34 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "gcp_release_notes"
+"overview": |
+  この日は 1 件で、リリースノートの告知のみでした。Google SecOps および Google SecOps SOAR において、SOAR API を Chronicle API へ移行する期限が 2026 年 11 月 30 日から 2027 年 3 月 31 日へ延長されました。詳細は SOAR Migration overview を参照するよう案内されています。
+"topics":
+  - "セキュリティ: Google SecOps と Google SecOps SOAR で、SOAR API から Chronicle API への移行期限が 2026 年 11 月 30 日から 2027 年 3 月 31 日へ延長"
