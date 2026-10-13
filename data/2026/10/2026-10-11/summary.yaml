@@ -1,0 +1,11 @@
+"date": "2026-10-11"
+"generated_at": "2026-10-13 12:15:25 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "gcp_release_notes"
+"overview": |
+  この日は 1 件で、リリースノートのみでした。Agent Platform Workbench のリリース 20261011-2230-rc0 および 20261011-2130-rc0 が公開され、いずれも上流の依存関係から最新のパッケージを取り込んでいます。修正として、pyOpenSSL と cryptography のバージョン不一致により OpenSSL.crypto で AttributeError が発生し gcloud と gsutil が読み込めなくなる問題が解消されました。
+"topics":
+  - "Agent Platform Workbench: リリース 20261011-2230-rc0 / 20261011-2130-rc0 で上流依存パッケージを更新"
+  - "修正: pyOpenSSL と cryptography のバージョン不一致による OpenSSL.crypto の AttributeError で gcloud / gsutil が読み込めない問題を解消"
