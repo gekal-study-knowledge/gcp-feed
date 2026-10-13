@@ -1,0 +1,9 @@
+"entries":
+  "95e06f460776fd8923c8e28c803732e0":
+    "id": "95e06f460776fd8923c8e28c803732e0"
+    "title": "October 11, 2026"
+    "link": "https://docs.cloud.google.com/release-notes#October_11_2026"
+    "published": "2026-10-11 16:00:00"
+    "fetched": "2026-10-13 09:10:24"
+    "summary": "<h2 class=\"release-note-product-title\">Agent Platform Workbench</h2>\n<h3>Change</h3>\n<h3 id=\"20261011-2230-rc0_release\">20261011-2230-rc0 Release</h3>\n<h3>Change</h3>\n<h3 id=\"20261011-2230-rc0_release\">20261011-2230-rc0 Release</h3>\n<h3>Change</h3>\n<p>Installed latest packages from upstream dependencies.</p>\n<h3>Change</h3>\n<p>Installed latest packages from upstream dependencies.</p>\n<h3>Fixed</h3>\n<p>Fixed an issue where gcloud and gsutil failed to load with an AttributeError in OpenSSL.crypto due to a version mismatch between pyOpenSSL and cryptography.</p>\n<h3>Fixed</h3>\n<p>Fixed an issue where gcloud and gsutil failed to load with an AttributeError in OpenSSL.crypto due to a version mismatch between pyOpenSSL and cryptography.</p>\n<h3>Change</h3>\n<h3 id=\"20261011-2130-rc0_release\">20261011-2130-rc0 Release</h3>\n<h3>Change</h3>\n<p>Installed latest packages from upstream dependencies.</p>"
+"last_updated": "2026-10-13 09:10:24 JST"
