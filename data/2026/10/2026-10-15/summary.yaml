@@ -1,0 +1,12 @@
+"date": "2026-10-15"
+"generated_at": "2026-10-15 08:21:41 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 3
+"sources":
+  - "google_cloud_ai_ml_blog"
+  - "google_cloud_blog"
+"overview": |
+  この日は 3 件 (重複を除くと 2 件) で、BigQuery の生成 AI 関数のコスト管理と、ポスト量子暗号への備えが話題でした。BigQuery の生成 AI 関数 (AI.GENERATE、AI.IF、AI.CLASSIFY、AI.SCORE など) は SQL から直接 LLM を呼べる一方、課金がトークン単位のため、大規模なデータセットに広げると予算管理が重要になります。このトークンベースのコスト管理が一般提供となり、管理者が自らガードレールを設けられる日次クォータが 4 種類、Google Cloud の IAM クォータシステムを通じてプロジェクト単位とユーザー単位で提供されます。ユーザー単位の上限は組織横断ではなくプロジェクト内の各ユーザーに適用され、たとえば「1 日あたりの AI 入力トークン」はプロジェクトあたり既定で 2,000 億トークンです。記事ではクォータの概要と実際の設定例が示されています。セキュリティでは Cloud CISO Perspectives の 10 月第 1 号として、ポスト量子暗号 (PQC) への備えを扱った記事が公開されました。PQC は今 10 年で最も急を要する移行の 1 つでありながら、研究が論文やエンジニアリングブログに散在していて行動につなげにくいという課題を踏まえ、Google の PQC 研究、エンジニアリングブログ、移行ガイダンスを 1 か所にまとめた公開 Gemini Notebook 「Prepare for Post-Quantum Cryptography」が公開されました。質問を投げる、音声での概要を聞く、フラッシュカードで確認するといった使い方ができます。背景として、Willow チップと Quantum Echoes アルゴリズムの進展を挙げつつ、ECDLP-256 と RSA-2048 の解読にはそれぞれ約 50 万個と約 100 万個のノイズのある量子ビットが必要という Google の研究の見積もりを示し、今日のオンライン上の安全性が従来考えられていたより将来の量子コンピューターに対して脆弱であることを意味すると述べています。暗号化されたデータを今盗んでおき、十分な性能の量子コンピューターが現れてから復号する Store Now, Decrypt Later 攻撃により、医療記録や財務データ、知的財産、政府機密といった機微な情報は既にリスクにさらされているとしています。
+"topics":
+  - "コスト管理: BigQuery の生成 AI 関数 (AI.GENERATE、AI.IF、AI.CLASSIFY、AI.SCORE など) のトークンベースのコスト管理が GA。IAM クォータで日次 4 種類の上限をプロジェクト単位とユーザー単位に設定でき、AI 入力トークンは既定でプロジェクトあたり 1 日 2,000 億"
+  - "セキュリティ: Cloud CISO Perspectives でポスト量子暗号への備えを解説。Google の PQC 研究と移行ガイダンスを 1 か所にまとめた公開 Gemini Notebook「Prepare for Post-Quantum Cryptography」を公開。ECDLP-256 と RSA-2048 の解読に必要なノイズのある量子ビットは約 50 万個と約 100 万個との見積もりを示し、Store Now, Decrypt Later 攻撃のリスクを指摘"
