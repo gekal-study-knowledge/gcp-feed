@@ -1,0 +1,9 @@
+"entries":
+  "d24d7d4c4aec467c5fab086815a7460b":
+    "id": "d24d7d4c4aec467c5fab086815a7460b"
+    "title": "October 15, 2026"
+    "link": "https://docs.cloud.google.com/release-notes#October_15_2026"
+    "published": "2026-10-15 16:00:00"
+    "fetched": "2026-10-16 03:07:51"
+    "summary": "<h2 class=\"release-note-product-title\">Apigee Edge for Public Cloud</h2>\n<h3>Announcement</h3>\n<p>On October 15, 2026, we began releasing Single Sign-On (SSO) updates for Apigee\nEdge for Public Cloud.</p>\n<h3>Fixed</h3>\n<table>\n<thead>\n<tr>\n<th>Bug ID</th>\n<th>Component</th>\n<th>Description</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>560310696</strong></td>\n<td>SSO</td>\n<td>Fixed an issue where the Portal SSO endpoint inadvertently accepted deprecated TLS 1.1 connections. The endpoint now strictly enforces TLS 1.2+.</td>\n</tr>\n</tbody>\n</table>\n<h2 class=\"release-note-product-title\">Apigee Integrated Portal</h2>\n<h3>Announcement</h3>\n<p>On October 15, 2026, we released a new version of the Apigee integrated portal.</p>\n<h3>Fixed</h3>\n<table>\n<thead>\n<tr>\n<th>Bug ID</th>\n<th>Description</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>560310696</strong></td>\n<td>Fixed an issue where the Portal SSO endpoint inadvertently accepted deprecated TLS 1.1 connections. The endpoint now strictly enforces TLS 1.2+.</td>\n</tr>\n</tbody>\n</table>\n<h2 class=\"release-note-product-title\">Compute Engine</h2>\n<h3>Feature</h3>\n<p><strong>Preview</strong>: You can create regional disks, including Hyperdisk Balanced High Availability volumes, by\ncloning a zonal boot disk.</p>\n<p>For more information, see\n<a href=\"https://docs.cloud.google.com/compute/docs/disks/clone-duplicate-disks\">Duplicate a disk with clones</a>.</p>"
+"last_updated": "2026-10-16 03:07:51 JST"
