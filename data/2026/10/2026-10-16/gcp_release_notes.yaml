@@ -1,0 +1,9 @@
+"entries":
+  "c75168992a7737173731f01f61cfdc14":
+    "id": "c75168992a7737173731f01f61cfdc14"
+    "title": "October 16, 2026"
+    "link": "https://docs.cloud.google.com/release-notes#October_16_2026"
+    "published": "2026-10-16 16:00:00"
+    "fetched": "2026-10-17 04:19:26"
+    "summary": "<h2 class=\"release-note-product-title\">Dialogflow</h2>\n<h3>Feature</h3>\n<p><code>gemini-3.5-flash-lite</code> has become generally available (GA). See\n<a href=\"https://docs.cloud.google.com/dialogflow/quotas#generative\">Generative quotas</a>\nfor how to request quota for Gemini 3 and later models.</p>\n<h2 class=\"release-note-product-title\">Gemini Enterprise</h2>\n<h3>Feature</h3>\n<p><strong>Gemini Enterprise: Connect workflows in Workflow Builder to\nConfluence Data Center and Jira Data Center</strong></p>\n<p>You can connect workflows in Workflow Builder to Confluence Data Center and\nJira Data Center to search data and automate actions across these third-party\napps.</p>\n<p>For more information, see <a href=\"https://docs.cloud.google.com/gemini/enterprise/docs/workflow-builder/workflows\">Workflows\noverview</a>.</p>\n<h2 class=\"release-note-product-title\">Vertex AI Search</h2>\n<h3>Change</h3>\n<p><strong>Agent Search: Update to the stable model</strong></p>\n<p>The <code>stable</code> model for answer generation is updated to\n<code>gemini-3.5-flash/answer_gen/v1</code> from <code>gemini-2.5-flash/answer_gen/v1</code>.</p>\n<p>For more information, see <a href=\"https://docs.cloud.google.com/generative-ai-app-builder/docs/answer-generation-models\">Answer generation model versions and\nlifecycle</a>.</p>"
+"last_updated": "2026-10-17 04:19:26 JST"
