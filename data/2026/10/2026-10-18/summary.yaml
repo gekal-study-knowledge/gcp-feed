@@ -1,0 +1,10 @@
+"date": "2026-10-18"
+"generated_at": "2026-10-20 08:10:24 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "gcp_release_notes"
+"overview": |
+  この日は 1 件で、リリースノートの機能追加のみでした。Google SecOps で、SOAR のアラートを Source Grouping Identifier でグループ化する際に、クローズ済みのケースを再オープンするかどうかを指定できるようになりました。この設定を有効にすると、過去にクローズしたケースの Source Grouping Identifier を持つ新しいアラートを受け取ったときに、そのケースが再オープンされます。
+"topics":
+  - "セキュリティ運用: Google SecOps で、SOAR アラートを Source Grouping Identifier でグループ化する際にクローズ済みケースを再オープンするかどうかを選べるように"

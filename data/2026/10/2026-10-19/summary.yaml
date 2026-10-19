@@ -1,0 +1,18 @@
+"date": "2026-10-19"
+"generated_at": "2026-10-20 08:10:24 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 8
+"sources":
+  - "gcp_release_notes"
+  - "google_cloud_ai_ml_blog"
+  - "google_cloud_blog"
+  - "google_cloud_japan_blog"
+"overview": |
+  この日は 8 件 (重複を除くと 7 件) で、過去記事の日本語版が中心でしたが、リリースノートに Cloud Armor の WAF ルールセット更新が入っています。セキュリティでは、Cloud Armor の事前構成 WAF ルールセットに修正と改善が入りました。v33-stable 系の sqli・xss・lfi・rfi・rce・methodenforcement・scannerdetection・protocolattack・php・sessionfixation・java・nodejs と、v3.0 の stable 系ルールセットが更新されています。あわせて Security Command Center では、Correlated Threats とセキュリティグラフのルールが作成した issue をフォルダ単位やプロジェクト単位で参照できるようになり、Issues ページでサービス種別・プロジェクト番号・フォルダ ID で絞り込めるようになりました (プレビュー)。コンピュートでは、Compute Engine インスタンスの停止や削除時のデータ損失・破損を防ぐグレースフルシャットダウンが一般提供となり、ゲスト OS に最長 6 時間の猶予を与えて実行中のタスクを終えられるようになりました。Dialogflow CX では telephony_disable_voice_processing セッションパラメーターを true にすると、以降のセッションで音声認識を止めて DTMF 入力のみを受け付けられます。背景の雑音を発話として文字起こししてしまう騒がしい環境で役立ちます。このほか、AI 関連の評価では Google が「IDC MarketScape: Worldwide Agentic AI Platforms 2026」でリーダーに選出されたことが紹介されました。課題はモデルそのものの知能ではなく、品質・統合・セキュリティ・ガバナンスの要件を満たしながら全社でエージェントを展開できるかにあり、Gemini がその土台を提供しているという位置づけです。日本語版としては、『Site Reliability Engineering』第 2 版の紹介 (米国時間 2026 年 10 月 13 日公開)、中小企業で Gemini をさらに活用できるようにする発表 (同 10 月 9 日)、1 GB あたり月額 6 セントのダイナミックティアで低コスト化した Managed Lustre (同 10 月 1 日)、超低レイテンシ取引向けの U4 マシンファミリーと Ultra Low Latency Solution の一般提供 (同 10 月 8 日)、Looker を活用した信頼できるデータアプリ (同 10 月 13 日) の 5 本が公開されています。
+"topics":
+  - "セキュリティ: Cloud Armor の事前構成 WAF ルールセットに修正と改善。v33-stable 系 (sqli・xss・lfi・rfi・rce・protocolattack ほか 12 種) と v3.0 の stable 系を更新"
+  - "セキュリティ: Security Command Center で Correlated Threats とセキュリティグラフのルールが作る issue をフォルダ・プロジェクト単位で参照でき、サービス種別やプロジェクト番号で絞り込めるように (プレビュー)"
+  - "コンピュート: Compute Engine のグレースフルシャットダウンが GA。停止・削除時にゲスト OS へ最長 6 時間の猶予を与えてデータ損失や破損を防ぐ"
+  - "会話 AI: Dialogflow CX で telephony_disable_voice_processing を true にすると音声認識を止めて DTMF 入力のみ受け付ける。騒音環境での誤認識対策"
+  - "生成 AI: Google が「IDC MarketScape: Worldwide Agentic AI Platforms 2026」でリーダーに選出。課題はモデルの知能ではなく、品質・統合・セキュリティ・ガバナンスを満たした全社展開にあるという整理"
+  - "日本語版: SRE ブック第 2 版、中小企業向けの Gemini 拡充、ダイナミックティアで 1 GB あたり月額 6 セントの Managed Lustre、超低レイテンシ取引向け U4 と ULL Solution の GA、Looker のデータアプリの 5 本"
