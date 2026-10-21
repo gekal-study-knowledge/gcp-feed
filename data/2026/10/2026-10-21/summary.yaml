@@ -1,11 +1,13 @@
 "date": "2026-10-21"
-"generated_at": "2026-10-21 08:13:09 JST"
+"generated_at": "2026-10-21 18:37:01 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 2
+"article_count": 3
 "sources":
   - "google_cloud_ai_ml_blog"
   - "google_cloud_blog"
+  - "google_cloud_japan_blog"
 "overview": |
-  この日は 2 件 (重複を除くと 1 件) で、Google Antigravity で選べるモデルが増えたという発表でした。Google Cloud の顧客向けに、Claude Opus 5.5 と Claude Sonnet 5.5 が Google Antigravity で利用できるようになりました。素早いバグ修正か複雑な移行の計画かといった作業の性質によって適したモデルが異なるという考えから、開放的なエコシステムへの取り組みとして、仕事ごとに適切なモデルを選べるようにするものです。Claude Opus 5.5 は複雑な作業向け、Claude Sonnet 5.5 はより速く低コストな補完的な選択肢と位置づけられています。管理者が有効化すると、開発者はモデルピッカーから直接これらを選べます。管理者は Gemini 3.8 Flash や Gemini 4 Argon を含む Google の Gemini モデルも選択できます。対象は Antigravity 2.0、Antigravity CLI、そして最近公開された VS Code・JetBrains IntelliJ・Visual Studio 向けの Antigravity IDE 拡張で、統一された企業の課金とセキュリティの境界の中で使い分けられます。記事では、これらのモデルを使って Antigravity で構築する 2 つのエンジニアリングパターンも紹介されています。
+  この日は 2 件 (重複を除くと 1 件) で、Google Antigravity で選べるモデルが増えたという発表でした。Google Cloud の顧客向けに、Claude Opus 5.5 と Claude Sonnet 5.5 が Google Antigravity で利用できるようになりました。素早いバグ修正か複雑な移行の計画かといった作業の性質によって適したモデルが異なるという考えから、開放的なエコシステムへの取り組みとして、仕事ごとに適切なモデルを選べるようにするものです。Claude Opus 5.5 は複雑な作業向け、Claude Sonnet 5.5 はより速く低コストな補完的な選択肢と位置づけられています。管理者が有効化すると、開発者はモデルピッカーから直接これらを選べます。管理者は Gemini 3.8 Flash や Gemini 4 Argon を含む Google の Gemini モデルも選択できます。対象は Antigravity 2.0、Antigravity CLI、そして最近公開された VS Code・JetBrains IntelliJ・Visual Studio 向けの Antigravity IDE 拡張で、統一された企業の課金とセキュリティの境界の中で使い分けられます。記事では、これらのモデルを使って Antigravity で構築する 2 つのエンジニアリングパターンも紹介されています。あわせて、新しいフロンティアモデル Gemini 4 Argon が Google Cloud で提供開始されたことの日本語記事も公開されました。Argon は高度な思考力と正確性を併せ持つように学習されているため、複数のステップからなる長いタスクでも一貫してコンテキストを維持し、専門的な知識を活用しながら処理を進められます。複雑なソフトウェアビルド、財務や法務の詳細な作業、CodeMender のようなサイバーセキュリティツールの導入といった場面で、チームが最初から最後まで集中を保てるよう助けるという位置づけです。前週に発表された Gemini Enterprise の進化と、1 つのプロンプトボックスからコード生成や長く複雑なタスクを任せられる万能エージェント「Gemini エージェント」を支えるモデルでもあります。
 "topics":
   - "生成 AI: Claude Opus 5.5 と Claude Sonnet 5.5 が Google Antigravity で利用可能に。管理者が有効化するとモデルピッカーから選べ、Antigravity 2.0・CLI・VS Code / JetBrains IntelliJ / Visual Studio の IDE 拡張で、統一された企業の課金とセキュリティ境界のもとで使える"
+  - "モデル: Gemini 4 Argon が Google Cloud で提供開始 (日本語記事)。長く多段のタスクでコンテキストと専門性を維持"
