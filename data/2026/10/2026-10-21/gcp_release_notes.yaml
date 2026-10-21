@@ -1,0 +1,9 @@
+"entries":
+  "ecce48a523e83556413e93d76248d0dc":
+    "id": "ecce48a523e83556413e93d76248d0dc"
+    "title": "October 21, 2026"
+    "link": "https://docs.cloud.google.com/release-notes#October_21_2026"
+    "published": "2026-10-21 16:00:00"
+    "fetched": "2026-10-21 22:26:54"
+    "summary": "<h2 class=\"release-note-product-title\">Model Armor</h2>\n<h3>Feature</h3>\n<p>You can use custom organization policies to ensure that all new or updated\nModel Armor <code>Template</code> resources enforce required filters, like\nresponsible AI or prompt injection and jailbreak detection. This feature is\ngenerally available (<a href=\"https://cloud.google.com/products#product-launch-stages\">GA</a>).\nFor more information, see <a href=\"https://docs.cloud.google.com/model-armor/access-control/custom-constraints\">Use custom organization policies</a>.</p>"
+"last_updated": "2026-10-21 22:26:54 JST"
