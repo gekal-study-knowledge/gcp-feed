@@ -1,0 +1,9 @@
+"entries":
+  "ef1c2e82859ecedb4187bab667a853ac":
+    "id": "ef1c2e82859ecedb4187bab667a853ac"
+    "title": "October 22, 2026"
+    "link": "https://docs.cloud.google.com/release-notes#October_22_2026"
+    "published": "2026-10-22 16:00:00"
+    "fetched": "2026-10-23 03:18:09"
+    "summary": "<h2 class=\"release-note-product-title\">Compute Engine</h2>\n<h3>Feature</h3>\n<p>You can view how a managed instance group (MIG) distributes its instances across\nzones and machine types, directly from the MIG's <strong>Monitoring</strong> tab in the\nGoogle Cloud console.</p>\n<p>For more information, see <a href=\"https://docs.cloud.google.com/compute/docs/instance-groups/monitor-instance-distribution\">Monitor instance distribution in MIGs</a>.</p>"
+"last_updated": "2026-10-23 03:18:09 JST"
