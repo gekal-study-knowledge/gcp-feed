@@ -1,0 +1,9 @@
+"entries":
+  "6a3a4940c30faadf61e1413104a0575e":
+    "id": "6a3a4940c30faadf61e1413104a0575e"
+    "title": "October 23, 2026"
+    "link": "https://docs.cloud.google.com/release-notes#October_23_2026"
+    "published": "2026-10-23 16:00:00"
+    "fetched": "2026-10-24 06:01:04"
+    "summary": "<h2 class=\"release-note-product-title\">Cloud Monitoring</h2>\n<h3>Fixed</h3>\n<p>Ops Agent version 2.73.0 includes patches for a Go vulnerability involving\nsystem root certificates,\n<a href=\"https://www.cve.org/CVERecord?id=CVE-2026-111943\">CVE-2026-111943</a>. For more\ninformation, see <a href=\"https://github.com/GoogleCloudPlatform/ops-agent/releases/tag/2.73.0\">Ops Agent 2.73.0 notes</a>.</p>"
+"last_updated": "2026-10-24 06:01:04 JST"
