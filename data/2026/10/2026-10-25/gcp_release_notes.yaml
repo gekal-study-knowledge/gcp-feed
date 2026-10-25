@@ -1,0 +1,9 @@
+"entries":
+  "5e0c3d2508c50a3aab3ee6be873de5f2":
+    "id": "5e0c3d2508c50a3aab3ee6be873de5f2"
+    "title": "October 25, 2026"
+    "link": "https://docs.cloud.google.com/release-notes#October_25_2026"
+    "published": "2026-10-25 16:00:00"
+    "fetched": "2026-10-26 06:26:45"
+    "summary": "<h2 class=\"release-note-product-title\">Google SecOps SOAR</h2>\n<h3>Announcement</h3>\n<p>Release 6.3.104 is being rolled out to the first phase of regions as listed\n<a href=\"https://docs.cloud.google.com/chronicle/docs/soar/overview-and-introduction/soar-gradual-release\">here</a>.</p>\n<p>This release contains internal and customer bug fixes.</p>"
+"last_updated": "2026-10-26 06:26:45 JST"
