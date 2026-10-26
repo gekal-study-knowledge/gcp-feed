@@ -1,12 +1,16 @@
 "date": "2026-10-26"
-"generated_at": "2026-10-26 18:59:43 JST"
+"generated_at": "2026-10-27 06:01:00 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 1
+"article_count": 2
 "sources":
+  - "gcp_release_notes"
   - "google_cloud_japan_blog"
 "overview": |
-  この日は Google Cloud Japan Blog に 1 本のみ。Gemini at Work で発表された、Google Public Sector とニューヨーク州立大学 (SUNY) による SUNY AI Platform の開設を紹介する抄訳記事 (米国時間 2026 年 10 月 9 日の投稿)。
+  この日は Google Cloud Japan Blog とリリースノートの 2 本。Japan Blog は Gemini at Work で発表された Google Public Sector とニューヨーク州立大学 (SUNY) による SUNY AI Platform の開設を紹介する抄訳記事 (米国時間 2026 年 10 月 9 日の投稿)。リリースノートでは Database Migration Service が Cloud Storage 上のスキーマメタデータファイルからの異種変換ワークスペース作成に対応、Model Armor がデータ所在地コンプライアンスの組織ポリシー制約を既定で適用 (GA)、Oracle Database@Google Cloud のリモート MCP サーバーが GA となった。
 "topics":
+  - "データ移行: Database Migration Service で、Cloud Storage バケットのスキーマメタデータファイルをインポートして異種変換ワークスペースを作成可能に (スキーマ変換時にソース DB への直接接続が不要)。Oracle / SQL Server から Cloud SQL for PostgreSQL / AlloyDB for PostgreSQL が対象"
+  - "AI セキュリティ: Model Armor が constraints/modelarmor.managed.requireTemplateDataResidencyCompliance を既定で適用 (GA)。組織ポリシー管理者が無効化しない限り、テンプレートで data_residency_compliant を false にできない"
+  - "データベース: Oracle Database@Google Cloud のリモート MCP サーバーが GA。Database Connections の作成・管理や SQL 実行のツールを追加"
   - "公共・教育: SUNY AI Platform を開設。Gemini Enterprise を搭載し Google Cloud 上に構築したセキュアな AI・HPC 環境で、まず研究重点の 9 キャンパスで展開"
   - "プラットフォーム構成: ストレージ、HPC、Gemini Enterprise、200 以上の AI モデルを一元化し、共通の基盤で一貫したガバナンスと責任ある AI を適用"
   - "人材育成: Google のセルフペース型 AI 認定資格 (各 5〜10 時間) を学生・教職員が無料で受講可能に、Google Career Certificates も学術プログラムに導入"

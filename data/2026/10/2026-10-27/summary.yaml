@@ -1,0 +1,12 @@
+"date": "2026-10-27"
+"generated_at": "2026-10-27 06:01:00 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 3
+"sources":
+  - "google_cloud_ai_ml_blog"
+  - "google_cloud_blog"
+"overview": |
+  この日は Google Cloud Blog と AI & ML Blog から 3 本 (うち 1 本は両方に掲載された同一記事)。エージェント向けに IAM ワークフローを自動化する IAM Helper (Agent Skills と MCP Tools) の発表と、Knowledge Catalog における LookML セマンティック言語インデックス (Looker Core on Google Cloud) の一般提供 (GA) が紹介された。
+"topics":
+  - "IAM・エージェント: IAM Helper を発表。Policy Intelligence や Privileged Access Manager (PAM) を補完するエージェント向けの層で、IAM スキルをコードアシスタント・デプロイパイプライン・カスタムエージェントから直接呼び出し、最小権限の維持を自動化"
+  - "データ・AI: Knowledge Catalog で LookML セマンティック言語インデックスが GA (Looker Core on Google Cloud)。Knowledge Catalog の組織的コンテキストと LookML の決定的なビジネスセマンティクスを組み合わせて AI エージェントに提供"
