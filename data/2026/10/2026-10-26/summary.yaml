@@ -1,0 +1,12 @@
+"date": "2026-10-26"
+"generated_at": "2026-10-26 18:59:43 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "google_cloud_japan_blog"
+"overview": |
+  この日は Google Cloud Japan Blog に 1 本のみ。Gemini at Work で発表された、Google Public Sector とニューヨーク州立大学 (SUNY) による SUNY AI Platform の開設を紹介する抄訳記事 (米国時間 2026 年 10 月 9 日の投稿)。
+"topics":
+  - "公共・教育: SUNY AI Platform を開設。Gemini Enterprise を搭載し Google Cloud 上に構築したセキュアな AI・HPC 環境で、まず研究重点の 9 キャンパスで展開"
+  - "プラットフォーム構成: ストレージ、HPC、Gemini Enterprise、200 以上の AI モデルを一元化し、共通の基盤で一貫したガバナンスと責任ある AI を適用"
+  - "人材育成: Google のセルフペース型 AI 認定資格 (各 5〜10 時間) を学生・教職員が無料で受講可能に、Google Career Certificates も学術プログラムに導入"
