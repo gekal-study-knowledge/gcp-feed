@@ -1,0 +1,10 @@
+"date": "2026-10-28"
+"generated_at": "2026-10-28 06:01:29 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "google_cloud_blog"
+"overview": |
+  この日は Google Cloud Blog の 1 件で、Gemini Enterprise を Snowflake のデータに安全に接続するガイド。Model Context Protocol (MCP) と Agent Development Kit (ADK) を使い、エージェントが自然言語の質問から Snowflake Cortex で SQL を生成し、ユーザー単位の権限でクエリを実行する高度なカスタムオーケストレーションの構成を解説している。標準的な用途では直接接続の共同ソリューションを使い分けるよう案内している。
+"topics":
+  - "データ・AI: Gemini Enterprise と Snowflake を MCP と ADK で安全に接続。Snowflake Cortex で SQL を生成しユーザー単位の権限で実行するカスタムオーケストレーション構成 (標準用途は直接接続の共同ソリューション)"
