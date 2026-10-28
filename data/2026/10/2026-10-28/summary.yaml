@@ -1,13 +1,21 @@
 "date": "2026-10-28"
-"generated_at": "2026-10-28 22:01:23 JST"
+"generated_at": "2026-10-29 06:01:38 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 6
+"article_count": 7
 "sources":
+  - "gcp_release_notes"
   - "google_cloud_blog"
   - "google_cloud_japan_blog"
 "overview": |
-  この日は 2 ソースから 6 本。Google Cloud Blog では、VMware solution on Google Cloud の一般提供が発表された。Google Cloud Modernize ポートフォリオの一部で、専用のベアメタル上の VMware Cloud Foundation (VCF) に対して顧客が完全な管理権限を持つセルフマネージド型であり、既存の Google マネージドサービスを補完する。Broadcom の VCF 9.x の登場が背景にある。Oracle AI World では Google Cloud と Oracle が AI スタック全体での提携拡大を発表し、OCI 経由での Google TPU の提供や、Oracle AI Database@Google Cloud と Agentic Data Cloud・Gemini Enterprise の統合深化が示された。ほかに Gemini Enterprise を MCP と ADK で Snowflake に安全に接続するガイド。Google Cloud Japan Blog では抄訳 3 本で、NVIDIA RTX PRO 6000 Blackwell Server Edition GPU を搭載した G4 インスタンスでの Confidential Computing (Confidential G4) の一般提供 (36 ゾーン、Compute Engine VM と GKE ノード、Confidential Space のサポートは今後数週間で順次一般提供)、Google Antigravity での Claude Opus 5.5 と Claude Sonnet 5.5 の提供とマルチモデルのエンジニアリングパターン、スタートアップ向けの Gemini エージェントの活用が紹介された。
+  この日は 3 ソースから 7 本。リリースノートでは、AlloyDB for PostgreSQL で AlloyDB AI とベクトル検索の機能群が一般提供になった: PostgreSQL 17 以降での 4 レベルツリー (4LT) ScaNN インデックス (最大 100 億ベクトル行、自動メンテナンス対応)、scann.satisfy_limit = relaxed_order によるストリーミング検索 (並列スキャンは scann.enable_parallel_satisfy_limit)、Vector assist、num_leaves 上限の 30,000,000 から 104,857,600 への引き上げ、external_search_fdw による Elasticsearch・Solr・OpenSearch への接続、rum 拡張 (PostgreSQL 17 以前)。セキュリティでは GCP-2026-071 を受けて AlloyDB のマネージドコンポーネントの証明書ストアを修正 (定期メンテナンスで適用、AlloyDB Auth Proxy は v1.17.2 以降へ、Language Connectors は言語ランタイムと OS の CA 証明書を更新、例: Go 1.26.10 または 1.27.3 以降)、Application Integration の SubWorkflow タスクに 2026 年 9 月 11 日より前のバージョンで信頼できないデータのデシリアライズの脆弱性 (GCP-2026-074)。Google SecOps は非 Enterprise+ 顧客向けのレガシー マネージド BigQuery エクスポート (chronicle-tla) の最終停止で、2026 年 10 月 28 日に廃止作業を開始した (2025 年 3 月 26 日に非推奨告知済み、BYOBQ への移行か Enterprise+ へのアップグレードが必要)。ほかに Bigtable のマイクロ秒タイムスタンプ粒度 (Enterprise Plus で GA)、Memorystore for Redis Cluster の基本トークン認証の GA、Application Integration のエージェントスキル公開。Google Cloud Blog では、VMware solution on Google Cloud の一般提供が発表された。Google Cloud Modernize ポートフォリオの一部で、専用のベアメタル上の VMware Cloud Foundation (VCF) に対して顧客が完全な管理権限を持つセルフマネージド型であり、既存の Google マネージドサービスを補完する。Broadcom の VCF 9.x の登場が背景にある。Oracle AI World では Google Cloud と Oracle が AI スタック全体での提携拡大を発表し、OCI 経由での Google TPU の提供や、Oracle AI Database@Google Cloud と Agentic Data Cloud・Gemini Enterprise の統合深化が示された。ほかに Gemini Enterprise を MCP と ADK で Snowflake に安全に接続するガイド。Google Cloud Japan Blog では抄訳 3 本で、NVIDIA RTX PRO 6000 Blackwell Server Edition GPU を搭載した G4 インスタンスでの Confidential Computing (Confidential G4) の一般提供 (36 ゾーン、Compute Engine VM と GKE ノード、Confidential Space のサポートは今後数週間で順次一般提供)、Google Antigravity での Claude Opus 5.5 と Claude Sonnet 5.5 の提供とマルチモデルのエンジニアリングパターン、スタートアップ向けの Gemini エージェントの活用が紹介された。
 "topics":
+  - "セキュリティ: GCP-2026-071 を受け AlloyDB のマネージドコンポーネントの証明書ストアを修正。定期メンテナンスで自動適用 (セルフサービスメンテナンスも可)。AlloyDB Auth Proxy は v1.17.2 以降へ (スタンドアロン版はホストの CA 証明書も更新)、Language Connectors は言語ランタイムと OS の CA 証明書を更新 (例: Go 1.26.10 / 1.27.3 以降)"
+  - "セキュリティ: Application Integration の SubWorkflow タスクに信頼できないデータのデシリアライズの脆弱性 (2026 年 9 月 11 日より前のバージョン、GCP-2026-074)"
+  - "廃止: Google SecOps が非 Enterprise+ 顧客向けのレガシー マネージド BigQuery エクスポート (chronicle-tla) のデータセットと API キーを最終停止。2026 年 10 月 28 日に廃止開始 (2025 年 3 月 26 日に非推奨告知)。BYOBQ への移行か Enterprise+ へのアップグレードが必要で、Enterprise+ と BYOBQ 利用者は影響なし"
+  - "データベース: AlloyDB for PostgreSQL のベクトル検索が GA 拡充。PostgreSQL 17 以降で 4LT ScaNN インデックス (最大 100 億ベクトル行、自動メンテナンス)、scann.satisfy_limit = relaxed_order によるストリーミング検索、Vector assist、num_leaves 上限を 30,000,000 から 104,857,600 に引き上げ。4LT インデックス構築時のメモリー推定改善 (プレビュー) で OOM を防止"
+  - "データベース: AlloyDB が external_search_fdw で Elasticsearch・Solr・OpenSearch に直接クエリ可能に、rum 拡張 (PostgreSQL 17 以前) で高速なフレーズ検索と関連度順位付け"
+  - "データベース: Bigtable がセル タイムスタンプのマイクロ秒粒度に対応し、高頻度書き込みの衝突によるデータ損失を防止 (Enterprise Plus で GA)。Memorystore for Redis Cluster の基本トークン認証が GA"
+  - "統合: Application Integration のエージェントスキル (basics / authoring / troubleshooting) を google/skills リポジトリで公開"
   - "インフラ・移行: VMware solution on Google Cloud が一般提供開始。専用ベアメタル上の VMware Cloud Foundation (VCF) を顧客が完全な管理権限で運用するセルフマネージド型で、既存の Google マネージドサービスを補完 (VCF 9.x が背景)"
   - "データベース・AI: Google Cloud と Oracle が Oracle AI World で提携を拡大。OCI 経由での Google TPU 提供、Oracle AI Database@Google Cloud と Agentic Data Cloud・Gemini Enterprise・BigQuery の統合を深化"
   - "データ・AI: Gemini Enterprise と Snowflake を MCP と ADK で安全に接続。Snowflake Cortex で SQL を生成しユーザー単位の権限で実行するカスタムオーケストレーション構成 (標準用途は直接接続の共同ソリューション)"
