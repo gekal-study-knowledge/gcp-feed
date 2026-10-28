@@ -1,10 +1,16 @@
 "date": "2026-10-28"
-"generated_at": "2026-10-28 06:01:29 JST"
+"generated_at": "2026-10-28 22:01:23 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 1
+"article_count": 6
 "sources":
   - "google_cloud_blog"
+  - "google_cloud_japan_blog"
 "overview": |
-  この日は Google Cloud Blog の 1 件で、Gemini Enterprise を Snowflake のデータに安全に接続するガイド。Model Context Protocol (MCP) と Agent Development Kit (ADK) を使い、エージェントが自然言語の質問から Snowflake Cortex で SQL を生成し、ユーザー単位の権限でクエリを実行する高度なカスタムオーケストレーションの構成を解説している。標準的な用途では直接接続の共同ソリューションを使い分けるよう案内している。
+  この日は 2 ソースから 6 本。Google Cloud Blog では、VMware solution on Google Cloud の一般提供が発表された。Google Cloud Modernize ポートフォリオの一部で、専用のベアメタル上の VMware Cloud Foundation (VCF) に対して顧客が完全な管理権限を持つセルフマネージド型であり、既存の Google マネージドサービスを補完する。Broadcom の VCF 9.x の登場が背景にある。Oracle AI World では Google Cloud と Oracle が AI スタック全体での提携拡大を発表し、OCI 経由での Google TPU の提供や、Oracle AI Database@Google Cloud と Agentic Data Cloud・Gemini Enterprise の統合深化が示された。ほかに Gemini Enterprise を MCP と ADK で Snowflake に安全に接続するガイド。Google Cloud Japan Blog では抄訳 3 本で、NVIDIA RTX PRO 6000 Blackwell Server Edition GPU を搭載した G4 インスタンスでの Confidential Computing (Confidential G4) の一般提供 (36 ゾーン、Compute Engine VM と GKE ノード、Confidential Space のサポートは今後数週間で順次一般提供)、Google Antigravity での Claude Opus 5.5 と Claude Sonnet 5.5 の提供とマルチモデルのエンジニアリングパターン、スタートアップ向けの Gemini エージェントの活用が紹介された。
 "topics":
+  - "インフラ・移行: VMware solution on Google Cloud が一般提供開始。専用ベアメタル上の VMware Cloud Foundation (VCF) を顧客が完全な管理権限で運用するセルフマネージド型で、既存の Google マネージドサービスを補完 (VCF 9.x が背景)"
+  - "データベース・AI: Google Cloud と Oracle が Oracle AI World で提携を拡大。OCI 経由での Google TPU 提供、Oracle AI Database@Google Cloud と Agentic Data Cloud・Gemini Enterprise・BigQuery の統合を深化"
   - "データ・AI: Gemini Enterprise と Snowflake を MCP と ADK で安全に接続。Snowflake Cortex で SQL を生成しユーザー単位の権限で実行するカスタムオーケストレーション構成 (標準用途は直接接続の共同ソリューション)"
+  - "セキュリティ・コンピューティング: NVIDIA RTX PRO 6000 Blackwell Server Edition を搭載した Confidential G4 が 36 ゾーンで一般提供 (Compute Engine VM・GKE ノード)。Confidential Space のサポートは今後数週間で順次一般提供 (原文 10 月 22 日)"
+  - "開発ツール: Google Antigravity で Claude Opus 5.5 と Claude Sonnet 5.5 が利用可能に。Antigravity 2.0・CLI・IDE 拡張で選択でき、別モデルで検証する LLM-as-a-Judge などのマルチモデルパターンを紹介 (原文 10 月 21 日)"
+  - "生成AI: スタートアップ向けに Gemini エージェントのメリットを解説。統合型・どこからでもアクセス可能・永続メモリーの 3 原則と、Gemini 4 Argon の一般提供に言及 (原文 10 月 16 日)"
