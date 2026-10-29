@@ -1,0 +1,12 @@
+"date": "2026-10-30"
+"generated_at": "2026-10-30 06:01:23 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 3
+"sources":
+  - "google_cloud_blog"
+"overview": |
+  この日は Google Cloud Blog から 3 本。borderless Lakehouse により、Databricks が管理する Apache Iceberg テーブルを BigQuery からデータをコピーせずに直接クエリできるようになった。BigQuery は Databricks が書いた GCS 上の同じファイルを読み、変更は Lakehouse の定期メタデータ更新 (最短 5 分ごと) の後に反映され、Amazon S3 や Azure Blob Storage 上のデータにもフェデレーションを広げられる。Cloud CISO Perspectives (10 月第 2 号) では、自動化された調査で本物の脆弱性の検証が難しくなるなか人手による高度な研究を後押しするため、Google Cloud VRP に新たに 25 万ドルの報奨金ティアを設けた背景を Q&A 形式で紹介した。Knowledge Catalog はセマンティックモデル対応の拡張が一般提供となり、Looker LookML、BigQuery Graph (BigQuery measures を含む)、dbt MetricFlow、Snowflake などのセマンティックモデルや指標定義を 1 つのコンテキストグラフに取り込み、ツール間で定義が食い違う場合は出所付きで両方を示してエージェントの回答を信頼できる定義に基づかせる。
+"topics":
+  - "データ分析: borderless Lakehouse で Databricks 管理の Apache Iceberg テーブルを BigQuery からゼロコピーでクエリ。GCS 上の同じ Parquet ファイルを読み、変更は最短 5 分ごとのメタデータ更新後に反映。Amazon S3 や Azure Blob Storage にもフェデレーション可能"
+  - "セキュリティ: Cloud CISO Perspectives (2026 年 10 月第 2 号)。Google Cloud VRP に新しい 25 万ドルのティアを新設し、自動化調査だけでは届かない人手による高度な脆弱性研究を促進"
+  - "データ・AI: Knowledge Catalog のセマンティックモデル対応拡張が一般提供。Looker LookML、BigQuery Graph (BigQuery measures 含む)、dbt MetricFlow、Snowflake などの指標定義を 1 つのコンテキストグラフに集約し、定義が食い違う場合は出所付きで両方を提示"
