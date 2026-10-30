@@ -1,12 +1,19 @@
 "date": "2026-10-30"
-"generated_at": "2026-10-30 06:01:23 JST"
+"generated_at": "2026-10-30 22:01:48 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 3
+"article_count": 9
 "sources":
   - "google_cloud_blog"
+  - "google_cloud_japan_blog"
 "overview": |
-  この日は Google Cloud Blog から 3 本。borderless Lakehouse により、Databricks が管理する Apache Iceberg テーブルを BigQuery からデータをコピーせずに直接クエリできるようになった。BigQuery は Databricks が書いた GCS 上の同じファイルを読み、変更は Lakehouse の定期メタデータ更新 (最短 5 分ごと) の後に反映され、Amazon S3 や Azure Blob Storage 上のデータにもフェデレーションを広げられる。Cloud CISO Perspectives (10 月第 2 号) では、自動化された調査で本物の脆弱性の検証が難しくなるなか人手による高度な研究を後押しするため、Google Cloud VRP に新たに 25 万ドルの報奨金ティアを設けた背景を Q&A 形式で紹介した。Knowledge Catalog はセマンティックモデル対応の拡張が一般提供となり、Looker LookML、BigQuery Graph (BigQuery measures を含む)、dbt MetricFlow、Snowflake などのセマンティックモデルや指標定義を 1 つのコンテキストグラフに取り込み、ツール間で定義が食い違う場合は出所付きで両方を示してエージェントの回答を信頼できる定義に基づかせる。
+  この日は Google Cloud Blog と Google Cloud Japan Blog の 2 ソースから 9 本。borderless Lakehouse により、Databricks が管理する Apache Iceberg テーブルを BigQuery からデータをコピーせずに直接クエリできるようになった。BigQuery は Databricks が書いた GCS 上の同じファイルを読み、変更は Lakehouse の定期メタデータ更新 (最短 5 分ごと) の後に反映され、Amazon S3 や Azure Blob Storage 上のデータにもフェデレーションを広げられる。Cloud CISO Perspectives (10 月第 2 号) では、自動化された調査で本物の脆弱性の検証が難しくなるなか人手による高度な研究を後押しするため、Google Cloud VRP に新たに 25 万ドルの報奨金ティアを設けた背景を Q&A 形式で紹介した。Knowledge Catalog はセマンティックモデル対応の拡張が一般提供となり、Looker LookML、BigQuery Graph (BigQuery measures を含む)、dbt MetricFlow、Snowflake などのセマンティックモデルや指標定義を 1 つのコンテキストグラフに取り込み、ツール間で定義が食い違う場合は出所付きで両方を示してエージェントの回答を信頼できる定義に基づかせる。 Google Cloud Japan Blog では 6 本の抄訳・事例が公開された。BigQuery の ObjectRef とマルチモーダルデータ分析が一般提供となり、画像・動画・音声・ドキュメントなどの非構造化データを ObjectRef 列として構造化データと同じ行に持ち、単一の SQL や自然言語のクエリでマルチモーダル・複数列の入力を Gemini に渡せるようになった (BigQuery AI、会話型分析、Gemini Enterprise で利用可能)。Google Distributed Cloud (GDC) エアギャップ上の Gemini によるエンタープライズ検索がプレビューとなり、NVIDIA Blackwell Ultra で高速化されたフルマネージドの RAG 検索を、インターネットや Google Cloud のグローバルインフラに接続しない物理的なセキュリティ境界内で動かせる (PDF・Office・画像・WAV・MP4 などに対応、1 ファイル最大 100 MB・1 チャット最大 500 MB、回答には出典を明記)。事例では、カインズがプレビュー版の AlphaEvolve で需要予測モデルを自律的に改善し誤差を 19% 改善 (短期予測は繁忙期に最大 500 万 SKU・約 3,000 万行)、DHL Express が Google Maps Platform で約 4 万人の配達員にリアルタイムのナビゲーションを提供し住所データの課題に取り組んだ方法、南アフリカ発の緊急対応プラットフォーム AURA が Google Maps Platform で正確な ETA を実現し派遣コストを 50% 以上削減、モンゴルの UBCab が Routes API の Compute Routes で交通状況を考慮したマッチングに移行し平均迎車時間を 25% 短縮した例が紹介された。
 "topics":
   - "データ分析: borderless Lakehouse で Databricks 管理の Apache Iceberg テーブルを BigQuery からゼロコピーでクエリ。GCS 上の同じ Parquet ファイルを読み、変更は最短 5 分ごとのメタデータ更新後に反映。Amazon S3 や Azure Blob Storage にもフェデレーション可能"
   - "セキュリティ: Cloud CISO Perspectives (2026 年 10 月第 2 号)。Google Cloud VRP に新しい 25 万ドルのティアを新設し、自動化調査だけでは届かない人手による高度な脆弱性研究を促進"
   - "データ・AI: Knowledge Catalog のセマンティックモデル対応拡張が一般提供。Looker LookML、BigQuery Graph (BigQuery measures 含む)、dbt MetricFlow、Snowflake などの指標定義を 1 つのコンテキストグラフに集約し、定義が食い違う場合は出所付きで両方を提示"
+  - "データ分析・AI: BigQuery ObjectRef とマルチモーダルデータ分析が一般提供。非構造化データを ObjectRef 列として構造化データと並べ、単一の SQL / 自然言語クエリで Gemini にマルチモーダル入力を渡せる (2026 年 10 月 22 日公開記事の抄訳)"
+  - "AI・データ主権: GDC エアギャップ上の Gemini によるエンタープライズ検索がプレビュー。NVIDIA Blackwell Ultra で高速化したフルマネージド RAG を外部接続なしで実行。1 ファイル最大 100 MB・1 チャット最大 500 MB、出典付き回答 (2026 年 10 月 21 日公開記事の抄訳)"
+  - "AI・事例: カインズがプレビュー版 AlphaEvolve で需要予測の誤差を 19% 改善。3 年間のチューニングの壁を突破 (BigQuery、AlphaEvolve)"
+  - "地図・事例: DHL Express が Google Maps Platform で約 4 万人の配達員にリアルタイムのナビゲーションとインテリジェンスを提供し、B2C 配送をグローバルに拡大"
+  - "地図・事例: AURA が Google Maps Platform (パートナー Localyse) で正確な ETA を実現し、緊急対応の派遣コストを 50% 以上削減"
+  - "地図・事例: UBCab が Routes API の Compute Routes で直線距離から交通状況を考慮したドライバーマッチングへ移行し、平均迎車時間を 25% 短縮"
