@@ -1,0 +1,14 @@
+"date": "2026-10-31"
+"generated_at": "2026-10-31 06:01:10 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 5
+"sources":
+  - "google_cloud_ai_ml_blog"
+  - "google_cloud_blog"
+"overview": |
+  この日はコスト管理の一般提供、10 月の AI インフラのまとめ、GKE の障害調査の振り返りが中心でした (同じ記事が 2 つの情報源に載っているものがあり、実質 3 本)。Google Cloud Budgets の支出上限 (spend caps) が一般提供となり、リソースを削除するリスクなしに想定外のコストからワークロードを守れるようになった。既存の Cloud Billing Budgets API から使える spend caps API で、対象サービスの上限をプロジェクトごとにプログラムから適用・解除・更新・削除でき、新しいサンドボックスプロジェクトの作成時にすぐ上限をかけられる。AI サービスの上限は推定のライブコストをもとに利用から数分以内に発動し、その推定コストは Cost Reports で確認できる。10 月の AI インフラのまとめでは、ハードウェア分離された microVM サンドボックスを提供する新しいコンピュートサービス Agent Compute Engine (Agent Gateway、Agent Registry によるガバナンス、1 秒未満の起動、コピーオンライトのメモリ共有による高密度化) と、NVIDIA GTC Berlin 2026 で発表された AI Hypercomputer の更新 (NVIDIA Vera Rubin NVL72 ベースの A5X インスタンス、Virgo Network、Managed Lustre) が紹介された。GKE の記事は、2026 年 1 月に始まった、Pod から Kubernetes API サーバーへの接続が断続的に失敗する障害の調査記録で、europe-west の顧客の GKE クラスタで約 800 人の開発者が数週間にわたり本番デプロイを止められた。原因はスタックの 3 つの層にまたがる 3 つの別々のバグで、最終的な修正は Linux カーネルへのパッチとして入った。
+"topics":
+  - "コスト管理: Google Cloud Budgets の spend caps が GA。リソース削除のリスクなしで想定外のコストを防止。spend caps API (Cloud Billing Budgets API 経由) と Cost Reports でのライブコスト表示を追加"
+  - "AI インフラ: 新サービス Agent Compute Engine。ハードウェア分離の microVM サンドボックス、Agent Gateway と Agent Registry によるガバナンス、1 秒未満の起動"
+  - "AI インフラ: NVIDIA GTC Berlin 2026 で AI Hypercomputer を更新。NVIDIA Vera Rubin NVL72 ベースの A5X インスタンス、Virgo Network、Managed Lustre"
+  - "障害事例: 2026 年 1 月からの GKE の Kubernetes API 接続障害の調査記録。europe-west で約 800 人の開発者が数週間デプロイ不能に。3 層の 3 つのバグが原因で、Linux カーネルへのパッチで修正"
