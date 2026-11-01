@@ -1,0 +1,9 @@
+"entries":
+  "7d0d56ea0c608af059a0cdc03a427ffa":
+    "id": "7d0d56ea0c608af059a0cdc03a427ffa"
+    "title": "October 31, 2026"
+    "link": "https://docs.cloud.google.com/release-notes#October_31_2026"
+    "published": "2026-10-31 16:00:00"
+    "fetched": "2026-11-02 00:45:52"
+    "summary": "<h2 class=\"release-note-product-title\">Google SecOps</h2>\n<h3>Feature</h3>\n<p><strong>Basic Mode search</strong></p>\n<p>This feature is in public preview. The <strong>SIEM Search</strong> page now provides two search-execution modes: <strong>Basic Mode</strong> and <strong>Advanced Mode</strong>. <strong>Basic Mode</strong> (the default option) uses a streamlined, fast-path execution pipeline that bypasses secondary enrichment steps during search execution. This approach reduces end-to-end search wait times while preserving full data fidelity and query syntax parity. <strong>Advanced Mode</strong> is equivalent to the previous search experience.</p>\n<p>For more information, see <a href=\"https://docs.cloud.google.com/chronicle/docs/investigation/udm-search.md#choose-search-execution-mode\">Choose the search-execution mode</a> and <a href=\"https://docs.cloud.google.com/chronicle/docs/investigation/udm-search#search-execution-modes\">Understand the search-execution modes</a>.</p>"
+"last_updated": "2026-11-02 00:45:52 JST"
