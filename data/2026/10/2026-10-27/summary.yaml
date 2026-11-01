@@ -1,14 +1,14 @@
 "date": "2026-10-27"
-"generated_at": "2026-10-28 06:01:29 JST"
+"generated_at": "2026-11-02 06:00:53 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 13
+"article_count": 14
 "sources":
   - "gcp_release_notes"
   - "google_cloud_ai_ml_blog"
   - "google_cloud_blog"
   - "google_cloud_japan_blog"
 "overview": |
-  この日は 13 件 (重複を除くと 10 件)。リリースノートでは AlloyDB for PostgreSQL の AI 関数の拡充 (ai.extract・ai.classify のプレビュー、AI クエリエンジン関数のパラメータ名と signature の変更) と、BigQuery の Data Engineering Agent の Google Drive 連携が載った。AI・ロボティクスでは Gemini Robotics Embodied Reasoning 2 (ER 2) が Gemini platform でパブリックプレビューとなり、Google DeepMind の身体性推論モデルを Google Cloud のセキュリティやマルチエージェントのオーケストレーション、ライフサイクル管理と組み合わせて使えるようになった。NASA とは深宇宙ミッション向けのロボットシステムの概念実証 (Crew Medical Officer Digital Assistant の発展) を紹介。インフラでは Oracle と提携し、2027 年から Oracle Cloud Infrastructure (OCI) に Google TPU を展開すると発表 (OCI は Google 以外で初めて TPU を提供するハイパースケーラー)。IAM ではエージェント向けの IAM Helper (Agent Skills と MCP ツール)、データでは Knowledge Catalog の LookML セマンティック言語インデックスの GA (Looker Core on Google Cloud)、金融では Google Cloud Universal Ledger (GCUL) へのスイスフラン導入。日本のブログでは、Mandiant による ARMORY CASTLE (旧 UNC5221) が BeyondTrust Remote Support の脆弱性 CVE-2026-102764 を 2026 年 8 月下旬からゼロデイとして悪用していた調査の抄訳、Cloud Run ワーカープール上の Temporal Serverless Workers (プレビュー)、生成 AI 活用事例集 2026 年 10 月版 (国内 121 社) が公開された。
+  この日は 14 件 (重複を除くと 11 件)。リリースノートでは AlloyDB for PostgreSQL の AI 関数の拡充 (ai.extract・ai.classify のプレビュー、AI クエリエンジン関数のパラメータ名と signature の変更) と、BigQuery の Data Engineering Agent の Google Drive 連携が載った。AI・ロボティクスでは Gemini Robotics Embodied Reasoning 2 (ER 2) が Gemini platform でパブリックプレビューとなり、Google DeepMind の身体性推論モデルを Google Cloud のセキュリティやマルチエージェントのオーケストレーション、ライフサイクル管理と組み合わせて使えるようになった。NASA とは深宇宙ミッション向けのロボットシステムの概念実証 (Crew Medical Officer Digital Assistant の発展) を紹介。インフラでは Oracle と提携し、2027 年から Oracle Cloud Infrastructure (OCI) に Google TPU を展開すると発表 (OCI は Google 以外で初めて TPU を提供するハイパースケーラー)。IAM ではエージェント向けの IAM Helper (Agent Skills と MCP ツール)、データでは Knowledge Catalog の LookML セマンティック言語インデックスの GA (Looker Core on Google Cloud)、金融では Google Cloud Universal Ledger (GCUL) へのスイスフラン導入。日本のブログでは、Mandiant による ARMORY CASTLE (旧 UNC5221) が BeyondTrust Remote Support の脆弱性 CVE-2026-102764 を 2026 年 8 月下旬からゼロデイとして悪用していた調査の抄訳、Cloud Run ワーカープール上の Temporal Serverless Workers (プレビュー)、生成 AI 活用事例集 2026 年 10 月版 (国内 121 社) が公開された。 遅れて取得した記事が 1 本。AI スタートアップの Visko が Google Cloud TPU エンジニアと協力し、連続的にストリーミングするライブ世界モデル Orbis を Cloud TPU にデプロイした事例 (2026 年 10 月 16 日公開記事の抄訳) で、動画生成、超解像アップスケーリング、同期音声を単一の Cloud TPU スライスに統合したパイプラインにより、キックオフから本番環境への引き継ぎまで 30 日で 1.07 倍の再生速度でのレンダリングを実現した。
 "topics":
   - "セキュリティ: Mandiant が ARMORY CASTLE (旧 UNC5221、中国関連が疑われるサイバースパイ) による BeyondTrust Remote Support (旧 Bomgar) の脆弱性 CVE-2026-102764 (任意ファイルアップロード、10/15 公表) のゼロデイ悪用 (2026 年 8 月下旬) を報告。SAWFLY ウェブシェルや BARECLAW トンネラーを使用。BeyondTrust のパッチの即時適用を推奨"
   - "AI・ロボティクス: Gemini Robotics Embodied Reasoning 2 (ER 2) が Gemini platform でパブリックプレビュー。空間・時間の映像理解と長期計画、安全ガードレールを備え、あらゆるロボット形態に対応"
@@ -21,3 +21,4 @@
   - "サーバーレス: Cloud Run ワーカープール上の Temporal Serverless Workers がプレビュー。Temporal Cloud がタスクキューの量に応じてワーカープールを自動スケールし、ゼロまでスケールダウン可能"
   - "金融: Google Cloud Universal Ledger にスイスフランを導入。銀行がトークン化預金を発行・決済するインフラとして、コアバンキングを壊さず 24 時間 365 日のプログラム可能な決済を実現"
   - "国内: 生成 AI 活用事例集 2026 年 10 月版。11 社を追加して国内 121 社に。全従業員約 5,000 名への Gemini 導入、LLM ゲートウェイによる利用状況・コスト管理など全社運用段階の事例"
+  - "AI・事例: Visko がライブ世界モデル Orbis を Cloud TPU にデプロイ。動画生成・超解像・同期音声を単一の TPU スライスに統合し、30 日で本番化、1.07 倍の再生速度でレンダリング (2026 年 10 月 16 日公開記事の抄訳)"
