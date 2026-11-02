@@ -1,0 +1,10 @@
+"date": "2026-11-01"
+"generated_at": "2026-11-03 06:01:19 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "gcp_release_notes"
+"overview": |
+  この日の更新は Google SecOps SOAR のリリース 6.3.105 の 1 件です。提供は第 1 フェーズのリージョンから順次始まり、内部および顧客向けのバグ修正が含まれます。
+"topics":
+  - "セキュリティ運用: Google SecOps SOAR リリース 6.3.105 を第 1 フェーズのリージョンへ順次提供 (バグ修正)"

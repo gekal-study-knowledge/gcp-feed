@@ -1,0 +1,10 @@
+"date": "2026-11-03"
+"generated_at": "2026-11-03 06:01:19 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "google_cloud_blog"
+"overview": |
+  この日の記事は Google Cloud ブログの 1 本で、Database Migration Service (DMS) を移行以外の日常運用に使う方法を紹介しています。DMS は Cloud SQL for SQL Server をソースにでき、同じプロジェクト、別プロジェクト、リージョン間のインスタンスを低ダウンタイムで継続的にレプリケーションできるため、これを利用してアプリケーションのダウンタイムを最小限に抑えながらディスクを縮小します。自動ストレージ増加や、データ削除後に空き領域がデータファイル内に残ることから、ストレージが増える一方になる環境での活用例です。
+"topics":
+  - "データベース: DMS のレプリケーションで Cloud SQL for SQL Server のディスクを低ダウンタイムで縮小する運用パターン"

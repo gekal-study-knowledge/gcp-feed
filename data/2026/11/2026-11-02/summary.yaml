@@ -1,11 +1,13 @@
 "date": "2026-11-02"
-"generated_at": "2026-11-02 22:00:51 JST"
+"generated_at": "2026-11-03 06:01:19 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 6
+"article_count": 9
 "sources":
+  - "gcp_release_notes"
+  - "google_cloud_blog"
   - "google_cloud_japan_blog"
 "overview": |
-  この日は Google Cloud の日本語ブログに 10 月下旬の米国記事の抄訳がまとまって公開され、脅威インテリジェンスとエージェント基盤が中心でした。セキュリティでは、GTIG と Mandiant が 2026 年 4 月から 7 月にかけての AOMEI Technology のアップデート基盤を狙ったサプライチェーン侵害を報告しました。UNC7017 として追跡するクラスタが改ざんを 5〜10 分間だけ有効にして元に戻す手口で、CROSSROAD ダウンローダと SHINYROAD バックドアを配信していました。さらに、攻撃者がオープンソースのエージェント型ペンテストフレームワーク ARTEX、Hexstrike、CAIRN を悪用している事例も示され、コントロールプレーンの分離や短期間のみ有効な認証情報などの防御策が挙げられています。エージェント基盤では、Agent Compute Engine が発表され、今後数か月以内にプレビュー提供を始める予定で、ハードウェアレベルで分離されたサンドボックスを備えます。Knowledge Catalog には自己学習型コンテキストエンリッチメントと Knowledge Studio がプレビューで加わり、GDC エアギャップでは Gemini on GDC のエンタープライズ検索 (プレビュー版) などソブリン AI の機能が拡充されました。エージェント評価エンジニアリングの教訓を 4 点まとめた記事も公開されています。
+  この日は Google Cloud の日本語ブログに 10 月下旬の米国記事の抄訳がまとまって公開され、脅威インテリジェンスとエージェント基盤が中心でした。セキュリティでは、GTIG と Mandiant が 2026 年 4 月から 7 月にかけての AOMEI Technology のアップデート基盤を狙ったサプライチェーン侵害を報告しました。UNC7017 として追跡するクラスタが改ざんを 5〜10 分間だけ有効にして元に戻す手口で、CROSSROAD ダウンローダと SHINYROAD バックドアを配信していました。さらに、攻撃者がオープンソースのエージェント型ペンテストフレームワーク ARTEX、Hexstrike、CAIRN を悪用している事例も示され、コントロールプレーンの分離や短期間のみ有効な認証情報などの防御策が挙げられています。エージェント基盤では、Agent Compute Engine が発表され、今後数か月以内にプレビュー提供を始める予定で、ハードウェアレベルで分離されたサンドボックスを備えます。Knowledge Catalog には自己学習型コンテキストエンリッチメントと Knowledge Studio がプレビューで加わり、GDC エアギャップでは Gemini on GDC のエンタープライズ検索 (プレビュー版) などソブリン AI の機能が拡充されました。エージェント評価エンジニアリングの教訓を 4 点まとめた記事も公開されています。 遅れて取得した記事が 3 本あります。Mandiant と GTIG は LLMJacking の実態を報告しました。企業の LLM へのアクセスを乗っ取る手口で、1 日で 10 万ドルを超える不正請求、組織によっては累計 100 万ドルに達した例があります。主な侵入経路は流出・窃取された IAM 認証情報、サービスアカウントキー、GitHub の PAT、セッショントークンなどのクラウド ID で、不正利用の権限を仲介・転売する LLM Mixer との分業も進んでいます。LiteLLM の /key/regenerate エンドポイントの脆弱性 CVE-2026-40217 を突き、Virtual Key を PROXY_ADMIN に昇格させた事例も示されました。Google と業界パートナーは、130 万台超のセットトップボックスを感染させていた XCPE ボットネットを解体しました。Google は Android の OEM / ODM である Videostrong Technology がバックドアを意図的に開発・運用したと高い確度で評価し、認定 Android デバイスの製造や認定ベンダーへのソフトウェア供給を禁止しました。アフィリエイトの C2 ドメインの遮断で、さらに少なくとも 1,000 万台の侵害デバイスへのアクセスを断てると見ています。リリースノートでは、Cloud Load Balancing で Cloud Trace による分散トレーシングがプレビューに、Application Load Balancer の mTLS 検証の緩和 (ALLOW_MISSING_EKU、ALLOW_SHA1_HASHING、ALLOW_EXPIRED_LEAF_CERTIFICATE) が一般提供になりました。Datastream はヨハネスブルグ (africa-south1) とバンコク (asia-southeast3) に対応し、Model Armor のストリーミングサニタイズのテンプレート固有の除外ルールがプレビュー、Oracle Database@Google Cloud の ODB ネットワークのカスタム DNS ドメインが一般提供になりました。
 "topics":
   - "セキュリティ: UNC7017 が AOMEI のアップデート基盤を 5〜10 分だけ改ざんし CROSSROAD と SHINYROAD を配信 (2026 年 4〜7 月)"
   - "セキュリティ: 攻撃者がエージェント型フレームワーク ARTEX・Hexstrike・CAIRN を悪用、Mandiant が防御戦略を提示"
@@ -13,3 +15,7 @@
   - "データ: Knowledge Catalog に自己学習型コンテキストエンリッチメントと Knowledge Studio (いずれもプレビュー)"
   - "ソブリン AI: GDC エアギャップに Gemini on GDC のエンタープライズ検索 (プレビュー版)、オープンウェイトモデル、ISV アプリなど"
   - "開発: Google Cloud Developer プラグインの開発から得た評価エンジニアリングの 4 つの教訓"
+  - "セキュリティ: LLMJacking の報告。1 日 10 万ドル超、累計 100 万ドルの不正請求例。LiteLLM の CVE-2026-40217 で Virtual Key を PROXY_ADMIN に昇格"
+  - "セキュリティ: 130 万台超のセットトップボックスを感染させた XCPE ボットネットを解体。Videostrong を認定 Android デバイスの製造などから排除し、少なくとも 1,000 万台の追加侵害デバイスへのアクセスも遮断"
+  - "ネットワーク: Cloud Load Balancing の分散トレーシングがプレビュー、mTLS の検証緩和モードが一般提供"
+  - "リージョン・その他: Datastream が africa-south1 と asia-southeast3 に対応、Model Armor のストリーミング除外ルールがプレビュー、Oracle Database@Google Cloud のカスタム DNS ドメインが一般提供"
