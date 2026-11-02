@@ -1,0 +1,15 @@
+"date": "2026-11-02"
+"generated_at": "2026-11-02 22:00:51 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 6
+"sources":
+  - "google_cloud_japan_blog"
+"overview": |
+  この日は Google Cloud の日本語ブログに 10 月下旬の米国記事の抄訳がまとまって公開され、脅威インテリジェンスとエージェント基盤が中心でした。セキュリティでは、GTIG と Mandiant が 2026 年 4 月から 7 月にかけての AOMEI Technology のアップデート基盤を狙ったサプライチェーン侵害を報告しました。UNC7017 として追跡するクラスタが改ざんを 5〜10 分間だけ有効にして元に戻す手口で、CROSSROAD ダウンローダと SHINYROAD バックドアを配信していました。さらに、攻撃者がオープンソースのエージェント型ペンテストフレームワーク ARTEX、Hexstrike、CAIRN を悪用している事例も示され、コントロールプレーンの分離や短期間のみ有効な認証情報などの防御策が挙げられています。エージェント基盤では、Agent Compute Engine が発表され、今後数か月以内にプレビュー提供を始める予定で、ハードウェアレベルで分離されたサンドボックスを備えます。Knowledge Catalog には自己学習型コンテキストエンリッチメントと Knowledge Studio がプレビューで加わり、GDC エアギャップでは Gemini on GDC のエンタープライズ検索 (プレビュー版) などソブリン AI の機能が拡充されました。エージェント評価エンジニアリングの教訓を 4 点まとめた記事も公開されています。
+"topics":
+  - "セキュリティ: UNC7017 が AOMEI のアップデート基盤を 5〜10 分だけ改ざんし CROSSROAD と SHINYROAD を配信 (2026 年 4〜7 月)"
+  - "セキュリティ: 攻撃者がエージェント型フレームワーク ARTEX・Hexstrike・CAIRN を悪用、Mandiant が防御戦略を提示"
+  - "エージェント基盤: Agent Compute Engine を発表、今後数か月以内にプレビュー、ビジネス向け Gemini のガバナンスも拡張"
+  - "データ: Knowledge Catalog に自己学習型コンテキストエンリッチメントと Knowledge Studio (いずれもプレビュー)"
+  - "ソブリン AI: GDC エアギャップに Gemini on GDC のエンタープライズ検索 (プレビュー版)、オープンウェイトモデル、ISV アプリなど"
+  - "開発: Google Cloud Developer プラグインの開発から得た評価エンジニアリングの 4 つの教訓"
