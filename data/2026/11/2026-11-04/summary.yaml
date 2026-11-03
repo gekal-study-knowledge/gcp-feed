@@ -1,0 +1,12 @@
+"date": "2026-11-04"
+"generated_at": "2026-11-04 08:11:51 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 3
+"sources":
+  - "google_cloud_ai_ml_blog"
+  - "google_cloud_blog"
+"overview": |
+  この日はブログ記事 2 本 (同じ記事が 2 ソースに掲載されたため件数は 3)。Nammu21 が Google Cloud と進めた PoC として、AI プラットフォームで法的合意書を構造化し Google Cloud Universal Ledger (GCUL) 上のスマートコントラクトとして展開することで、シンジケートローンのライフサイクル全体を自動化する取り組みを紹介した。決済に数週間かかり評価の不透明さや取引の摩擦が残っていたシンジケートローン・プライベートクレジット市場で、決済時間の短縮と市場効率の向上を狙う。もう 1 本は Google Cloud Consulting チームが多数の企業と進めたエージェント導入の経験から、予算・計算資源・ツールだけでは足りず、現場が安心して試せる文化づくりとリーダーが役割の変化を示すことが鍵になるとして、5 つの実践的な教訓をまとめた。
+"topics":
+  - "金融: Nammu21 が Google Cloud Universal Ledger 上のスマートコントラクトでシンジケートローンのライフサイクルを自動化する PoC、決済時間の短縮と市場効率の向上を狙う"
+  - "AI 導入: エージェント時代に人を中心に据えるための 5 つの教訓、Google Cloud Consulting の企業支援から"
