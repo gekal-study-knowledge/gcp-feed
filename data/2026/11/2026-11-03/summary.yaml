@@ -1,11 +1,14 @@
 "date": "2026-11-03"
-"generated_at": "2026-11-03 22:01:08 JST"
+"generated_at": "2026-11-04 06:00:51 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 2
+"article_count": 3
 "sources":
+  - "gcp_release_notes"
   - "google_cloud_blog"
 "overview": |
-  この日はブログ記事が 2 本。Database Migration Service (DMS) を Cloud SQL for SQL Server 間の継続レプリケーションに使い、最小限のダウンタイムでディスクを縮小する運用パターンを紹介した。また、Antigravity Marketplace で google-cloud-developer プラグインが提供開始され、事前承認済みの Developer Knowledge MCP サーバーにより API キーや OAuth 設定なしでエージェントを公式ドキュメントにグラウンディングできるようになった。
+  この日はブログ記事 2 本とリリースノート 1 件。Application Design Center が大阪 (asia-northeast2)、ムンバイ (asia-south1)、バンコク (asia-southeast3)、シドニー (australia-southeast1)、ベルリン (europe-west10)、サウスカロライナ (us-east1)、ダンマーム (me-central2) で利用可能になり、Oracle Database@Google Cloud では Oracle データベースに接続して SQL を実行できる Database Connections が GA となった。ブログでは、Database Migration Service (DMS) を Cloud SQL for SQL Server 間の継続レプリケーションに使い、最小限のダウンタイムでディスクを縮小する運用パターンを紹介した。また、Antigravity Marketplace で google-cloud-developer プラグインが提供開始され、事前承認済みの Developer Knowledge MCP サーバーにより API キーや OAuth 設定なしでエージェントを公式ドキュメントにグラウンディングできるようになった。
 "topics":
+  - "リージョン拡大: Application Design Center が asia-northeast2 (大阪)、asia-south1、asia-southeast3、australia-southeast1、europe-west10、us-east1、me-central2 で利用可能に"
+  - "データベース: Oracle Database@Google Cloud で Database Connections が GA、Oracle データベースへ接続して SQL 文を実行可能に"
   - "データベース: Database Migration Service を使い Cloud SQL for SQL Server のディスクを最小限のダウンタイムで縮小する手法"
   - "開発ツール: Antigravity Marketplace で Google Cloud Developer プラグインが提供開始、スキル・安全ガードレール・Developer Knowledge MCP サーバーによるライブドキュメントのグラウンディングを同梱"
