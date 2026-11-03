@@ -1,0 +1,9 @@
+"entries":
+  "acc89753452f77f5edd7ec4ef8787b6d":
+    "id": "acc89753452f77f5edd7ec4ef8787b6d"
+    "title": "November 03, 2026"
+    "link": "https://docs.cloud.google.com/release-notes#November_03_2026"
+    "published": "2026-11-03 17:00:00"
+    "fetched": "2026-11-04 00:50:19"
+    "summary": "<h2 class=\"release-note-product-title\">Application Design Center</h2>\n<h3>Feature</h3>\n<p>Application Design Center is available in the following regions:</p>\n<ul>\n<li>Osaka, Japan (<code>asia-northeast2</code>)</li>\n<li>Mumbai, India (<code>asia-south1</code>)</li>\n<li>Bangkok, Thailand (<code>asia-southeast3</code>)</li>\n<li>Sydney, Australia (<code>australia-southeast1</code>)</li>\n<li>Berlin, Germany (<code>europe-west10</code>)</li>\n<li>Moncks Corner, South Carolina (<code>us-east1</code>)</li>\n<li>Dammam, Saudi Arabia (<code>me-central2</code>)</li>\n</ul>\n<p>For more information, see\n<a href=\"https://docs.cloud.google.com/application-design-center/docs/locations\">App Design Center locations</a>.</p>\n<h2 class=\"release-note-product-title\">Oracle Database@Google Cloud</h2>\n<h3>Feature</h3>\n<p>Oracle Database@Google Cloud introduces Database Connections using which you can connect to your Oracle databases and execute SQL statements.\nFor more information, see <a href=\"https://docs.cloud.google.com/oracle/database/docs/create-database-connection\">Create Database Connections</a> and <a href=\"https://docs.cloud.google.com/oracle/database/docs/execute-sql\">Execute SQL statements</a>.</p>\n<p>This feature is <a href=\"https://cloud.google.com/products#product-launch-stages\">generally available (GA)</a>.</p>"
+"last_updated": "2026-11-04 00:50:19 JST"
