@@ -1,14 +1,18 @@
 "date": "2026-11-04"
-"generated_at": "2026-11-04 22:01:06 JST"
+"generated_at": "2026-11-05 06:01:12 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 9
+"article_count": 13
 "sources":
   - "google_cloud_ai_ml_blog"
   - "google_cloud_blog"
   - "google_cloud_japan_blog"
 "overview": |
-  この日はブログ記事 8 本 (同じ記事が 2 ソースに掲載されたため件数は 9)。Google Cloud Japan Blog から 6 本が出て、Google が業界パートナーと連携し、130 万台以上のセットトップボックスをボットネットに組み込んでいた XCPE バックドアをテイクダウンした件を詳しく解析した。Android の OEM / ODM である Videostrong Technology 社が経済的利益を目的に意図的に開発・運用していたと評価し、アフィリエイトのモジュールを制御する C2 ドメインもテイクダウンして、さらに 1,000 万台以上の感染デバイスへのアクセスを遮断できたと推測している。Google は同社との提携を解消し、Google アプリをプリロードしたデバイスの製造を禁じた。米国ブログの抄訳として、Cloud SQL for MySQL 向けのフルマネージド Blue/Green デプロイ (プレビュー) による主要バージョンアップグレードのダウンタイム最小化、Oracle との提携で Google TPU を Oracle Cloud Infrastructure に導入 (OCI は Google 以外で TPU を提供する初のハイパースケーラーとなり、2027 年から TPU キャパシティのデプロイを開始予定)、Meta の PyTorch チームと共同開発した TorchTPU のオープンソース化、Gemini Robotics Embodied Reasoning 2 の Gemini プラットフォームでの公開プレビューが紹介された。事例ではマクロミルが 20 年稼働してきた基幹システムを 1 年で GKE や AlloyDB などの Google Cloud へ全面移行し、オートスケールと無停止リリース、コスト削減を実現した。ほかに Nammu21 が AI プラットフォームで法的合意書を構造化し Google Cloud Universal Ledger (GCUL) 上のスマートコントラクトとして展開することでシンジケートローンのライフサイクル全体を自動化する PoC と、Google Cloud Consulting チームの企業支援の経験からエージェント導入で人を中心に据えるための 5 つの教訓をまとめた記事が出た。
+  この日はブログ記事 12 本 (同じ記事が 2 ソースに掲載されたため件数は 13)。米国の Google Cloud Blog では Agentic Data Cloud のアップデートとして、Apache Iceberg ベースの borderless Lakehouse でマルチクラウド・オンプレミス・SaaS (Confluent・SAP・Salesforce・Workday など) のデータをデータ移動なしにエージェントへ提供する方針が示された。あわせて AlloyDB 関連が 2 本出て、開発者と AI コーディングエージェント向けに 2 秒未満で PostgreSQL データベースを作成でき、15 分間アイドルで自動停止するスケールトゥゼロの AlloyDB Express がプレビュー (無料枠あり) となったほか、Cloud Storage 上の Iceberg テーブルを AlloyDB から直接クエリして運用データと結合できる direct Iceberg access がプレビュー、AlloyDB sync と Lakehouse federation が一般提供となった。事例としてメルカリがカスタマーサービス環境のレガシー VDI を Chrome Enterprise Premium と Chromebook に置き換え、50% 超のコスト削減を見込む記事も出た。Google Cloud Japan Blog から 6 本が出て、Google が業界パートナーと連携し、130 万台以上のセットトップボックスをボットネットに組み込んでいた XCPE バックドアをテイクダウンした件を詳しく解析した。Android の OEM / ODM である Videostrong Technology 社が経済的利益を目的に意図的に開発・運用していたと評価し、アフィリエイトのモジュールを制御する C2 ドメインもテイクダウンして、さらに 1,000 万台以上の感染デバイスへのアクセスを遮断できたと推測している。Google は同社との提携を解消し、Google アプリをプリロードしたデバイスの製造を禁じた。米国ブログの抄訳として、Cloud SQL for MySQL 向けのフルマネージド Blue/Green デプロイ (プレビュー) による主要バージョンアップグレードのダウンタイム最小化、Oracle との提携で Google TPU を Oracle Cloud Infrastructure に導入 (OCI は Google 以外で TPU を提供する初のハイパースケーラーとなり、2027 年から TPU キャパシティのデプロイを開始予定)、Meta の PyTorch チームと共同開発した TorchTPU のオープンソース化、Gemini Robotics Embodied Reasoning 2 の Gemini プラットフォームでの公開プレビューが紹介された。事例ではマクロミルが 20 年稼働してきた基幹システムを 1 年で GKE や AlloyDB などの Google Cloud へ全面移行し、オートスケールと無停止リリース、コスト削減を実現した。ほかに Nammu21 が AI プラットフォームで法的合意書を構造化し Google Cloud Universal Ledger (GCUL) 上のスマートコントラクトとして展開することでシンジケートローンのライフサイクル全体を自動化する PoC と、Google Cloud Consulting チームの企業支援の経験からエージェント導入で人を中心に据えるための 5 つの教訓をまとめた記事が出た。
 "topics":
+  - "データ基盤: Agentic Data Cloud のアップデート、Apache Iceberg ベースの borderless Lakehouse でマルチクラウド・オンプレミス・SaaS のデータをデータ移動なしにエージェントへ提供"
+  - "データベース: AlloyDB Express がプレビュー、2 秒未満で PostgreSQL DB を作成、15 分間アイドルで自動停止するスケールトゥゼロ、無料枠と従量課金 (gcloud・REST API・MCP・Terraform から作成可能)"
+  - "データベース: AlloyDB for PostgreSQL の direct Iceberg access がプレビュー (Iceberg テーブルを直接クエリし運用データと結合)、AlloyDB sync と Lakehouse federation が一般提供"
+  - "事例: メルカリがカスタマーサービス環境のレガシー VDI を Chrome Enterprise Premium と Chromebook に置き換え、50% 超のコスト削減を見込む"
   - "セキュリティ: Google が 130 万台以上のセットトップボックスを感染させた XCPE バックドア/ボットネットをテイクダウン、Videostrong Technology 社が意図的に運用と評価、C2 ドメインのテイクダウンで 1,000 万台以上の感染デバイスへのアクセスを遮断、同社との提携解消"
   - "データベース: Cloud SQL for MySQL 向けにフルマネージドの Blue/Green デプロイをプレビュー公開、主要バージョンアップグレード (MySQL 8.0 → 8.4 など) をほぼダウンタイムなしで実施し切り替え後も元の DB を保持"
   - "AI インフラ: Oracle と提携し Google TPU を Oracle Cloud Infrastructure に導入、OCI は Google 以外で TPU を提供する初のハイパースケーラーに (2027 年からデプロイ開始予定)"

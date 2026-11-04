@@ -1,0 +1,10 @@
+"date": "2026-11-05"
+"generated_at": "2026-11-05 06:01:12 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "google_cloud_blog"
+"overview": |
+  この日は Google Cloud Blog の 1 本のみ。Compute Engine API のマルチバージョニングが一般提供となり、日付ベースの API バージョンを導入することで、/v1 API の安定性と後方互換性を保ったまま、より安全なセキュリティの既定値、リージョン耐障害性の強化、機械可読なエラーモデル、宣言的な運用に向いたモダンな API セマンティクスを段階的に採用できるようになった。
+"topics":
+  - "コンピューティング: Compute Engine API のマルチバージョニングが一般提供、日付ベースの API バージョンで /v1 の安定性を保ちつつ新しいセマンティクスや既定値を選択的に採用"
