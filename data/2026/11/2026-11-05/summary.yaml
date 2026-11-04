@@ -1,10 +1,15 @@
 "date": "2026-11-05"
-"generated_at": "2026-11-05 06:01:12 JST"
+"generated_at": "2026-11-05 08:09:01 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 1
+"article_count": 3
 "sources":
   - "google_cloud_blog"
 "overview": |
-  この日は Google Cloud Blog の 1 本のみ。Compute Engine API のマルチバージョニングが一般提供となり、日付ベースの API バージョンを導入することで、/v1 API の安定性と後方互換性を保ったまま、より安全なセキュリティの既定値、リージョン耐障害性の強化、機械可読なエラーモデル、宣言的な運用に向いたモダンな API セマンティクスを段階的に採用できるようになった。
+  この日は Google Cloud Blog の 3 本。Compute Engine API のマルチバージョニングが一般提供となり、日付ベースの API バージョンを導入することで、/v1 API の安定性と後方互換性を保ったまま、より安全なセキュリティの既定値、リージョン耐障害性の強化、機械可読なエラーモデル、宣言的な運用に向いたモダンな API セマンティクスを段階的に採用できるようになった。Google Cloud Security Summit に合わせて、エージェント時代にセキュアに作り・守るための更新がまとめて公開された。自律型コードセキュリティエージェント CodeMender はプレビュー中で、脆弱性の検証とエクスプロイトのシミュレーションを OS レベルのサンドボックスか隔離された仮想マシン内に閉じ込め、ローカルの書き込みやコマンド実行には人間の確認を挟むようになり、スキャン範囲もフォルダ単位・リポジトリ全体・前回からの変更分から選べるようになった。Gemini 4 Argon などのモデルと組み合わせて使われ、Wiz は全ウェブサイトの 70% に影響する PHP の中核的な脆弱性の発見と修正に活用したという。エージェントの実行環境を問わず同じ統制をかける枠組みとして、Google 管理の保管庫で OAuth 2.0/PKCE を自動化する Auth Manager が GA、OIDC トークンを発行して AWS・Azure・オンプレミスのバックエンド・MCP サーバーへ長期間有効な API キーなしで認証できる Agent Identity の JWT 対応がプレビュー、VPC Service Controls の上り・下り規則での IAM ロール対応が GA (GKE の Workload Identity Federation 対応はプレビュー)、エージェントの話題逸脱を抑える Model Armor のカスタムトピック検出器がプレビュー、Palo Alto Networks WildFire を利用する Cloud NGFW の高度なマルウェアサンドボックスが GA、Thales Imperva の脅威インテリジェンスに基づく Cloud Armor マネージドルールがプレビューとなった。Wiz との連携では、エージェント的推論でビジネスロジックの欠陥を見つける Wiz AI SAST のプレビュー、Wiz Defend と Google Security Operations の共通データモデル化と双方向同期、Google DeepMind と Wiz による Scan for Good (初月で 50 を超える公共サービス・重要インフラ事業者の重大な露出の修正を支援) が挙げられた。もう 1 本はワシントン D.C. で 2 日間開催され 2,700 名超が参加した Google Public Sector Summit の振り返りで、NASA や NOAA などの組織がエージェントを使って成果を上げている事例が紹介された。
 "topics":
   - "コンピューティング: Compute Engine API のマルチバージョニングが一般提供、日付ベースの API バージョンで /v1 の安定性を保ちつつ新しいセマンティクスや既定値を選択的に採用"
+  - "セキュリティ: Google Cloud Security Summit の発表、自律型コードセキュリティエージェント CodeMender がサンドボックス内での検証と人間の確認を追加、スキャン範囲も選択可能に (プレビュー、Gemini 4 Argon などと併用)"
+  - "セキュリティ: エージェント向けの統制として Auth Manager が GA、Agent Identity の JWT 対応がプレビュー、VPC Service Controls の上り下り規則で IAM ロール対応が GA、Model Armor のカスタムトピック検出器がプレビュー"
+  - "セキュリティ: Cloud NGFW の高度なマルウェアサンドボックス (Palo Alto Networks WildFire) が GA、Cloud Armor マネージドルール (Thales Imperva) がプレビュー"
+  - "セキュリティ: Wiz との連携強化、Wiz AI SAST がプレビュー、Wiz Defend と Google Security Operations の共通データモデル化と双方向同期、Google DeepMind と Wiz の Scan for Good"
+  - "イベント: Google Public Sector Summit (ワシントン D.C.、2 日間、2,700 名超) の振り返り、NASA・NOAA などのエージェント活用事例"
