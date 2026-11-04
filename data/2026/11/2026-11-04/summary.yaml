@@ -1,12 +1,19 @@
 "date": "2026-11-04"
-"generated_at": "2026-11-04 08:11:51 JST"
+"generated_at": "2026-11-04 22:01:06 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 3
+"article_count": 9
 "sources":
   - "google_cloud_ai_ml_blog"
   - "google_cloud_blog"
+  - "google_cloud_japan_blog"
 "overview": |
-  この日はブログ記事 2 本 (同じ記事が 2 ソースに掲載されたため件数は 3)。Nammu21 が Google Cloud と進めた PoC として、AI プラットフォームで法的合意書を構造化し Google Cloud Universal Ledger (GCUL) 上のスマートコントラクトとして展開することで、シンジケートローンのライフサイクル全体を自動化する取り組みを紹介した。決済に数週間かかり評価の不透明さや取引の摩擦が残っていたシンジケートローン・プライベートクレジット市場で、決済時間の短縮と市場効率の向上を狙う。もう 1 本は Google Cloud Consulting チームが多数の企業と進めたエージェント導入の経験から、予算・計算資源・ツールだけでは足りず、現場が安心して試せる文化づくりとリーダーが役割の変化を示すことが鍵になるとして、5 つの実践的な教訓をまとめた。
+  この日はブログ記事 8 本 (同じ記事が 2 ソースに掲載されたため件数は 9)。Google Cloud Japan Blog から 6 本が出て、Google が業界パートナーと連携し、130 万台以上のセットトップボックスをボットネットに組み込んでいた XCPE バックドアをテイクダウンした件を詳しく解析した。Android の OEM / ODM である Videostrong Technology 社が経済的利益を目的に意図的に開発・運用していたと評価し、アフィリエイトのモジュールを制御する C2 ドメインもテイクダウンして、さらに 1,000 万台以上の感染デバイスへのアクセスを遮断できたと推測している。Google は同社との提携を解消し、Google アプリをプリロードしたデバイスの製造を禁じた。米国ブログの抄訳として、Cloud SQL for MySQL 向けのフルマネージド Blue/Green デプロイ (プレビュー) による主要バージョンアップグレードのダウンタイム最小化、Oracle との提携で Google TPU を Oracle Cloud Infrastructure に導入 (OCI は Google 以外で TPU を提供する初のハイパースケーラーとなり、2027 年から TPU キャパシティのデプロイを開始予定)、Meta の PyTorch チームと共同開発した TorchTPU のオープンソース化、Gemini Robotics Embodied Reasoning 2 の Gemini プラットフォームでの公開プレビューが紹介された。事例ではマクロミルが 20 年稼働してきた基幹システムを 1 年で GKE や AlloyDB などの Google Cloud へ全面移行し、オートスケールと無停止リリース、コスト削減を実現した。ほかに Nammu21 が AI プラットフォームで法的合意書を構造化し Google Cloud Universal Ledger (GCUL) 上のスマートコントラクトとして展開することでシンジケートローンのライフサイクル全体を自動化する PoC と、Google Cloud Consulting チームの企業支援の経験からエージェント導入で人を中心に据えるための 5 つの教訓をまとめた記事が出た。
 "topics":
+  - "セキュリティ: Google が 130 万台以上のセットトップボックスを感染させた XCPE バックドア/ボットネットをテイクダウン、Videostrong Technology 社が意図的に運用と評価、C2 ドメインのテイクダウンで 1,000 万台以上の感染デバイスへのアクセスを遮断、同社との提携解消"
+  - "データベース: Cloud SQL for MySQL 向けにフルマネージドの Blue/Green デプロイをプレビュー公開、主要バージョンアップグレード (MySQL 8.0 → 8.4 など) をほぼダウンタイムなしで実施し切り替え後も元の DB を保持"
+  - "AI インフラ: Oracle と提携し Google TPU を Oracle Cloud Infrastructure に導入、OCI は Google 以外で TPU を提供する初のハイパースケーラーに (2027 年からデプロイ開始予定)"
+  - "AI インフラ: Meta の PyTorch チームと共同開発した TorchTPU が GitHub でオープンソース化、最小限のコード変更で PyTorch を TPU でネイティブ実行、vLLM・SGLang・Ray などに対応"
+  - "AI/ML: Gemini Robotics Embodied Reasoning 2 (ER 2) が Gemini プラットフォームで公開プレビュー、固定アームからヒューマノイドまでの物理エージェント向け"
+  - "事例: マクロミルが 20 年稼働の基幹システム (1,500 TPS 以上・40 以上の連携システム・約 100 のバッチ) を 1 年で GKE・AlloyDB などへ移行、オートスケールと無停止リリース、コスト削減を実現"
   - "金融: Nammu21 が Google Cloud Universal Ledger 上のスマートコントラクトでシンジケートローンのライフサイクルを自動化する PoC、決済時間の短縮と市場効率の向上を狙う"
   - "AI 導入: エージェント時代に人を中心に据えるための 5 つの教訓、Google Cloud Consulting の企業支援から"
