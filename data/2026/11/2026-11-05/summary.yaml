@@ -1,15 +1,24 @@
 "date": "2026-11-05"
-"generated_at": "2026-11-05 08:09:01 JST"
+"generated_at": "2026-11-06 06:02:24 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 3
+"article_count": 9
 "sources":
+  - "gcp_release_notes"
   - "google_cloud_blog"
+  - "google_cloud_japan_blog"
 "overview": |
-  この日は Google Cloud Blog の 3 本。Compute Engine API のマルチバージョニングが一般提供となり、日付ベースの API バージョンを導入することで、/v1 API の安定性と後方互換性を保ったまま、より安全なセキュリティの既定値、リージョン耐障害性の強化、機械可読なエラーモデル、宣言的な運用に向いたモダンな API セマンティクスを段階的に採用できるようになった。Google Cloud Security Summit に合わせて、エージェント時代にセキュアに作り・守るための更新がまとめて公開された。自律型コードセキュリティエージェント CodeMender はプレビュー中で、脆弱性の検証とエクスプロイトのシミュレーションを OS レベルのサンドボックスか隔離された仮想マシン内に閉じ込め、ローカルの書き込みやコマンド実行には人間の確認を挟むようになり、スキャン範囲もフォルダ単位・リポジトリ全体・前回からの変更分から選べるようになった。Gemini 4 Argon などのモデルと組み合わせて使われ、Wiz は全ウェブサイトの 70% に影響する PHP の中核的な脆弱性の発見と修正に活用したという。エージェントの実行環境を問わず同じ統制をかける枠組みとして、Google 管理の保管庫で OAuth 2.0/PKCE を自動化する Auth Manager が GA、OIDC トークンを発行して AWS・Azure・オンプレミスのバックエンド・MCP サーバーへ長期間有効な API キーなしで認証できる Agent Identity の JWT 対応がプレビュー、VPC Service Controls の上り・下り規則での IAM ロール対応が GA (GKE の Workload Identity Federation 対応はプレビュー)、エージェントの話題逸脱を抑える Model Armor のカスタムトピック検出器がプレビュー、Palo Alto Networks WildFire を利用する Cloud NGFW の高度なマルウェアサンドボックスが GA、Thales Imperva の脅威インテリジェンスに基づく Cloud Armor マネージドルールがプレビューとなった。Wiz との連携では、エージェント的推論でビジネスロジックの欠陥を見つける Wiz AI SAST のプレビュー、Wiz Defend と Google Security Operations の共通データモデル化と双方向同期、Google DeepMind と Wiz による Scan for Good (初月で 50 を超える公共サービス・重要インフラ事業者の重大な露出の修正を支援) が挙げられた。もう 1 本はワシントン D.C. で 2 日間開催され 2,700 名超が参加した Google Public Sector Summit の振り返りで、NASA や NOAA などの組織がエージェントを使って成果を上げている事例が紹介された。
+  この日は 3 ソースから 9 本。リリースノートでは、Apigee Edge for Public Cloud の本番環境の管理/コントロールプレーンで、2026 年 11 月 6 日 (金) 午後 9 時〜10 時 PT (11 月 7 日 5:00〜6:00 UTC) に定期メンテナンスが行われ、その間は Management Services の UI・API、Monetization Management API、新しいプロキシのデプロイ、DevPortal、Microgateway、Edge Query (Analytics Stats API) が使えず 4xx を返すが、デプロイ済みプロキシへのランタイム API 呼び出しには影響しないと告知された。Security Command Center の Data Security Posture Management (DSPM) は新規組織では利用できなくなり、有効化済みの組織も 2027 年 2 月 1 日に提供終了となる。Gemini Omni 1.2 Flash (gemini-omni-1.2-flash) が Gemini Enterprise Agent Platform で GA となり、単体のアップスケール (360p→720p/1080p、720p→1080p/4K)、最大 15 秒の動画生成・編集、参照画像 2 枚を使った編集・延長、シードによる再現可能な生成、Standard PayGo と Provisioned Throughput (GSU あたり毎秒 685 トークン) に対応した。BigQuery の会話型分析は asia-northeast1 (東京) で使えるようになり、Model Armor では CSAM フィルタの有効/無効と信頼度レベルを設定できるようになった。Google Cloud Blog では、Compute Engine API のマルチバージョニングが一般提供となり、日付ベースの API バージョンで /v1 API の安定性と後方互換性を保ったまま、新しいセマンティクスや既定値を選んで採用できるようになった。Google Cloud Security Summit に合わせて、自律型コードセキュリティエージェント CodeMender のサンドボックス内検証と人間の確認、Auth Manager の GA、Agent Identity の JWT 対応プレビュー、VPC Service Controls の IAM ロール対応 GA、Model Armor のカスタムトピック検出器プレビュー、Cloud NGFW の高度なマルウェアサンドボックス (Palo Alto Networks WildFire) GA、Wiz との連携強化などが発表された。エージェント基盤では、Agent Substrate・gVisor・OpenRL の 3 プロジェクトを CNCF に寄贈し、Agent Substrate が 1.0 に達して Agent Substrate on GKE として GA となった。待機中のエージェントをストレージにスナップショットして 500 ミリ秒未満で復元し、標準的なコンテナランタイムの 10 倍の密度で数百万のサンドボックスを動かせるという。ワシントン D.C. で開かれ 2,700 名超が参加した Google Public Sector Summit の振り返りも出た。Google Cloud Japan Blog は 4 本で、Mandiant と GTIG による LLMJacking (企業の LLM アクセスを乗っ取り、1 日 10 万米ドル超、累計 100 万米ドルに達する不正請求の例も) の攻撃ライフサイクルと検知・対策、KDDI の RAG アプリ Buffmee でレスポンスレイテンシを 38% 削減し TTFT を約 18% 改善した事例、Knowledge Catalog における LookML セマンティックインデックス作成の一般提供、各エージェントにハードウェア分離の microVM を割り当てる Agent Compute Engine の開発の裏側を紹介した。
 "topics":
-  - "コンピューティング: Compute Engine API のマルチバージョニングが一般提供、日付ベースの API バージョンで /v1 の安定性を保ちつつ新しいセマンティクスや既定値を選択的に採用"
-  - "セキュリティ: Google Cloud Security Summit の発表、自律型コードセキュリティエージェント CodeMender がサンドボックス内での検証と人間の確認を追加、スキャン範囲も選択可能に (プレビュー、Gemini 4 Argon などと併用)"
-  - "セキュリティ: エージェント向けの統制として Auth Manager が GA、Agent Identity の JWT 対応がプレビュー、VPC Service Controls の上り下り規則で IAM ロール対応が GA、Model Armor のカスタムトピック検出器がプレビュー"
-  - "セキュリティ: Cloud NGFW の高度なマルウェアサンドボックス (Palo Alto Networks WildFire) が GA、Cloud Armor マネージドルール (Thales Imperva) がプレビュー"
-  - "セキュリティ: Wiz との連携強化、Wiz AI SAST がプレビュー、Wiz Defend と Google Security Operations の共通データモデル化と双方向同期、Google DeepMind と Wiz の Scan for Good"
-  - "イベント: Google Public Sector Summit (ワシントン D.C.、2 日間、2,700 名超) の振り返り、NASA・NOAA などのエージェント活用事例"
+  - "メンテナンス: Apigee Edge for Public Cloud の管理/コントロールプレーンを 2026 年 11 月 6 日 21:00〜22:00 PT (11 月 7 日 5:00〜6:00 UTC) に定期メンテナンス、管理 UI・API などが 4xx、ランタイム API 呼び出しは影響なし"
+  - "提供終了: Security Command Center の DSPM が新規組織で利用不可に、既存組織も 2027 年 2 月 1 日に提供終了"
+  - "生成 AI: Gemini Omni 1.2 Flash が GA (単体アップスケール、最大 15 秒の生成・編集、参照画像 2 枚での編集・延長、シード指定、Provisioned Throughput は GSU あたり毎秒 685 トークン)"
+  - "データ分析: BigQuery の会話型分析が asia-northeast1 (東京) で利用可能に"
+  - "セキュリティ: Model Armor で CSAM フィルタの有効/無効と信頼度レベルを設定可能に"
+  - "コンピューティング: Compute Engine API のマルチバージョニングが一般提供、日付ベースの API バージョンで /v1 の安定性を保ちつつ新しいセマンティクスを採用"
+  - "セキュリティ: Google Cloud Security Summit の発表 (CodeMender、Auth Manager GA、Agent Identity の JWT 対応プレビュー、VPC Service Controls の IAM ロール対応 GA、Cloud NGFW の高度なマルウェアサンドボックス GA、Wiz 連携)"
+  - "エージェント基盤: Agent Substrate・gVisor・OpenRL を CNCF に寄贈、Agent Substrate on GKE が 1.0 で GA (500 ミリ秒未満で復元、コンテナの 10 倍の密度)"
+  - "脅威インテリジェンス: LLMJacking の攻撃ライフサイクルと対策 (1 日 10 万米ドル超、累計 100 万米ドルの不正請求の例)"
+  - "事例: KDDI の RAG アプリ Buffmee でレイテンシを 38% 削減、TTFT を約 18% 改善"
+  - "データ: Knowledge Catalog における LookML セマンティックインデックス作成の一般提供 (Looker Core 向け)"
+  - "エージェント基盤: 各エージェントにハードウェア分離の microVM を割り当てる Agent Compute Engine の開発の裏側"
+  - "イベント: Google Public Sector Summit (ワシントン D.C.、2,700 名超) の振り返り"

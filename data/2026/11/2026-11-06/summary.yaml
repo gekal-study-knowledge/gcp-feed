@@ -1,0 +1,13 @@
+"date": "2026-11-06"
+"generated_at": "2026-11-06 06:02:24 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 4
+"sources":
+  - "google_cloud_ai_ml_blog"
+  - "google_cloud_blog"
+"overview": |
+  この日は 2 ソースから 4 本で、うち 1 本は Gemini Omni 1.2 Flash の一般提供の同じ記事が 2 つのブログに載ったもの。Gemini Omni 1.2 Flash は、商品動画やバーチャル試着、広告など量産する動画向けのモデルで、720p 動画が 1 秒あたり 0.07 米ドルと Gemini Omni 1.1 Flash より 30% 安くなり、生成・編集できる長さが 10 秒から 15 秒に延び、画像・動画の参照への追従性が高まった。360p や 720p で下書きを作ってから 1080p や 4K にアップスケールでき、会話の中で同じクリップを編集できる。音声参照は許可リスト制。Gemini for business と Google Vids から使えるほか、API でも利用できる。BigQuery では、数百万行のテキストやマルチモーダルデータを多段階で意味的に集約する AI.AGG 関数 (プレビュー) が GoogleSQL に組み込まれ、外部の map-reduce パイプラインなしで LLM のコンテキストウィンドウの制約を回避できることが解説された。もう 1 本は、AlphaEvolve・Harbor・Gemini 4 Argon でエージェントスキルを最適化する手法で、Terminal-Bench 2.0 のタスクで OpenCode と Gemini 3.8 Flash を使い、数回の反復で 5% の改善が得られたという。
+"topics":
+  - "生成 AI: Gemini Omni 1.2 Flash が一般提供、720p で 1 秒 0.07 米ドル (1.1 Flash 比 30% 減)、最大 15 秒、1080p/4K へのアップスケール、会話での編集 (音声参照は許可リスト制)"
+  - "データ分析: BigQuery の AI.AGG (プレビュー) で数百万行のテキスト・マルチモーダルデータを多段階で意味的に集約"
+  - "AI エージェント: AlphaEvolve・Harbor・Gemini 4 Argon でエージェントスキルを最適化、Terminal-Bench 2.0 で数回の反復により 5% 改善"
