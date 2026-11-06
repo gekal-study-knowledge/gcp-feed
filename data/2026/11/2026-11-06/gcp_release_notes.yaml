@@ -1,0 +1,9 @@
+"entries":
+  "5e8a15f7640809143873f1a1b3ebedd1":
+    "id": "5e8a15f7640809143873f1a1b3ebedd1"
+    "title": "November 06, 2026"
+    "link": "https://docs.cloud.google.com/release-notes#November_06_2026"
+    "published": "2026-11-06 17:00:00"
+    "fetched": "2026-11-07 00:40:10"
+    "summary": "<h2 class=\"release-note-product-title\">Bigtable</h2>\n<h3>Feature</h3>\n<p>You can <a href=\"https://docs.cloud.google.com/bigtable/docs/managing-backups#configure-hot-automated-backups\">configure a Bigtable automated backup policy</a>\non SSD instances to create daily <a href=\"https://docs.cloud.google.com/bigtable/docs/backups#hot-backups\">hot backups</a>\nand specify how long the backups remain hot before automatically transitioning\nto standard backups. This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available (GA)</a>.</p>"
+"last_updated": "2026-11-07 00:40:10 JST"
