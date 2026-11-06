@@ -1,13 +1,14 @@
 "date": "2026-11-06"
-"generated_at": "2026-11-06 22:02:33 JST"
+"generated_at": "2026-11-07 06:01:01 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 8
+"article_count": 9
 "sources":
+  - "gcp_release_notes"
   - "google_cloud_ai_ml_blog"
   - "google_cloud_blog"
   - "google_cloud_japan_blog"
 "overview": |
-  この日は 3 ソースから 8 本で、うち 1 本は Gemini Omni 1.2 Flash の一般提供の同じ記事が 2 つのブログに載ったもの、Google Cloud Japan Blog の 4 本は米国時間 10 月 27〜31 日の英語記事の抄訳。Gemini Omni 1.2 Flash は、商品動画やバーチャル試着、広告など量産する動画向けのモデルで、720p 動画が 1 秒あたり 0.07 米ドルと Gemini Omni 1.1 Flash より 30% 安くなり、生成・編集できる長さが 10 秒から 15 秒に延び、画像・動画の参照への追従性が高まった。360p や 720p で下書きを作ってから 1080p や 4K にアップスケールでき、会話の中で同じクリップを編集できる。音声参照は許可リスト制。Gemini for business と Google Vids から使えるほか、API でも利用できる。BigQuery では、数百万行のテキストやマルチモーダルデータを多段階で意味的に集約する AI.AGG 関数 (プレビュー) が GoogleSQL に組み込まれ、外部の map-reduce パイプラインなしで LLM のコンテキストウィンドウの制約を回避できることが解説された。もう 1 本は、AlphaEvolve・Harbor・Gemini 4 Argon でエージェントスキルを最適化する手法で、Terminal-Bench 2.0 のタスクで OpenCode と Gemini 3.8 Flash を使い、数回の反復で 5% の改善が得られたという。抄訳記事では、Cloud Billing の予算での利用額上限の一般提供が紹介され、リソースを削除せずに費用の急増を防げるうえ、プレビュー以降の改善として既存の予算 API から使える利用額上限 API によるプロジェクトごとの上限の自動設定、AI サービスの上限が推定ライブ費用に基づき使用から数分以内に発動しその費用を費用レポートで即座に確認できること、発動した上限が翌月初めに自動でリセットされる機能 (手動での解除も引き続き選べる) が加わった。Oracle AI World では Google Cloud と Oracle が Oracle AI Database@Google Cloud・Agentic Data Cloud・Gemini Enterprise の統合を深めると発表し、OCI を介した Google TPU の提供を含むパートナーシップ拡大、IAM で管理される ExecuteSQL Data API を使った Oracle ワークロード向けリモート MCP サーバーの一般提供 (Secret Manager で認証情報を解決し、踏み台 VM や平文パスワードが不要)、Knowledge Catalog との統合 (プレビュー) が紹介された。このほか、Google Public Sector が NASA のヒューマンリサーチプログラム・ジョンソン宇宙センター・JPL と、貨物や機器の取り扱いと医療支援を担う深宇宙ミッション用ロボットシステムの概念実証に取り組んでいること (宇宙飛行士向け医療支援アシスタント CMO-DA が土台)、Google Skills で金融サービスと法務専門職向けの Gemini とエージェントの無料動画学習バンドルが公開されたことが紹介された。
+  この日は 4 ソースから 9 本で、うち 1 本は Gemini Omni 1.2 Flash の一般提供の同じ記事が 2 つのブログに載ったもの、Google Cloud Japan Blog の 4 本は米国時間 10 月 27〜31 日の英語記事の抄訳。Gemini Omni 1.2 Flash は、商品動画やバーチャル試着、広告など量産する動画向けのモデルで、720p 動画が 1 秒あたり 0.07 米ドルと Gemini Omni 1.1 Flash より 30% 安くなり、生成・編集できる長さが 10 秒から 15 秒に延び、画像・動画の参照への追従性が高まった。360p や 720p で下書きを作ってから 1080p や 4K にアップスケールでき、会話の中で同じクリップを編集できる。音声参照は許可リスト制。Gemini for business と Google Vids から使えるほか、API でも利用できる。BigQuery では、数百万行のテキストやマルチモーダルデータを多段階で意味的に集約する AI.AGG 関数 (プレビュー) が GoogleSQL に組み込まれ、外部の map-reduce パイプラインなしで LLM のコンテキストウィンドウの制約を回避できることが解説された。もう 1 本は、AlphaEvolve・Harbor・Gemini 4 Argon でエージェントスキルを最適化する手法で、Terminal-Bench 2.0 のタスクで OpenCode と Gemini 3.8 Flash を使い、数回の反復で 5% の改善が得られたという。抄訳記事では、Cloud Billing の予算での利用額上限の一般提供が紹介され、リソースを削除せずに費用の急増を防げるうえ、プレビュー以降の改善として既存の予算 API から使える利用額上限 API によるプロジェクトごとの上限の自動設定、AI サービスの上限が推定ライブ費用に基づき使用から数分以内に発動しその費用を費用レポートで即座に確認できること、発動した上限が翌月初めに自動でリセットされる機能 (手動での解除も引き続き選べる) が加わった。Oracle AI World では Google Cloud と Oracle が Oracle AI Database@Google Cloud・Agentic Data Cloud・Gemini Enterprise の統合を深めると発表し、OCI を介した Google TPU の提供を含むパートナーシップ拡大、IAM で管理される ExecuteSQL Data API を使った Oracle ワークロード向けリモート MCP サーバーの一般提供 (Secret Manager で認証情報を解決し、踏み台 VM や平文パスワードが不要)、Knowledge Catalog との統合 (プレビュー) が紹介された。このほか、Google Public Sector が NASA のヒューマンリサーチプログラム・ジョンソン宇宙センター・JPL と、貨物や機器の取り扱いと医療支援を担う深宇宙ミッション用ロボットシステムの概念実証に取り組んでいること (宇宙飛行士向け医療支援アシスタント CMO-DA が土台)、Google Skills で金融サービスと法務専門職向けの Gemini とエージェントの無料動画学習バンドルが公開されたことが紹介された。 リリースノートでは、Bigtable の SSD インスタンスで自動バックアップポリシーを構成し、日次のホットバックアップを作成してホットのまま保持する期間を指定し、その後は自動で標準バックアップに移行させる機能が一般提供 (GA) となった。
 "topics":
   - "生成 AI: Gemini Omni 1.2 Flash が一般提供、720p で 1 秒 0.07 米ドル (1.1 Flash 比 30% 減)、最大 15 秒、1080p/4K へのアップスケール、会話での編集 (音声参照は許可リスト制)"
   - "データ分析: BigQuery の AI.AGG (プレビュー) で数百万行のテキスト・マルチモーダルデータを多段階で意味的に集約"
@@ -16,3 +17,4 @@
   - "データベース: Oracle AI Database@Google Cloud の統合強化 (OCI 経由の Google TPU 提供、ExecuteSQL Data API によるリモート MCP サーバーが一般提供、Knowledge Catalog 統合がプレビュー)"
   - "公共: Google Public Sector と NASA が深宇宙ミッション用ロボットシステムの概念実証 (貨物・機器の取り扱いと医療支援、CMO-DA が土台)"
   - "学習: Google Skills で金融サービス・法務専門職向けの Gemini とエージェントの無料動画学習バンドルを公開"
+  - "データベース: Bigtable の SSD インスタンスで日次ホットバックアップの自動バックアップポリシーが GA (指定期間後に標準バックアップへ自動移行)"
