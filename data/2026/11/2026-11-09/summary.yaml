@@ -1,0 +1,14 @@
+"date": "2026-11-09"
+"generated_at": "2026-11-09 22:01:02 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 5
+"sources":
+  - "google_cloud_japan_blog"
+"overview": |
+  この日は Google Cloud Japan Blog のみの更新で、エージェント向けツールとデータ連携の記事が並んだ。IAM Helper がリリースされ、Google Cloud IAM のエージェントネイティブなオーケストレーション層として、ポリシーインテリジェンスや Privileged Access Manager (PAM) を含むコア IAM エンジンのスキルを自律型コードアシスタントやデプロイパイプライン、カスタムエージェントから直接呼び出せるようになった。オープンなエージェントスキル標準でパッケージ化され、Gemini CLI・Gemini Cloud Assist・ADK・Claude Code・Cursor で動作し、読み取り専用の診断・シミュレーションとアクセスポリシーの変更を分けて扱うガードレールを備える。google-cloud-developer プラグインは Antigravity Marketplace の Build with Google セクションから直接インストールできるようになり、厳選されたスキル、ルーティングルール、デフォルトで事前承認された Developer Knowledge MCP サーバーをまとめて、エージェントを Streamable HTTP 経由で公式ドキュメントにグラウンディングし、課金対象 API の有効化などに対する安全性と費用のガードレールを提供する。ボーダーレス Lakehouse では、Databricks が管理する Apache Iceberg テーブルを BigQuery からゼロコピーで直接クエリでき、変更は最長 5 分間隔のメタデータ更新後に反映される。Amazon S3 や Azure Blob Storage 上のデータにも Iceberg REST カタログとクロスクラウド接続で対応し、リモートクラウドの下り料金は Cross-Cloud Interconnect (AWS) と Lakehouse キャッシュで軽減できる。Gemini Enterprise を Snowflake に安全に接続するガイドでは、MCP と Agent Development Kit (ADK) を用い、Snowflake MCP サーバー経由で Cortex Agent に SQL の生成と実行を委任し、認証済みユーザーの OAuth セッションとロール権限で実行する構成が紹介された。事例では、損害保険ジャパンが 2026 年 1 月に全社員約 2 万人を対象に Gemini Enterprise を導入し、半年で週次アクティブユーザー率約 80% を達成した背景として、活用拡大・安全な利用とガバナンス・利用の定着を目標にした運用設計が紹介された。
+"topics":
+  - "セキュリティ: IAM Helper をリリース、ポリシーインテリジェンスや PAM を含む IAM ワークフローをエージェントから呼び出せるスキルと MCP ツール (Gemini CLI・Cloud Assist・ADK・Claude Code・Cursor 対応)"
+  - "開発ツール: google-cloud-developer プラグインが Antigravity Marketplace から入手可能に、Developer Knowledge MCP サーバーで公式ドキュメントにグラウンディングし安全性・費用のガードレールを提供"
+  - "データ分析: ボーダーレス Lakehouse で Databricks 管理の Iceberg テーブルを BigQuery からゼロコピーでクエリ (最長 5 分間隔で反映、S3・Azure Blob Storage にも対応)"
+  - "AI: Gemini Enterprise と Snowflake を MCP・ADK・Cortex Agent で連携し、ユーザー権限で SQL を生成・実行"
+  - "事例: 損害保険ジャパンが約 2 万人に Gemini Enterprise を導入し、半年で WAU 約 80% を達成"
