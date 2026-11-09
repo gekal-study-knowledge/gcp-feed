@@ -1,14 +1,21 @@
 "date": "2026-11-09"
-"generated_at": "2026-11-09 22:01:02 JST"
+"generated_at": "2026-11-10 06:01:00 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 5
+"article_count": 11
 "sources":
+  - "gcp_release_notes"
+  - "google_cloud_ai_ml_blog"
+  - "google_cloud_blog"
   - "google_cloud_japan_blog"
 "overview": |
-  この日は Google Cloud Japan Blog のみの更新で、エージェント向けツールとデータ連携の記事が並んだ。IAM Helper がリリースされ、Google Cloud IAM のエージェントネイティブなオーケストレーション層として、ポリシーインテリジェンスや Privileged Access Manager (PAM) を含むコア IAM エンジンのスキルを自律型コードアシスタントやデプロイパイプライン、カスタムエージェントから直接呼び出せるようになった。オープンなエージェントスキル標準でパッケージ化され、Gemini CLI・Gemini Cloud Assist・ADK・Claude Code・Cursor で動作し、読み取り専用の診断・シミュレーションとアクセスポリシーの変更を分けて扱うガードレールを備える。google-cloud-developer プラグインは Antigravity Marketplace の Build with Google セクションから直接インストールできるようになり、厳選されたスキル、ルーティングルール、デフォルトで事前承認された Developer Knowledge MCP サーバーをまとめて、エージェントを Streamable HTTP 経由で公式ドキュメントにグラウンディングし、課金対象 API の有効化などに対する安全性と費用のガードレールを提供する。ボーダーレス Lakehouse では、Databricks が管理する Apache Iceberg テーブルを BigQuery からゼロコピーで直接クエリでき、変更は最長 5 分間隔のメタデータ更新後に反映される。Amazon S3 や Azure Blob Storage 上のデータにも Iceberg REST カタログとクロスクラウド接続で対応し、リモートクラウドの下り料金は Cross-Cloud Interconnect (AWS) と Lakehouse キャッシュで軽減できる。Gemini Enterprise を Snowflake に安全に接続するガイドでは、MCP と Agent Development Kit (ADK) を用い、Snowflake MCP サーバー経由で Cortex Agent に SQL の生成と実行を委任し、認証済みユーザーの OAuth セッションとロール権限で実行する構成が紹介された。事例では、損害保険ジャパンが 2026 年 1 月に全社員約 2 万人を対象に Gemini Enterprise を導入し、半年で週次アクティブユーザー率約 80% を達成した背景として、活用拡大・安全な利用とガバナンス・利用の定着を目標にした運用設計が紹介された。
+  この日は TPU と AI インフラの大型発表が相次ぎ、Google Cloud Japan Blog ではエージェント向けツールとデータ連携の記事が並んだ。Cloud Pathways (Pathways on Cloud) が GKE 上で一般提供となり、AI Hypercomputer の中核ランタイムとして、単一の Python クライアントプロセスからマルチスライス・マルチホストの Cloud TPU ワークロードを制御する単一コントローラー実行モデル、障害時に健全なスライスへ縮退して復帰時に再拡張するエラスティックトレーニング、計画的なプリエンプション時に HBM 状態を Cloud Storage に保存・復元するサスペンド・レジューム、待機中や低優先度のスライスへのホットスワップ、TPU ホスト VM 上で動くコロケーテッド Python サイドカーなどを備える。直近 90 日で 1 億 3,000 万 Cloud TPU チップ時間以上が Pathways on GKE で処理されたといい、Cluster Director との連携で Slurm クラスタに拡張するプレビューも発表された。GKE の動的スライシングも一般提供となり、TPU の光回路スイッチ (OCS) で物理ノードプールと論理スライスの形成を分離し、スーパースライシングやサブスライシングにより起動時間を最大 5 倍、復旧を 4.5 倍高速化する。TPU Sync はオープンソースのネイティブ C++ ライブラリとして発表され、HBM・ホスト DRAM・共有ストレージ・DCN を単一のメモリ階層として扱い、推論ではホスト DRAM・ローカル SSD・Google Cloud Managed Lustre を多層 KV キャッシュに、強化学習ではトレーナーからサンプラーへの重み転送に使える。第 8 世代 TPU には、大規模コンテキストとラックあたり最高の計算密度を狙う TPU 8i Max と、セキュアかつコンフィデンシャルな推論向けの TPU 8tx が加わり、TPU 8t・8i と合わせて 1 年で 4 システムを投入した。Japan Blog では、ポリシーインテリジェンスや Privileged Access Manager (PAM) を含む IAM ワークフローをエージェントから呼び出せる IAM Helper のリリース (Gemini CLI・Gemini Cloud Assist・ADK・Claude Code・Cursor 対応)、google-cloud-developer プラグインの Antigravity Marketplace での提供、ボーダーレス Lakehouse で Databricks 管理の Apache Iceberg テーブルを BigQuery からゼロコピーでクエリする方法 (最長 5 分間隔で反映、S3・Azure Blob Storage にも対応)、MCP と ADK、Snowflake Cortex Agent を使った Gemini Enterprise と Snowflake の安全な連携が紹介された。事例では、損害保険ジャパンが 2026 年 1 月に全社員約 2 万人を対象に Gemini Enterprise を導入し、半年で週次アクティブユーザー率約 80% を達成した運用設計が紹介された。
 "topics":
-  - "セキュリティ: IAM Helper をリリース、ポリシーインテリジェンスや PAM を含む IAM ワークフローをエージェントから呼び出せるスキルと MCP ツール (Gemini CLI・Cloud Assist・ADK・Claude Code・Cursor 対応)"
-  - "開発ツール: google-cloud-developer プラグインが Antigravity Marketplace から入手可能に、Developer Knowledge MCP サーバーで公式ドキュメントにグラウンディングし安全性・費用のガードレールを提供"
-  - "データ分析: ボーダーレス Lakehouse で Databricks 管理の Iceberg テーブルを BigQuery からゼロコピーでクエリ (最長 5 分間隔で反映、S3・Azure Blob Storage にも対応)"
+  - "AI インフラ: Cloud Pathways (Pathways on Cloud) が GKE で GA、単一コントローラー実行・エラスティックトレーニング・サスペンドレジューム・ホットスワップを提供し、Cluster Director 経由の Slurm 対応はプレビュー"
+  - "コンテナ: GKE 動的スライシングが GA、OCS で TPU スライスを動的に構成し起動時間最大 5 倍・復旧 4.5 倍高速化"
+  - "AI インフラ: TPU Sync をオープンソースの C++ ライブラリとして発表、多層 KV キャッシュと RL 向け重み転送を実現"
+  - "AI インフラ: 第 8 世代 TPU に TPU 8i Max (大規模コンテキスト・高密度) と TPU 8tx (コンフィデンシャル推論) を追加"
+  - "セキュリティ: IAM Helper をリリース、ポリシーインテリジェンスや PAM を含む IAM ワークフローをエージェントから呼び出せるスキルと MCP ツール"
+  - "開発ツール: google-cloud-developer プラグインが Antigravity Marketplace から入手可能に、Developer Knowledge MCP サーバーで公式ドキュメントにグラウンディング"
+  - "データ分析: ボーダーレス Lakehouse で Databricks 管理の Iceberg テーブルを BigQuery からゼロコピーでクエリ (最長 5 分間隔で反映)"
   - "AI: Gemini Enterprise と Snowflake を MCP・ADK・Cortex Agent で連携し、ユーザー権限で SQL を生成・実行"
   - "事例: 損害保険ジャパンが約 2 万人に Gemini Enterprise を導入し、半年で WAU 約 80% を達成"

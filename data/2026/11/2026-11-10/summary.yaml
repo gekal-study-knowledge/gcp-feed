@@ -1,0 +1,12 @@
+"date": "2026-11-10"
+"generated_at": "2026-11-10 06:01:00 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 3
+"sources":
+  - "google_cloud_ai_ml_blog"
+  - "google_cloud_blog"
+"overview": |
+  この日は Google Cloud Blog と AI/ML ブログでセキュリティ展望と調査レポートが公開された。Cloud CISO Perspectives の 11 月号では、Google Cloud CISO の Chris Betz が Google、Google Cloud、Mandiant のリーダーの知見を交えて 2027 年のセキュリティ予測を示し、エージェント型の脅威、攻撃手法の変化、それに必要な新しい防御アプローチを取り上げた。今年は LLM とエージェントによる脆弱性の発見と修正が企業規模で行われるようになったと振り返っている。また Google Cloud と Hypothesis Group が米国の IT・ビジネス意思決定者 1,250 人を対象に行った調査では、従業員にテクノロジーを提供するレガシーソフトウェアが AI 変革を妨げる「イノベーション税」として機能しているというパラドックスが示された。Fortune 100 企業の 90% 近くがすでに Gemini Enterprise でエージェントを構築・運用しているという。
+"topics":
+  - "セキュリティ: Cloud CISO Perspectives で 2027 年のセキュリティ予測、エージェント型の脅威と新たな防御アプローチ"
+  - "調査: 米国の意思決定者 1,250 人への調査で、レガシーソフトウェアが AI モダナイゼーションの足かせになっていると判明"
