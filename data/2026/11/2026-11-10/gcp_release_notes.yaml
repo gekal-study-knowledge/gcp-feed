@@ -1,0 +1,9 @@
+"entries":
+  "c0a238e43fa4459c43529b2af262bdbf":
+    "id": "c0a238e43fa4459c43529b2af262bdbf"
+    "title": "November 10, 2026"
+    "link": "https://docs.cloud.google.com/release-notes#November_10_2026"
+    "published": "2026-11-10 17:00:00"
+    "fetched": "2026-11-11 05:13:51"
+    "summary": "<h2 class=\"release-note-product-title\">Model Armor</h2>\n<h3>Feature</h3>\n<p>Model Armor image screening is <a href=\"https://cloud.google.com/products#product-launch-stages\">generally available\n(GA)</a>.</p>\n<p>You can extract and screen images embedded within supported rich text documents\n(PDF, Word, Excel, and PowerPoint). Pricing for image screening is in effect and\nconverts processed images into tokens based on image size. For more information,\nsee <a href=\"https://docs.cloud.google.com/model-armor/screen-images\">Screen images</a>,\n<a href=\"https://docs.cloud.google.com/model-armor/overview#pricing\">Pricing</a>, and <a href=\"https://docs.cloud.google.com/model-armor/screen-images#tokens\">Token calculation and pricing for\nimages</a>.</p>"
+"last_updated": "2026-11-11 05:13:51 JST"
