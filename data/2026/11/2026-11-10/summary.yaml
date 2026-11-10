@@ -1,15 +1,19 @@
 "date": "2026-11-10"
-"generated_at": "2026-11-10 22:01:32 JST"
+"generated_at": "2026-11-11 06:01:20 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 5
+"article_count": 9
 "sources":
+  - "gcp_release_notes"
   - "google_cloud_ai_ml_blog"
   - "google_cloud_blog"
   - "google_cloud_japan_blog"
 "overview": |
-  この日は第 8 世代 TPU の拡張と、Kubernetes 上のオープンな AI スタック、セキュリティと AI 導入に関する見通しが中心でした。TPU では、大規模コンテキストとラックあたりの高い計算密度を実現する TPU 8i Max と、安全で機密性の高い推論向けの TPU 8tx が発表され、TPU 8t / 8i と合わせて Google Cloud が 1 年間に 4 つの TPU システムを投入するのは初めてとされています。Kubernetes では、Gemma などのオープンモデルの強化学習から分散推論、エージェントまでを支えるオープンソーススタックがサンプルマニフェストとともに紹介され、KubeCon + CloudNativeCon North America 2026 でのデモも予告されました。セキュリティでは Cloud CISO Perspectives で、エージェント型の脅威や攻撃手法の変化を含む 2027 年の予測が示されています。また Hypothesis Group と米国の意思決定者 1,250 人を対象にした調査で、レガシーソフトウェアが AI 変革を妨げる「イノベーション税」になっているという結果が公表されました。
+  この日は医療向けの Gemini for healthcare 発表と第 8 世代 TPU の拡張、Model Armor の画像スクリーニング GA が中心でした。Gemini for healthcare は、先月の Gemini at Work で発表された汎用の Gemini エージェントを医療向けに拡張する業界ソリューションで、電子カルテ・請求システム・管理ツールに分散した患者記録や保険ポリシー、臨床エビデンスをまたいで、検証可能な根拠を集めながら人の監督のもとで複数ステップの業務を完了させるオーケストレーション層と位置付けられています (臨床医は情報の手作業での突き合わせに週約 28 時間を費やしているとされます)。リリースノートでは Model Armor の画像スクリーニングが一般提供となり、PDF・Word・Excel・PowerPoint に埋め込まれた画像を抽出してスクリーニングでき、画像サイズに応じてトークン換算する料金が適用されます。TPU では、大規模コンテキストとラックあたりの高い計算密度を実現する TPU 8i Max と、安全で機密性の高い推論向けの TPU 8tx の日本語版記事が公開され、TPU 8t / 8i と合わせて Google Cloud が 1 年間に 4 つの TPU システムを投入するのは初めてとされています。Kubernetes では、Gemma などのオープンモデルの強化学習から分散推論、エージェントまでを支えるオープンソーススタックがサンプルマニフェストとともに紹介され、KubeCon + CloudNativeCon North America 2026 でのデモも予告されました。セキュリティでは Cloud CISO Perspectives で、エージェント型の脅威や攻撃手法の変化を含む 2027 年の予測が示されています。また Hypothesis Group と米国の意思決定者 1,250 人を対象にした調査で、レガシーソフトウェアが AI 変革を妨げる「イノベーション税」になっているという結果が公表されました。事例では、Reebok や Elvis Presley など 50 以上のブランドを持つ Authentic Brands Group が、1,700 以上のライセンシーとの連携やクリエイティブ制作を支える AuthOS を構築した取り組みが新連載 The Blueprint で紹介されました。
 "topics":
+  - "AI: Gemini for healthcare を発表、Gemini エージェントを医療業界向けに拡張"
+  - "セキュリティ: Model Armor の画像スクリーニングが GA、PDF や Office 文書内の画像を検査 (画像サイズに応じたトークン課金)"
   - "インフラ: 第 8 世代 TPU に TPU 8i Max と TPU 8tx を追加"
   - "Kubernetes: オープンモデルから分散推論・エージェントまでのオープン AI スタック"
   - "セキュリティ: Cloud CISO Perspectives で 2027 年のセキュリティ予測"
   - "調査: 1,250 人調査でレガシーソフトウェアが AI 変革の足かせに"
+  - "事例: Authentic Brands Group が AuthOS でクリエイティブとパートナー連携を効率化"

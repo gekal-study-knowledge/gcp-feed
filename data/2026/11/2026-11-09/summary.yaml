@@ -1,14 +1,14 @@
 "date": "2026-11-09"
-"generated_at": "2026-11-10 06:01:00 JST"
+"generated_at": "2026-11-11 06:01:20 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 11
+"article_count": 13
 "sources":
   - "gcp_release_notes"
   - "google_cloud_ai_ml_blog"
   - "google_cloud_blog"
   - "google_cloud_japan_blog"
 "overview": |
-  この日は TPU と AI インフラの大型発表が相次ぎ、Google Cloud Japan Blog ではエージェント向けツールとデータ連携の記事が並んだ。Cloud Pathways (Pathways on Cloud) が GKE 上で一般提供となり、AI Hypercomputer の中核ランタイムとして、単一の Python クライアントプロセスからマルチスライス・マルチホストの Cloud TPU ワークロードを制御する単一コントローラー実行モデル、障害時に健全なスライスへ縮退して復帰時に再拡張するエラスティックトレーニング、計画的なプリエンプション時に HBM 状態を Cloud Storage に保存・復元するサスペンド・レジューム、待機中や低優先度のスライスへのホットスワップ、TPU ホスト VM 上で動くコロケーテッド Python サイドカーなどを備える。直近 90 日で 1 億 3,000 万 Cloud TPU チップ時間以上が Pathways on GKE で処理されたといい、Cluster Director との連携で Slurm クラスタに拡張するプレビューも発表された。GKE の動的スライシングも一般提供となり、TPU の光回路スイッチ (OCS) で物理ノードプールと論理スライスの形成を分離し、スーパースライシングやサブスライシングにより起動時間を最大 5 倍、復旧を 4.5 倍高速化する。TPU Sync はオープンソースのネイティブ C++ ライブラリとして発表され、HBM・ホスト DRAM・共有ストレージ・DCN を単一のメモリ階層として扱い、推論ではホスト DRAM・ローカル SSD・Google Cloud Managed Lustre を多層 KV キャッシュに、強化学習ではトレーナーからサンプラーへの重み転送に使える。第 8 世代 TPU には、大規模コンテキストとラックあたり最高の計算密度を狙う TPU 8i Max と、セキュアかつコンフィデンシャルな推論向けの TPU 8tx が加わり、TPU 8t・8i と合わせて 1 年で 4 システムを投入した。Japan Blog では、ポリシーインテリジェンスや Privileged Access Manager (PAM) を含む IAM ワークフローをエージェントから呼び出せる IAM Helper のリリース (Gemini CLI・Gemini Cloud Assist・ADK・Claude Code・Cursor 対応)、google-cloud-developer プラグインの Antigravity Marketplace での提供、ボーダーレス Lakehouse で Databricks 管理の Apache Iceberg テーブルを BigQuery からゼロコピーでクエリする方法 (最長 5 分間隔で反映、S3・Azure Blob Storage にも対応)、MCP と ADK、Snowflake Cortex Agent を使った Gemini Enterprise と Snowflake の安全な連携が紹介された。事例では、損害保険ジャパンが 2026 年 1 月に全社員約 2 万人を対象に Gemini Enterprise を導入し、半年で週次アクティブユーザー率約 80% を達成した運用設計が紹介された。
+  この日は TPU と AI インフラの大型発表が相次ぎ、Google Cloud Japan Blog ではエージェント向けツールとデータ連携の記事が並んだ。Cloud Pathways (Pathways on Cloud) が GKE 上で一般提供となり、AI Hypercomputer の中核ランタイムとして、単一の Python クライアントプロセスからマルチスライス・マルチホストの Cloud TPU ワークロードを制御する単一コントローラー実行モデル、障害時に健全なスライスへ縮退して復帰時に再拡張するエラスティックトレーニング、計画的なプリエンプション時に HBM 状態を Cloud Storage に保存・復元するサスペンド・レジューム、待機中や低優先度のスライスへのホットスワップ、TPU ホスト VM 上で動くコロケーテッド Python サイドカーなどを備える。直近 90 日で 1 億 3,000 万 Cloud TPU チップ時間以上が Pathways on GKE で処理されたといい、Cluster Director との連携で Slurm クラスタに拡張するプレビューも発表された。GKE の動的スライシングも一般提供となり (AI/ML ブログと一般ブログに複数回掲載)、TPU の光回路スイッチ (OCS) で物理ノードプールと論理スライスの形成を分離し、スーパースライシングやサブスライシングにより起動時間を最大 5 倍、復旧を 4.5 倍高速化する。TPU Sync はオープンソースのネイティブ C++ ライブラリとして発表され、HBM・ホスト DRAM・共有ストレージ・DCN を単一のメモリ階層として扱い、推論ではホスト DRAM・ローカル SSD・Google Cloud Managed Lustre を多層 KV キャッシュに、強化学習ではトレーナーからサンプラーへの重み転送に使える。第 8 世代 TPU には、大規模コンテキストとラックあたり最高の計算密度を狙う TPU 8i Max と、セキュアかつコンフィデンシャルな推論向けの TPU 8tx が加わり、TPU 8t・8i と合わせて 1 年で 4 システムを投入した。Japan Blog では、ポリシーインテリジェンスや Privileged Access Manager (PAM) を含む IAM ワークフローをエージェントから呼び出せる IAM Helper のリリース (Gemini CLI・Gemini Cloud Assist・ADK・Claude Code・Cursor 対応)、google-cloud-developer プラグインの Antigravity Marketplace での提供、ボーダーレス Lakehouse で Databricks 管理の Apache Iceberg テーブルを BigQuery からゼロコピーでクエリする方法 (最長 5 分間隔で反映、S3・Azure Blob Storage にも対応)、MCP と ADK、Snowflake Cortex Agent を使った Gemini Enterprise と Snowflake の安全な連携が紹介された。事例では、損害保険ジャパンが 2026 年 1 月に全社員約 2 万人を対象に Gemini Enterprise を導入し、半年で週次アクティブユーザー率約 80% を達成した運用設計が紹介された。
 "topics":
   - "AI インフラ: Cloud Pathways (Pathways on Cloud) が GKE で GA、単一コントローラー実行・エラスティックトレーニング・サスペンドレジューム・ホットスワップを提供し、Cluster Director 経由の Slurm 対応はプレビュー"
   - "コンテナ: GKE 動的スライシングが GA、OCS で TPU スライスを動的に構成し起動時間最大 5 倍・復旧 4.5 倍高速化"
