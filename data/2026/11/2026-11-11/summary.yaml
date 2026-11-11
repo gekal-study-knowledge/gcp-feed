@@ -1,13 +1,16 @@
 "date": "2026-11-11"
-"generated_at": "2026-11-11 22:01:13 JST"
+"generated_at": "2026-11-12 06:00:57 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 6
+"article_count": 7
 "sources":
+  - "gcp_release_notes"
   - "google_cloud_blog"
   - "google_cloud_japan_blog"
 "overview": |
-  この日は Google Cloud Blog の 4 本と日本語ブログの 2 本で、BigQuery measures の一般提供と、GKE のネットワークポリシー、Gemini のパートナー連携、CodeMender の PR 連携が取り上げられました。BigQuery measures が一般提供となり、BI のメトリクス定義とナレッジグラフのエンティティ関係を 1 つのモデルで定義して、AI エージェント・SQL・GQL・ダッシュボードから同じ統制されたメトリクスを使えるようにし、エージェントのハルシネーションを抑えるとしています。GKE では ClusterNetworkPolicy (CNP) を試した記事が公開され、Admin・ネットワークポリシー・Baseline の 3 階層の優先順位でクラスタ全体のポリシーを適用し、LLM の namespace への通信を許可されたクライアントに限定しつつ、DNS (ポート 53) 以外のメタデータ API へのアクセスを遮断する構成を Codelab とともに紹介しています。パートナー向けには、MCP・A2A・REST API のコネクターやスキル、プラグインで ISV のソリューションを Gemini に組み込み、Google Cloud Marketplace への掲載までを支援する Gemini factory の取り組み (サンフランシスコ、ニューヨーク、ロンドン、パリ、テルアビブ、東京などでのワークショップ) が紹介されました。セキュリティでは、自律型のコードセキュリティエージェント CodeMender を Cloud Run 経由で GitHub のプルリクエストに組み込み、スキャン結果や修正パッチを PR のタイムラインに返すリファレンスアーキテクチャが公開されました (Mandiant M-Trends 2026 によると脆弱性の平均修正期間は 10 年前の約 59 日から 2025 年には 170 日超に延びています)。 日本語ブログでは 2 本の抄訳が公開されました。AlloyDB for PostgreSQL から Cloud Storage 上の Apache Iceberg テーブルに直接クエリして運用データと単一の SQL で結合できる機能がプレビューとなり、あわせて AlloyDB 同期と Lakehouse フェデレーションが一般提供となりました (Etsy は 3 PB のデータを動かさずに結合してパイプラインクエリを 60% 高速化)。Compute Engine では API マルチバージョニングが一般提供となり、/v1 に加えて AIP-185 に準拠した変更不可の日付ベース API スナップショット (安定版は 2026-09-01 から四半期ごと) が導入され、既存の自動化を壊さずに新しいセマンティクスを自分のスケジュールで取り込めるようになります。
+  この日はリリースノート 1 件、Google Cloud Blog の 4 本、日本語ブログの 2 本で、BigQuery measures の一般提供と、クロスクラウドのエージェント統制、GKE のネットワークポリシー、Gemini のパートナー連携、CodeMender の PR 連携が取り上げられました。リリースノートでは、Gemini Enterprise Agent Platform の Agent Gateway for cross-cloud が限定プレビューとなり、Amazon EKS、AKS、Red Hat OpenShift、ベアメタルなど Google Cloud 外の CNCF 準拠 Kubernetes クラスタで動くエージェントに検証可能な ID を付与し、Agent Registry へのエージェントと MCP サーバーの登録、LLM・MCP・A2A 通信のローカル Agent Gateway プロキシ経由のルーティング、アクセス制御と Model Armor の安全ポリシー適用、Cloud Logging / Cloud Trace へのログとトレース送信を一元的に行えるようになりました (限定プレビュー中は無料、連携する Model Armor などは通常料金)。あわせて Apigee Edge for Public Cloud の Edge UI 更新のリリースが始まっています。BigQuery measures が一般提供となり、BI のメトリクス定義とナレッジグラフのエンティティ関係を 1 つのモデルで定義して、AI エージェント・SQL・GQL・ダッシュボードから同じ統制されたメトリクスを使えるようにし、エージェントのハルシネーションを抑えるとしています。GKE では ClusterNetworkPolicy (CNP) を試した記事が公開され、Admin・ネットワークポリシー・Baseline の 3 階層の優先順位でクラスタ全体のポリシーを適用し、LLM の namespace への通信を許可されたクライアントに限定しつつ、DNS (ポート 53) 以外のメタデータ API へのアクセスを遮断する構成を Codelab とともに紹介しています。パートナー向けには、MCP・A2A・REST API のコネクターやスキル、プラグインで ISV のソリューションを Gemini に組み込み、Google Cloud Marketplace への掲載までを支援する Gemini factory の取り組み (サンフランシスコ、ニューヨーク、ロンドン、パリ、テルアビブ、東京などでのワークショップ) が紹介されました。セキュリティでは、自律型のコードセキュリティエージェント CodeMender を Cloud Run 経由で GitHub のプルリクエストに組み込み、スキャン結果や修正パッチを PR のタイムラインに返すリファレンスアーキテクチャが公開されました (Mandiant M-Trends 2026 によると脆弱性の平均修正期間は 10 年前の約 59 日から 2025 年には 170 日超に延びています)。日本語ブログでは 2 本の抄訳が公開されました。AlloyDB for PostgreSQL から Cloud Storage 上の Apache Iceberg テーブルに直接クエリして運用データと単一の SQL で結合できる機能がプレビューとなり、あわせて AlloyDB 同期と Lakehouse フェデレーションが一般提供となりました (Etsy は 3 PB のデータを動かさずに結合してパイプラインクエリを 60% 高速化)。Compute Engine では API マルチバージョニングが一般提供となり、/v1 に加えて AIP-185 に準拠した変更不可の日付ベース API スナップショット (安定版は 2026-09-01 から四半期ごと) が導入され、既存の自動化を壊さずに新しいセマンティクスを自分のスケジュールで取り込めるようになります。
 "topics":
+  - "AI エージェント: Agent Gateway for cross-cloud が限定プレビュー、EKS・AKS・OpenShift などのエージェントを Google Cloud から統制"
+  - "API 管理: Apigee Edge for Public Cloud の Edge UI 更新のリリースを開始"
   - "データ分析: BigQuery measures が GA、BI メトリクスとナレッジグラフを統合して AI の精度を向上"
   - "コンテナ: GKE の ClusterNetworkPolicy でクラスタ全体のネットワークポリシーを適用"
   - "パートナー: Gemini factory で ISV の Gemini 連携ソリューション構築を支援"
