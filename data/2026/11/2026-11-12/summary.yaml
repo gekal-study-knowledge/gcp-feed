@@ -1,0 +1,17 @@
+"date": "2026-11-12"
+"generated_at": "2026-11-12 22:01:36 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 9
+"sources":
+  - "google_cloud_ai_ml_blog"
+  - "google_cloud_blog"
+  - "google_cloud_japan_blog"
+"overview": |
+  この日は 3 ソースから 9 本 (うち 2 本は AI/ML ブログと Google Cloud ブログの重複) で、AlloyDB の新しい AI 関数と新しい認定資格、Google Maps Platform 関連の日本語抄訳が中心でした。AlloyDB AI のクエリエンジンに、分類を行う ai.classify と構造化抽出を行う ai.extract の 2 つの SQL 関数がプレビューで追加され、PostgreSQL 18 上の google_ml_integration 拡張 (バージョン 1.6.1 以降) で、臨床記録やレビュー、問い合わせ、請求書などの非構造化テキストをデータベースの外に出さずに標準 SQL で処理できるようになりました。AI 関数のスマートバッチ処理 (旧称 AI Function Acceleration) によって本番規模の性能を確保するとしています。また Gemini Agent Ready (GEAR) の取り組みの一環として Professional Agentic Architect 認定が新設されました。Google 社内で過去 4 か月にフォワードデプロイドエンジニアや戦略パートナー数千人の育成に使ってきたカリキュラムを開放するもので、従来の多肢選択式ではない新しいハイブリッド形式で実践的なスキルを確かめます。The Blueprint では、欧州で EV 充電の 15〜25% が失敗するという課題に対し、lemonflow が Gemma と TPU で 90 以上の言語に対応するリアルタイムの充電サポート / 監視エージェントを構築し、90 秒に 1 人のドライバーを支援している事例が紹介されました。日本のブログでは、ＳＯＭＰＯシステムズが基幹システム SOMPO-MIRAI の Java コードを Spanner Graph でナレッジグラフ化してデータディクショナリと結び、AI エージェントによる影響調査を約 1 週間から 1 日以内に短縮する見通しを得たこと、Gemini platform (旧 Vertex AI) と Cloud Workstations で Claude Code などを安全に使える開発環境を整えて 2026 年 10 月から全社展開を始めたことが取り上げられています。Google Maps Platform blog の抄訳としては、Android / iOS 向け Maps 3D SDK・iOS 向け Places UI Kit Pro・コンテキストに応じたスタイル設定・Cloud ベースのマップのスタイル設定の一般提供と AI Studio の没入型エリアツアー、Neurun が 2026 年 FIFA ワールドカップのニューヨーク / ニュージャージー地域向けに 3D Maps を使った NYNJ World Cup Concierge を作った事例、AKQA が Places Insights と Population Dynamics Insights で 11 ブランド約 85,000 店舗を分析してブランドマーケットフィットを予測した事例の 3 本が公開されました。
+"topics":
+  - "データベース: AlloyDB AI の ai.classify / ai.extract がプレビュー (PostgreSQL 18、google_ml_integration 1.6.1 以降、スマートバッチ処理に対応)"
+  - "認定資格: GEAR の一環で Professional Agentic Architect 認定を新設 (ハイブリッド形式の試験)"
+  - "事例: lemonflow が Gemma と TPU で 90 以上の言語に対応する EV 充電向けリアルタイムエージェントを構築"
+  - "事例・国内: ＳＯＭＰＯシステムズが Spanner Graph のナレッジグラフで影響調査を約 1 週間から 1 日以内に短縮する見通し、Gemini platform と Cloud Workstations で AI 開発環境を 2026 年 10 月から全社展開"
+  - "Google Maps Platform: Maps 3D SDK (Android / iOS)・Places UI Kit Pro (iOS)・コンテキストに応じたスタイル設定・Cloud ベースのスタイル設定が一般提供"
+  - "Google Maps Platform 事例: Neurun の NYNJ World Cup Concierge、AKQA による約 85,000 店舗のブランドマーケットフィット分析"
