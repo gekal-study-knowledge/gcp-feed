@@ -1,14 +1,20 @@
 "date": "2026-11-13"
-"generated_at": "2026-11-13 08:11:31 JST"
+"generated_at": "2026-11-14 08:10:01 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 5
+"article_count": 11
 "sources":
   - "google_cloud_blog"
+  - "google_cloud_japan_blog"
 "overview": |
-  この日は Google Cloud Blog から 5 本で、Organization Policy のエージェント対応とネットワーク・セキュリティ運用の発表が中心でした。Organization Policy Service では、Model Context Protocol (MCP) サーバーの一般提供と、Gemini による自然言語での制約記述が発表されました。MCP サーバーは自律エージェントやパイプラインが Organization Policy と直接やり取りするためのツールを提供するため、管理者が複雑な階層チェーンを手でたどらずに済みます。100 を超える定義済みポリシーとカスタム組織のポリシーを組み合わせて、リソース階層全体にガードレールを敷けます。ネットワークでは、パートナー Cross-Cloud Interconnect がラストマイルに拡張され、Lumen Technologies とのプレビューとして提供が始まりました。昨年のオープン仕様に基づく AWS 向け提供に続くもので、プライベートクラウド、オンプレミスのデータセンター、ネオクラウド、他のクラウドへ数分でプロビジョニングできるマネージドサービスとして高帯域の接続を広げます。セキュリティ運用では、SentinelOne と Google Security Operations の統合が作り直され、エンドポイントのテレメトリを中間のクラウドバケット経由で回さずに届けることで、取り込みのレイテンシと運用負荷を下げられるようになりました。Chrome Enterprise Premium については、ヘルスケアでの保護強化が紹介されました。EHR や臨床アプリがウェブに移り、臨床チームが文書作成やチャートの要約、複数ステップの作業を代行する AI エージェントをブラウザで使うようになったことを踏まえ、機密データのコピー・ペースト・フォーム送信・印刷・画面キャプチャを制限する DLP と、詳細なレポートによる可視性を提供します。このほか、Gartner が初めて公開したデータレイクハウスプラットフォームの Magic Quadrant で、Google がリーダーかつビジョンの評価軸で最も先に位置づけられたことが紹介されました。
+  この日は 2 ソースから 11 本で、米国ブログの 5 本は Organization Policy のエージェント対応とネットワーク・セキュリティ運用の発表が中心でした。Organization Policy Service では、Model Context Protocol (MCP) サーバーの一般提供と、Gemini による自然言語での制約記述が発表されました。MCP サーバーは自律エージェントやパイプラインが Organization Policy と直接やり取りするためのツールを提供するため、管理者が複雑な階層チェーンを手でたどらずに済みます。100 を超える定義済みポリシーとカスタム組織のポリシーを組み合わせて、リソース階層全体にガードレールを敷けます。ネットワークでは、パートナー Cross-Cloud Interconnect がラストマイルに拡張され、Lumen Technologies とのプレビューとして提供が始まりました。昨年のオープン仕様に基づく AWS 向け提供に続くもので、プライベートクラウド、オンプレミスのデータセンター、ネオクラウド、他のクラウドへ数分でプロビジョニングできるマネージドサービスとして高帯域の接続を広げます。セキュリティ運用では、SentinelOne と Google Security Operations の統合が作り直され、エンドポイントのテレメトリを中間のクラウドバケット経由で回さずに届けることで、取り込みのレイテンシと運用負荷を下げられるようになりました。Chrome Enterprise Premium については、ヘルスケアでの保護強化が紹介されました。EHR や臨床アプリがウェブに移り、臨床チームが文書作成やチャートの要約、複数ステップの作業を代行する AI エージェントをブラウザで使うようになったことを踏まえ、機密データのコピー・ペースト・フォーム送信・印刷・画面キャプチャを制限する DLP と、詳細なレポートによる可視性を提供します。このほか、Gartner が初めて公開したデータレイクハウスプラットフォームの Magic Quadrant で、Google がリーダーかつビジョンの評価軸で最も先に位置づけられたことが紹介されました。Google Cloud Japan Blog からは米国記事の抄訳が 6 本出ました。Gemini Omni 1.2 Flash の一般提供 (720p 動画 1 秒あたり $0.07 で 1.1 Flash 比 30% 値下げ、最長 15 秒、360p や 720p のドラフトから 1080p / 4K へのアップスケール)、Google Cloud Security Summit でのエージェント時代の構築と防御の支援、Agentic Data Cloud の新機能 (PayPal・Siemens・Telus・Vodafone・Walmart などの事例を挙げ、ウォールドガーデンを取り払って全データを活かす System of Action として位置づけ)、AlloyDB Express のプレビュー (数秒で起動しアイドル時に自動停止、無料枠あり) が抄訳されました。あわせて Android XR を搭載した世界初の有線 XR グラス XREAL AURA (分割コンピューティングアーキテクチャ、画角 70 度の光学シースルーディスプレイ、95 グラム未満のフレーム) と、NVIDIA GTC Berlin 2026 で発表された Google Cloud と NVIDIA の共同エンジニアリング拡大 (AI Hypercomputer のスタック全体の進歩と、ソブリン AI・Confidential Computing の新機能) が紹介されています。
 "topics":
   - "ガバナンス: Organization Policy の MCP サーバーが一般提供、Gemini による自然言語での制約記述も提供、自律エージェントやパイプラインから直接ポリシーを操作可能に"
   - "ネットワーク: パートナー Cross-Cloud Interconnect がラストマイルに拡張、Lumen Technologies とのプレビューでプライベートクラウド・オンプレミス・ネオクラウド・他クラウドへの高帯域接続を数分でプロビジョニング"
   - "セキュリティ運用: SentinelOne と Google Security Operations の統合を再設計、中間のクラウドバケットを経由せずエンドポイントのテレメトリを届けて取り込みレイテンシと運用負荷を削減"
   - "セキュリティ: Chrome Enterprise Premium のヘルスケア向け保護強化、ブラウザ上の AI エージェント利用を前提に DLP でコピー・ペースト・フォーム送信・印刷・画面キャプチャを制限し、詳細なレポートで可視性を確保"
   - "データ基盤: Gartner の初のデータレイクハウスプラットフォーム Magic Quadrant で Google がリーダーかつビジョンの評価軸で最も先に位置づけ"
+  - "生成 AI (日本語抄訳): Gemini Omni 1.2 Flash が一般提供、720p 1 秒あたり $0.07 で 30% 値下げ、最長 15 秒、ドラフトから 1080p / 4K へのアップスケール"
+  - "データ基盤 (日本語抄訳): Agentic Data Cloud の新機能、ウォールドガーデンを取り払う System of Action として位置づけ (PayPal・Siemens・Telus・Vodafone・Walmart の事例)"
+  - "データベース (日本語抄訳): AlloyDB Express のプレビュー、数秒で起動しアイドル時に自動停止、無料枠あり"
+  - "ハードウェア (日本語抄訳): Android XR 搭載の世界初の有線 XR グラス XREAL AURA (分割コンピューティング、画角 70 度の光学シースルー、95 グラム未満)"
+  - "AI インフラ (日本語抄訳): NVIDIA GTC Berlin 2026 で Google Cloud と NVIDIA の共同エンジニアリング拡大、AI Hypercomputer の進歩とソブリン AI・Confidential Computing の新機能"
