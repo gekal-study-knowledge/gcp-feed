@@ -1,0 +1,9 @@
+"entries":
+  "0409e6c7d5dd82e2073bab9ba3e99132":
+    "id": "0409e6c7d5dd82e2073bab9ba3e99132"
+    "title": "November 16, 2026"
+    "link": "https://docs.cloud.google.com/release-notes#November_16_2026"
+    "published": "2026-11-16 17:00:00"
+    "fetched": "2026-11-16 22:21:40"
+    "summary": "<h2 class=\"release-note-product-title\">Google Cloud Armor</h2>\n<h3>Feature</h3>\n<p>Cloud Armor supports Autonomous System Numbers (ASNs), Network Threat\nIntelligence (NTI), and HTTP filtering in <a href=\"https://docs.cloud.google.com/armor/docs/security-policy-overview#expandable-1\">globally scoped edge security\npolicies</a> for Cloud CDN edge\ncache services in Preview.</p>"
+"last_updated": "2026-11-16 22:21:40 JST"
