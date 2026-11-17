@@ -1,13 +1,17 @@
 "date": "2026-11-16"
-"generated_at": "2026-11-17 06:01:08 JST"
+"generated_at": "2026-11-17 22:01:53 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 3
+"article_count": 7
 "sources":
   - "gcp_release_notes"
+  - "google_cloud_blog"
   - "google_cloud_japan_blog"
 "overview": |
-  この日はリリースノート 1 件と Google Cloud 日本語ブログ 2 本の計 3 本でした。リリースノートでは、Google Cloud Armor がグローバルスコープのエッジセキュリティポリシーで、Cloud CDN のエッジキャッシュサービス向けに自律システム番号 (ASN)、ネットワーク脅威インテリジェンス (NTI)、HTTP フィルタリングをサポートし、プレビューとして提供されました。ブログでは、Pod の IP アドレスが絶えず変わる Kubernetes 環境で、VPC フローログがサンプリング時点の GKE メタデータ (クラスタ、Pod とワークロード、名前空間、サービス、ノードとゾーン) を各レコードに付加することで、追加のエージェントやサイドカーなしに L3 / L4 トラフィックをワークロード単位で把握し、Pod が消えた後もトラブルシューティングできる仕組みが解説されています。もう 1 本は、Google Cloud が Hypothesis Group と米国のエンタープライズ企業の IT およびビジネスの意思決定者 1,250 名を対象に行った調査の紹介で、回答者の 49% がオンプレミスソフトウェアへの依存を直接の原因として AI などの取り組みの遅延、縮小、停止、中止を経験しており、レガシーシステムのパッチ適用と保守が AI モダナイゼーションとのゼロサムゲームを生んでいると報告されました。
+  この日はリリースノート 1 件、Google Cloud ブログ 4 本、日本語ブログ 2 本の計 7 本で、デジタル主権と脅威インテリジェンスの記事が加わりました。リリースノートでは、Google Cloud Armor がグローバルスコープのエッジセキュリティポリシーで、Cloud CDN のエッジキャッシュサービス向けに自律システム番号 (ASN)、ネットワーク脅威インテリジェンス (NTI)、HTTP フィルタリングをサポートし、プレビューとして提供されました。Google Threat Intelligence Group (GTIG) と Mandiant の AI Threat Tracker は、攻撃者が単なるプロンプト利用から ARTEX、CAIRN、CyberStrikeAI、PentAGI といった自律型マルチエージェントの攻撃フレームワークの運用へ移り、LLM とエージェントでパッチの差分解析を自動化して n-day 脆弱性を素早く武器化していることや、LLMJacking などの収益化手法が広がっていることを報告しています。デジタル主権では、Google Cloud Data Boundary の新しい体験が発表され、データの所在・アクセス・暗号化にまたがる技術的な制御と継続的な監視を、商用インフラ上でソフトウェア定義かつ AI 支援のガバナンスとして提供します。また Google Cloud Dedicated 上で検証済みの ISV エコシステムが拡大しており、フランスの S3NS (Thales が過半数を所有・運営する合弁会社) や、同じく Thales が所有・運営するドイツの新会社 (プレビュー) を通じて、SecNumCloud や BSI C3A といった基準に沿った環境で企業向けソフトウェアを動かせることが紹介されました。Google は 2026 年の Gartner Magic Quadrant for Cloud Operational Database Management Systems でリーダーに選ばれ、ビジョンの完全性で最も高く評価されています。日本語ブログでは、Pod の IP アドレスが絶えず変わる Kubernetes 環境で、VPC フローログがサンプリング時点の GKE メタデータ (クラスタ、Pod とワークロード、名前空間、サービス、ノードとゾーン) を各レコードに付加し、追加のエージェントやサイドカーなしに L3 / L4 トラフィックをワークロード単位で把握できる仕組みと、Google Cloud が Hypothesis Group と米国のエンタープライズ企業の意思決定者 1,250 名に行った調査で、49% がオンプレミスソフトウェアへの依存を直接の原因として AI などの取り組みの遅延、縮小、停止、中止を経験していたことが紹介されました。
 "topics":
   - "Cloud Armor: グローバルスコープのエッジセキュリティポリシーで Cloud CDN エッジキャッシュ向けに ASN、NTI、HTTP フィルタリングをサポート (プレビュー)"
-  - "GKE ネットワーク: VPC フローログが Pod・ワークロード・名前空間・サービスの GKE メタデータを付加し、エージェントなしで L3 / L4 トラフィックをワークロード単位でトラブルシューティング"
-  - "調査: Hypothesis Group と 1,250 名を調査、49% がオンプレミス依存で AI 施策の遅延や中止を経験、レガシー保守と AI モダナイゼーションのゼロサムゲーム"
+  - "脅威情報: GTIG AI Threat Tracker、ARTEX・CAIRN・CyberStrikeAI・PentAGI などの自律型マルチエージェント攻撃フレームワーク、パッチ差分解析による n-day の自動武器化、LLMJacking"
+  - "デジタル主権: Google Cloud Data Boundary の新しい体験、Google Cloud Dedicated 上の ISV エコシステム拡大 (仏 S3NS、Thales 運営の独新会社はプレビュー、SecNumCloud / BSI C3A)"
+  - "評価: 2026 年 Gartner Magic Quadrant for Cloud ODBMS でリーダー、ビジョンの完全性で最高位"
+  - "GKE ネットワーク: VPC フローログが GKE メタデータを付加し、エージェントなしで L3 / L4 トラフィックをワークロード単位でトラブルシューティング"
+  - "調査: Hypothesis Group と 1,250 名を調査、49% がオンプレミス依存で AI 施策の遅延や中止を経験"
