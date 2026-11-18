@@ -1,0 +1,17 @@
+"date": "2026-11-18"
+"generated_at": "2026-11-18 22:04:03 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 7
+"sources":
+  - "google_cloud_ai_ml_blog"
+  - "google_cloud_blog"
+  - "google_cloud_japan_blog"
+"overview": |
+  この日は Google Cloud ブログ 5 本 (うち 1 本は AI & ML ブログにも掲載)、日本語ブログ 1 本で、マルチクラウド接続とエージェント開発が中心でした。Google Cloud は AI アプリケーション開発プラットフォーム部門の 2026 年 Gartner Magic Quadrant で 3 年連続のリーダーに選ばれ、実行能力の軸で最も高い位置に置かれたと発表し、過去 1 年で約 500 社の顧客がそれぞれ 1 兆トークン超を処理したことや、10 月に発表した統合された Gemini の体験などを紹介しました。ネットワークでは、partner Cross-Cloud Interconnect が Microsoft Azure に対応してプレビューとなり、Google Cloud と Microsoft の共同サポートのもと、物理インフラの管理なしに Google Cloud と Azure の間の高帯域なプライベート接続を数分でプログラムから構成できるようになりました。Looker は 11 月に、期間比較付きの KPI 表示、ブレットチャートとゲージ、数値の短縮表示、サンキーダイアグラムなど新しいネイティブのグラフ種別とダッシュボードコントロールを含むビジュアルの大幅な更新を展開します。開発者向けには、Google Antigravity で単発の指示から耐久性のあるエージェントのループへ移るためのハーネスの組み立て方と検証方法が解説されました。日本語ブログでは、SOAP アーキテクチャの 4 つ目の要素「届ける / 共有する」として、LLM が導いた分析結果をファイルやスクリーンショットではなく、Looker MCP サーバーや Looker Data Apps (いずれもプレビュー) を使ってガバナンスの効いた Looker 上のコンテンツとして共有するリファレンスアーキテクチャが紹介されました。そのほか、AI リーダーシップ部門を新設した 2026 年の Google Cloud Partner All-stars が発表されています。
+"topics":
+  - "評価: 2026 年 Gartner Magic Quadrant (AI アプリケーション開発プラットフォーム) で 3 年連続リーダー、約 500 社が各 1 兆トークン超を処理"
+  - "マルチクラウド: partner Cross-Cloud Interconnect が Microsoft Azure に対応 (プレビュー)、Google Cloud と Microsoft の共同サポート"
+  - "BI: Looker のビジュアル刷新 (KPI 表示、ブレットチャート・ゲージ、サンキーダイアグラム、数値の短縮表示)"
+  - "開発: Google Antigravity で耐久性のあるエージェントループを構築・検証する方法"
+  - "データ共有 (日本語ブログ): SOAP の「届ける」、Looker MCP サーバーと Looker Data Apps でガバナンスを保って分析結果を共有"
+  - "パートナー: AI リーダーシップ部門を新設した 2026 Google Cloud Partner All-stars"
