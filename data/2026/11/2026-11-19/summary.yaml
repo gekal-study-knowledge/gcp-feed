@@ -1,0 +1,17 @@
+"date": "2026-11-19"
+"generated_at": "2026-11-19 08:08:04 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 8
+"sources":
+  - "google_cloud_ai_ml_blog"
+  - "google_cloud_blog"
+"overview": |
+  この日は Google Cloud ブログ 7 本 (うち 1 本は AI & ML ブログにも掲載されたため掲載数は 8) で、エージェントを支える基盤づくりが中心でした。Google の AI & Infrastructure チームは、Gemini を使った Linux カーネル向けのオープンソースのエージェント型コードレビューシステム Sashiko (刺し子にちなむ命名、今年のうちに Linux Foundation へ寄贈) を解説しました。Linux は 3,500 万行を超えるコードを抱えて年間 8 万 5,000 件以上の変更が入る一方、レビューは少数のメンテナーが毎日何百件ものパッチを手で読むことに依存しており、コード生成が速くなるだけでは、それらしく見えるだけの AI slop や重複・不正確な AI 生成のセキュリティ報告が同じメンテナーの前に積み上がるだけになる、という問題意識から、メモリリークやデッドロック、競合状態、セキュリティバグを取り込み前に見つけることを狙っています。ネットワークでは、GKE のシングルスタック IPv6 がプレビューとなり、ノードとポッドの両方をプライベート IPv4 アドレスなしで動かせるようになりました (Cloud TPU v6e と Axion を含む CPU ノードプールが対象、DNS64/NAT64 で IPv4 のエンドポイントにも到達可能)。AI のデプロイは数千のアクセラレーターノードやスケールする推論レプリカ、Ray ワーカー、ベクトルデータベースなどで膨大なアドレス空間を必要とし、計算資源や電力より先に IP アドレスが枯渇する、という指摘です。また、Envoy をエージェント時代のプロキシとして拡張する取り組みも紹介されました。マイクロサービスと違ってエージェントは通信相手を自分で選び、ルーティングに使う属性がリクエストボディの奥にあり、リクエスト数だけでなくトークン予算で制御され、多ターンの推論ループがステートフルなセッションアフィニティと厳格なツール実行の境界を要求するため、モデル・トークン・MCP のルーティングを Envoy 側で扱えるようにしています。エージェントに文脈を与えるオープン仕様 Open Knowledge Format は v0.3 を公開し、RFC 2119 のキーワードを使った正式な適合性 (conformance) の規定、エージェントの編集に追随する信頼レベル、ライセンスを自己記述するバンドル、知識を安全に廃止・移動する方法、安定した拡張モデルと明確なバージョニング方針を追加しました (必須フィールドは引き続き type だけで、既存のバンドルはそのまま動作します)。あわせて他の業界標準と併用するためのユースケース集と、コーディングエージェントが OKF バンドルを読み書きするためのagent skill 2 種が公開され、リポジトリは Google Cloud Platform の GitHub organization から独立した open-knowledge-format へ移りました。データベースでは、Database Center の assessments が Cloud SQL for PostgreSQL 向けにプレビューとなり、クローンしたインスタンス上で隔離された合成ベンチマークを自動実行して、推奨設定の効果を本番に影響を与えず、ステージングのレプリカを手で用意することなく検証できるようになりました。そのほか、Windows やレガシーなデスクトップアプリを Chrome ブラウザの中で配信する Cameyo by Google をIDC の Market Note が取り上げたこと (リプラットフォーム不要で Chrome Enterprise・ChromeOS・Gemini へつなぐ橋渡し) と、ヘルシンキの Slush 2026 に合わせて EMEA のスタートアップのエージェント活用事例 (Google Cloud 上でバックエンドとデータ基盤を刷新した北欧最大のマーケットプレイス CDON、Gemini の推論で 50 万人超の教員の授業計画を支援する英国の Chalkie.ai など) が紹介されました。
+"topics":
+  - "コードレビュー: Gemini ベースのオープンソースのエージェント型コードレビュー Sashiko (Linux Foundation へ寄贈)、カーネルパッチの AI slop 対策"
+  - "ネットワーク: GKE のシングルスタック IPv6 がプレビュー (Cloud TPU v6e と Axion を含む CPU ノードプール、DNS64/NAT64 で IPv4 へ到達)"
+  - "エージェント基盤: Envoy でモデル・トークン・MCP のルーティングに対応 (トークン予算、セッションアフィニティ、ツール実行の境界)"
+  - "仕様: Open Knowledge Format v0.3 (適合性の規定、信頼レベル、ユースケース集と agent skill 2 種、独立した GitHub organization へ移行)"
+  - "データベース: Database Center の assessments がプレビュー (Cloud SQL for PostgreSQL のクローンで隔離された合成ベンチマーク)"
+  - "モダナイゼーション: レガシーデスクトップアプリを Chrome で配信する Cameyo by Google を IDC の Market Note が評価"
+  - "スタートアップ: Slush 2026 に合わせた EMEA のエージェント事例 (CDON、Chalkie.ai など)"
