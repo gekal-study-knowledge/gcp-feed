@@ -1,0 +1,9 @@
+"entries":
+  "2aaa59f677c8ae7f4752cea249847237":
+    "id": "2aaa59f677c8ae7f4752cea249847237"
+    "title": "November 18, 2026"
+    "link": "https://docs.cloud.google.com/release-notes#November_18_2026"
+    "published": "2026-11-18 17:00:00"
+    "fetched": "2026-11-19 00:29:39"
+    "summary": "<h2 class=\"release-note-product-title\">Application Integration</h2>\n<h3>Security</h3>\n<p>A Deserialization of Untrusted Data vulnerability was discovered\nin integration execution parameter handling in Application Integration\nversions prior to September 22, 2026.\nFor more information, see the\n<a href=\"https://docs.cloud.google.com/application-integration/docs/security-bulletins#gcp-2026-083\">GCP-2026-083</a>\nsecurity bulletin.</p>"
+"last_updated": "2026-11-19 00:29:39 JST"
