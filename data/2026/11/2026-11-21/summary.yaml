@@ -1,0 +1,17 @@
+"date": "2026-11-21"
+"generated_at": "2026-11-21 06:01:34 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 11
+"sources":
+  - "google_cloud_ai_ml_blog"
+  - "google_cloud_blog"
+"overview": |
+  この日は Google Cloud ブログ 9 本 (うち 2 本は AI & ML ブログにも掲載されたため掲載数は 11) で、データ基盤とエージェント、GKE のネットワーク、アクセス管理が中心でした。データ分析では、Managed Service for Apache Spark 4.0 がサーバーレスとマネージドクラスタの両方で一般提供になりました。サーバーレスでの利用は過去 1 年でほぼ倍増して毎月数百万ジョブが動いており、Spark と BigQuery が同じテーブルを読み書きでき、Knowledge Catalog でガバナンスやリネージを共有します。Managed Service for Apache Airflow (旧 Cloud Composer) はパイプラインのライフサイクル全体にエージェントの支援を加え、コンソールの Managed Airflow Agent が失敗したタスクの調査、環境の改善提案、DAG の新しい Airflow バージョンへの対応確認を行い、IDE やコーディングエージェントでは Data Agent Kit が DAG の作成・移行・デプロイを担います (架空の小売企業 Cymbal Shops のブラックフライデーを例に解説)。Vodafone Czech Republic は BigQuery の Data Engineering Agent を Dataform で使い、2,000〜3,000 行規模のレガシーなストアドプロシージャを Dataform パイプラインに置き換えて実行時間を半分にしました。データエージェントの評価については、実データの構造と因果的なふるまいを保ちつつ名前・数値・文書をすべて合成した「風洞」となる合成データ環境で試験すべきだという論考も公開されています。GKE では、サイドカーを使わないサービスメッシュである ambient networking が一般提供になり、ネットワーク機能をアプリケーションの Pod からノード単位の共有コンポーネントとマネージドなコントロールプレーン (Traffic Director、Certificate Authority Service による mTLS 用の証明書発行) に移します。アクセス管理では、Cloud IAM の次世代アクセス制御エンジン Unified Access Policies が追加料金なしでプレビューになり、許可と拒否のルールを 1 つのスキーマにまとめ、ポリシーを一度書けば組織全体にバインドでき、人・ワークロード・エージェントの ID を既存の IAM ポリシーとあわせて管理できます。そのほか、Google AI Studio の API キーの漏えいで月 180 ドルの利用が数万ドルの請求になり得るとして、Application Default Credentials などで生の API キーから離れる手順のガイド、Google 広告チームが Spanner Graph を数十億ノード規模の不正・悪用検知に使っている事例 (2025 年の世界の詐欺損失は約 5,800 億ドルと推定)、TCS のターミナル運用システム DynaPORT を AlloyDB for PostgreSQL と GKE でモダナイズした事例が紹介されました。
+"topics":
+  - "データ分析: Managed Service for Apache Spark 4.0 が一般提供 (サーバーレスとマネージドクラスタ、BigQuery とテーブル共有)"
+  - "データ分析: Managed Airflow (旧 Cloud Composer) の Managed Airflow Agent と Data Agent Kit、Vodafone が Data Engineering Agent でパイプライン実行時間を半減"
+  - "GKE: サイドカーレスの ambient networking が一般提供 (Traffic Director と Certificate Authority Service による mTLS)"
+  - "セキュリティ: Cloud IAM の Unified Access Policies がプレビュー (許可・拒否を統合したスキーマ、追加料金なし)"
+  - "開発者向け: API キーの漏えいリスクと Application Default Credentials への移行ガイド"
+  - "データエージェント: 合成データ環境を「風洞」として使う評価の考え方"
+  - "事例: Spanner Graph による Google 広告の不正検知 (数十億ノード規模)、TCS DynaPORT の AlloyDB・GKE でのモダナイズ"
