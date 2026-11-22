@@ -1,0 +1,9 @@
+"entries":
+  "361ab904eb7819c24aca80f04ef17118":
+    "id": "361ab904eb7819c24aca80f04ef17118"
+    "title": "November 21, 2026"
+    "link": "https://docs.cloud.google.com/release-notes#November_21_2026"
+    "published": "2026-11-21 17:00:00"
+    "fetched": "2026-11-22 11:49:29"
+    "summary": "<h2 class=\"release-note-product-title\">Cloud SDK</h2>\n<h3>Change</h3>\n<h2 id=\"59401_2026-11-21\">594.0.1 (2026-11-21)</h2>\n<h3 id=\"google_cloud_cli\">Google Cloud CLI</h3>\n<ul>\n<li>General bug fixes.</li>\n</ul>\n<p>Subscribe to these release notes at <a href=\"https://groups.google.com/forum/#!forum/google-cloud-sdk-announce\">https://groups.google.com/forum/#!forum/google-cloud-sdk-announce</a>.</p>"
+"last_updated": "2026-11-22 11:49:29 JST"
