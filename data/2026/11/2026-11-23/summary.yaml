@@ -1,0 +1,11 @@
+"date": "2026-11-23"
+"generated_at": "2026-11-24 06:01:14 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "gcp_release_notes"
+"overview": |
+  この日はリリースノート 1 本のみで、Google Cloud NetApp Volumes が Unified Maintenance と統合されました。Flex Unified・Flex File・Standard・Premium・Extreme の各サービスレベルが対象で、ストレージプールの予定済み・過去のメンテナンスイベントを Cloud Hub で確認し、Cloud Logging でイベントログの追跡と自動アラートの設定ができます。あわせて、NetApp Volumes のメンテナンスについて Google グループへ送っているメール通知は 2026 年 12 月 31 日までで終了し、それ以降は Unified Maintenance が予定メンテナンス通知の唯一の情報源になることが告知されました。
+"topics":
+  - "リリースノート: Google Cloud NetApp Volumes が Unified Maintenance と統合 (Flex Unified・Flex File・Standard・Premium・Extreme、Cloud Hub と Cloud Logging)"
+  - "告知: NetApp Volumes のメンテナンス通知メール (Google グループ宛て) は 2026 年 12 月 31 日で終了し、Unified Maintenance に一本化"
