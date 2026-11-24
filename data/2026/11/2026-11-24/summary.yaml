@@ -1,12 +1,16 @@
 "date": "2026-11-24"
-"generated_at": "2026-11-24 06:01:14 JST"
+"generated_at": "2026-11-24 22:02:29 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 3
+"article_count": 7
 "sources":
   - "google_cloud_ai_ml_blog"
   - "google_cloud_blog"
+  - "google_cloud_japan_blog"
 "overview": |
-  この日は Google Cloud ブログ 2 本と AI & ML ブログ 1 本の計 3 本 (うち 1 本は両ブログに重複掲載) で、データ基盤と AI の組み合わせが中心でした。PostgreSQL 100% 互換でどこでも動く AlloyDB Omni が、ローカルでホストした LLM と連携できるようになり、Gemma 4 や Qwen3.8 などのローカルモデルを使って、クラウド・自社データセンター・ノートPC 上でもデータを手元に置いたままエージェント型の体験を構築できるようになりました。AlloyDB Omni は Google 検索と同じ ScaNN インデックス技術を内蔵し、ベクトル埋め込みの大規模な保存とセマンティック検索、自然言語でのクエリに対応しており、Gemini のようなクラウドのモデルでもローカルモデルでも同じアーキテクチャでローカルのモデルサーバーを呼び出します。また、クラウドコミュニケーション (CPaaS) 大手の Sinch が、Google Cloud Professional Services と組んでエンタープライズデータウェアハウスを Snowflake から BigQuery へ移行した事例が紹介されました。AWS と GCP にまたがり EU・米国・オーストラリアで別々の Snowflake インスタンスを動かしていたことによるリージョン間レプリケーションの複雑さや月次請求の急増を解消し、単一のガバナンスされた信頼できる情報源を確立して予測 AI の基盤とすることを狙っています。
+  この日は 3 ソースから 7 本 (うち AlloyDB Omni の 1 本は Google Cloud ブログと AI & ML ブログに重複掲載) で、データ基盤と AI の組み合わせ、セキュリティ運用の評価、国内のパートナー・事例記事が並びました。PostgreSQL 100% 互換でどこでも動く AlloyDB Omni が、ローカルでホストした LLM と連携できるようになり、Gemma 4 や Qwen3.8 などのローカルモデルを使って、クラウド・自社データセンター・ノートPC 上でもデータを手元に置いたままエージェント型の体験を構築できるようになりました。AlloyDB Omni は Google 検索と同じ ScaNN インデックス技術を内蔵し、ベクトル埋め込みの大規模な保存とセマンティック検索、自然言語でのクエリに対応しており、Gemini のようなクラウドのモデルでもローカルモデルでも同じアーキテクチャでローカルのモデルサーバーを呼び出します。また、クラウドコミュニケーション (CPaaS) 大手の Sinch が、Google Cloud Professional Services と組んでエンタープライズデータウェアハウスを Snowflake から BigQuery へ移行した事例が紹介されました。AWS と GCP にまたがり EU・米国・オーストラリアで別々の Snowflake インスタンスを動かしていたことによるリージョン間レプリケーションの複雑さや月次請求の急増を解消し、単一のガバナンスされた信頼できる情報源を確立して予測 AI の基盤とすることを狙っています。セキュリティでは、Google が 2026 年の Gartner Magic Quadrant for SIEM でリーダーに選ばれ、評価対象 15 社の中で「ビジョンの完全性」が最も高い位置づけとなりました。Google Security Operations の Gemini を、Triage and Investigation agent・Threat Hunt agent・Detection Engineering agent などの専用エージェント群へ広げてきたことを挙げています。日本語ブログでは、Partner Marketing Studio に Gemini を使ったエージェント検索・ブランド審査エージェント・ISV アセット作成・複数ネットワークへの同時投稿ができるソーシャルメディアエディタ・130 言語の翻訳などが加わったパートナーマーケティングの新機能 (米国 11 月 20 日の記事の抄訳)、Google Cloud Partner Tech Influencer Challenge 2026 の結果発表 (企業の部の最優秀賞は株式会社 G-gen、Gemini 賞は KDDIアイレット株式会社)、ロッテが開発内製化支援プログラム TAP を活用し、マーケティング本部の工数の 54.4% や中央研究所の業務の 52% を占めていた調整・書類業務を対象に、全体ワークフロー管理 AI を軸とする 6 つの AI で「モノづくり改革」に取り組む事例 (BigQuery、Cloud Run、Gemini など) が公開されています。
 "topics":
   - "データベース: AlloyDB Omni がローカルの LLM (Gemma 4、Qwen3.8 など) と連携、ScaNN によるベクトル検索と自然言語クエリをオンプレミスやノート PC でも"
   - "移行事例: Sinch がエンタープライズ DWH を Snowflake (EU・米国・オーストラリアの 3 インスタンス) から BigQuery へ移行"
+  - "セキュリティ: 2026 年の Gartner Magic Quadrant for SIEM で Google がリーダー (15 社中ビジョンの完全性が最上位)、Security Operations の専用エージェント群"
+  - "パートナー: Partner Marketing Studio の Gemini エージェント機能 (130 言語翻訳など)、Partner Tech Influencer Challenge 2026 の最優秀賞は G-gen・Gemini 賞は KDDIアイレット"
+  - "国内事例: ロッテが TAP を活用し 6 つの AI で商品開発の「モノづくり改革」に取り組む"
