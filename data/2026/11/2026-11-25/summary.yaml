@@ -1,0 +1,15 @@
+"date": "2026-11-25"
+"generated_at": "2026-11-25 22:02:24 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 6
+"sources":
+  - "google_cloud_ai_ml_blog"
+  - "google_cloud_blog"
+  - "google_cloud_japan_blog"
+"overview": |
+  この日は 3 ソースから 6 本 (Workspace と Google Cloud の AI エージェント向けの信頼と制御の記事は Google Cloud ブログと AI & ML ブログに重複掲載) で、AI エージェントを安全に動かすための基盤と、ヨーロッパのソブリン AI、国内パートナーの表彰が中心でした。Google は、AI エージェントが機械の速度で自律的にメールや文書、データセット、クラウド基盤を操作するようになると有効な OAuth トークンだけでは不十分で、ポリシーチェックやデータ境界、人による確認をリクエスト経路に置く必要があるとして、Workspace MCP サーバーと Workspace CLI の一般提供、Google Cloud Agent Gateway、Workspace と Google Cloud にまたがる統一的な保護を発表しました (Workspace API は月 2.8 兆回超の呼び出しを処理)。Google Cloud ブログでは、インドで 78 都市 350 超の教室を運営する教育機関 ALLEN が、BYOD を含む 5,000 人超の利用者のブラウザ環境を Chrome Enterprise Premium に統一し、インドのデジタル個人データ保護法 (DPDPA) を踏まえて学生の個人情報を守るゼロトラストを実現した事例が紹介されています。日本語ブログでは、米国 11 月 18 日の記事の抄訳として、パートナーが運用する Google Cloud Dedicated に Gemini モデルを導入することや暗号鍵管理・コンプライアンスの新機能を含むヨーロッパのソブリン AI の取り組みと、ヨーロッパとイスラエルのスタートアップを対象にしたエクイティフリーで 15 週間の Google for Startups Accelerator: ソブリン AI の募集開始が公開されたほか、Google Cloud Partner Top Engineer 2027 として 234 名、そのうち特に貢献の大きかった 12 名を Fellow (兼 Google Cloud Ambassador) として表彰し、Rookie of the Year も選ばれたことが発表されました。
+"topics":
+  - "AI エージェント基盤: Workspace MCP サーバーと Workspace CLI の一般提供、Google Cloud Agent Gateway、Workspace と Google Cloud の統一的な保護"
+  - "セキュリティ事例: ALLEN が 5,000 人超のブラウザ環境を Chrome Enterprise Premium に統一しゼロトラストを実現 (DPDPA 対応)"
+  - "ソブリン AI: Google Cloud Dedicated への Gemini 導入、Google for Startups Accelerator: ソブリン AI (ヨーロッパ・イスラエル、15 週間)"
+  - "パートナー: Google Cloud Partner Top Engineer 2027 の受賞者 234 名と Fellow 12 名を発表"
