@@ -1,0 +1,9 @@
+"entries":
+  "ccb5518eff5179ee9face956bc9cbc6f":
+    "id": "ccb5518eff5179ee9face956bc9cbc6f"
+    "title": "November 26, 2026"
+    "link": "https://docs.cloud.google.com/release-notes#November_26_2026"
+    "published": "2026-11-26 17:00:00"
+    "fetched": "2026-11-27 05:56:58"
+    "summary": "<h2 class=\"release-note-product-title\">Managed Service for Apache Airflow</h2>\n<h3>Feature</h3>\n<p><a href=\"https://docs.cloud.google.com/composer/docs/composer-3/upgrade-environments#agentic-upgrade-check\">Agentic upgrade check</a>\nis available in Managed Airflow.</p>\n<p>Before upgrading your environment, you can run an upgrade check in the Google\nCloud console to ask Managed Airflow Agent what changes your DAGs require to\nwork with a selected Airflow build or image version.</p>"
+"last_updated": "2026-11-27 05:56:58 JST"
