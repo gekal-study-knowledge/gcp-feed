@@ -1,0 +1,12 @@
+"date": "2026-11-26"
+"generated_at": "2026-11-26 22:02:18 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 3
+"sources":
+  - "google_cloud_japan_blog"
+"overview": |
+  この日は 1 ソースから 3 本で、いずれも米国 11 月 17〜19 日の Google Cloud ブログ記事の抄訳です。Google が 2026 年の Gartner Magic Quadrant のクラウドオペレーショナルデータベース管理システム (クラウド ODBMS) 部門でリーダーに選ばれ、ビジョンの完全性で最高評価を得たことが報告され、Spanner と AlloyDB を中心にトランザクション処理と分析を単一のエンジンに統合し、AlloyDB の自動ベクトルエンベディングと自動ベクトルインデックス登録などで AI をエンジン内に組み込み、100% の PostgreSQL 互換性や Apache Iceberg 形式、データを複製せずに別のクラウドや環境のデータにアクセスできる仕組みで開かれた Agentic Data Cloud を目指す考え方が紹介されました。Google AI & Infrastructure チームは、Gemini を使ったオープンソースのエージェント型コードレビューシステム Sashiko (日本の刺し子にちなむ名前で、今年 Linux Foundation に寄贈) を Linux カーネル向けに作った経験を公開し、3,500 万行超・年 85,000 件以上の変更があるカーネルではコード生成よりレビューが開発速度を制約し、もっともらしい AI 生成パッチや不正確な AI 生成のセキュリティレポートがメンテナーの負担を増やしている背景と、LLM のレビュー担当者が労力を惜しみがちといった特性から得た教訓を説明しています。Google Cloud Data Boundary には新しいエクスペリエンスが加わり、事前構成されたリージョン・業界のフレームワーク (DORA、EHDS、GDPR、FedRAMP など) に対応する技術的な制御を可視化してデプロイし、組織・フォルダ・プロジェクトの階層全体の新規・既存ワークロードに予防的なガードレールを適用し、強制適用の前にモニターモードでドライランしてドリフトや違反を洗い出し、Gemini in Google Cloud でコントロールのカスタマイズや修復ロジックを生成し、機械で読み取れる監査証拠をエクスポートできます。
+"topics":
+  - "データベース: 2026 年 Gartner Magic Quadrant のクラウド ODBMS 部門でリーダー (ビジョンの完全性で最高評価)、Spanner・AlloyDB による Agentic Data Cloud"
+  - "開発: Gemini を使ったオープンソースのエージェント型コードレビュー Sashiko を Linux カーネル向けに構築した教訓 (Linux Foundation に寄贈)"
+  - "主権: Google Cloud Data Boundary の新しいエクスペリエンス (フレームワークの可視化、階層全体のガードレール、ドライラン、Gemini によるカスタマイズ、監査証拠のエクスポート)"
