@@ -1,0 +1,9 @@
+"entries":
+  "8992ac49b9b4b879acc91f530a06e81a":
+    "id": "8992ac49b9b4b879acc91f530a06e81a"
+    "title": "November 27, 2026"
+    "link": "https://docs.cloud.google.com/release-notes#November_27_2026"
+    "published": "2026-11-27 17:00:00"
+    "fetched": "2026-11-28 07:29:45"
+    "summary": "<h2 class=\"release-note-product-title\">Managed Service for Apache Spark</h2>\n<h3>Feature</h3>\n<p><strong>Private Preview: Managed Service for Apache Spark on GKE v2</strong></p>\n<p>Run fully managed Apache Spark workloads natively on your Standard GKE clusters with the next-generation Managed Service for Apache Spark on GKE.</p>\n<p>To enroll in the preview and get projects allowlisted, reach out to dataproc-previews@google.com.</p>"
+"last_updated": "2026-11-28 07:29:45 JST"
